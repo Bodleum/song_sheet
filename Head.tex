@@ -1,0 +1,117 @@
+\documentclass[a4paper]{article}
+
+\def\ssver{4.0.81}
+
+\usepackage[left=1cm,right=1cm,top=0.75cm,bottom=2cm]{geometry}
+\usepackage{xcolor}
+\usepackage{pdfpages}
+\usepackage{fancyhdr}
+\usepackage[hyperindex]{hyperref}
+\usepackage{makeidx}
+\usepackage{graphicx}
+\usepackage{adjustbox}
+\usepackage{multicol}
+\usepackage{totcount}
+\usepackage{xcolor}
+
+% Index
+\makeindex
+
+% Counters
+\newtotcounter{songcount}
+\newtotcounter{psalmcount}
+\definecolor{title dark}{HTML}{7E73A7}
+
+% Footer
+\pagestyle{fancy}
+\fancyhf{}
+\cfoot{{\small\thepage} \\ v{\ssver}}
+\renewcommand{\headrulewidth}{0pt}
+
+\makeatletter
+
+% Chorus
+\newcommand{\chorus}{\@chorusi}
+\newcommand{\@chorusi}{\@ifnextchar\end{\@chorusend}{\@chorusii}}
+\newcommand{\@chorusii}[1]{\quad{\itshape#1}\par\@chorusi}
+\newcommand{\@chorusend}[1]{\vskip1em}
+
+% --------------------
+
+% Verse
+\renewcommand{\verse}{\@versei}
+\newcommand{\@versei}{\@ifnextchar\end{\@verseend}{\@verseii}}
+\newcommand{\@verseii}[1]{#1\par\@versei}
+\newcommand{\@verseend}[1]{\vskip1em}
+
+% --------------------
+
+% Bridge
+\newcommand{\bridge}{\@bridgei}
+\newcommand{\@bridgei}{\@ifnextchar\end{\@bridgeend}{\@bridgeii}}
+\newcommand{\@bridgeii}[1]{{\itshape#1}\par\@bridgei}
+\newcommand{\@bridgeend}[1]{\vskip1em}
+
+\makeatother
+
+% --------------------
+
+% Songs
+\newenvironment{song}[1]%
+{%
+    \begin{minipage}[t]{0.94\columnwidth}{\stepcounter{songcount}\textbf{\large #1}\index{#1}}%
+        \par\vspace{2pt}
+}%
+{%
+    \end{minipage}%
+    \vspace{2em}%
+}
+
+\newenvironment{psalm}[2]%
+{%
+    \begin{minipage}[t]{0.94\columnwidth}%
+        \begin{center}{\stepcounter{psalmcount}\textbf{\large #1}\index{#1}{\normalsize #2}}%
+            \par\vspace{2pt}
+}%
+{%
+    \end{center}%
+    \end{minipage}%
+    \vspace{2em}%
+}%
+
+\newcommand{\extra}[1]{{\normalsize\itshape (#1)}}
+
+\renewcommand{\sp}{{\normalsize\itshape (Sing Psalms)}}
+\newcommand{\tr}{{\normalsize\itshape (Scottish Psalter)}}
+\newcommand{\LORD}{{\scshape Lord}}
+
+\newcommand{\cp}[1]{{\tiny\ttfamily#1}}
+
+% Chords
+\definecolor{chordColor}{HTML}{CC241D}
+\newcommand{\m}[2][l]%
+{%
+    \makebox[0pt][#1]%
+    {%
+      \begin{tabular}[b]%
+        {@{}l@{}}%
+        {\normalsize\mdseries\color{chordColor}#2}%
+        \\%
+        \mbox{}%
+      \end{tabular}%
+    }%
+}
+
+% Settings
+
+
+\begin{document}
+\sffamily
+\includepdf{titleimage.jpg}
+\setcounter{page}{2}  % Make title page, page 1
+\printindex
+
+% --------------------
+\begin{multicols}{2}
+\raggedcolumns
+
