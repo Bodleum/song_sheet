@@ -53,20 +53,29 @@ impl Song {
         );
     }
 
-    pub fn set_order(&mut self, order: &str) -> Result<(), &str> {
+    pub fn set_order(&mut self, order: &str) -> Result<(), String> {
         // Check chorus
         if order.contains('c') && self.chorus == None {
-            return Err("ERROR: No chorus specified!");
+            return Err(String::from(
+                "ERROR: Order calls for a chorus, but song has none specified!",
+            ));
         }
 
         // Check bridge
         if order.contains('b') && self.bridge == None {
-            return Err("ERROR: No bridge specified!");
+            return Err(String::from(
+                "ERROR: Order calls for bridge, but song has none specified!",
+            ));
         }
 
         // Check there are enough verses
-        if order.chars().filter(|c| *c == 'v').count() < self.verses.len() {
-            return Err("ERROR: Not enough verses!");
+        let v_count = order.chars().filter(|c| *c == 'v').count();
+        let v_spec = self.verses.len();
+        if v_count < v_spec {
+            return Err(format!(
+                "ERROR: Order calls for {} verses, but only {} specified!",
+                v_count, v_spec
+            ));
         }
 
         self.order = order.to_string();
