@@ -3,7 +3,6 @@
 \def\ssver{4.0.81}
 
 \usepackage[left=1cm,right=1cm,top=0.75cm,bottom=2cm]{geometry}
-\usepackage{xcolor}
 \usepackage{pdfpages}
 \usepackage{fancyhdr}
 \usepackage[hyperindex]{hyperref}
@@ -32,15 +31,15 @@
 
 % Chorus
 \newcommand{\chorus}{\@chorusi}
-\newcommand{\@chorusi}{\@ifnextchar\end{\@chorusend}{\@chorusii}}
-\newcommand{\@chorusii}[1]{\quad{\itshape#1}\par\@chorusi}
+\newcommand{\@chorusi}{\@ifnextchar\end{\@chorusend}{\@chorusii}}   % chktex 10
+\newcommand{\@chorusii}[1]{\quad\textit{#1}\par\@chorusi}
 \newcommand{\@chorusend}[1]{\vskip1em}
 
 % --------------------
 
 % Verse
 \renewcommand{\verse}{\@versei}
-\newcommand{\@versei}{\@ifnextchar\end{\@verseend}{\@verseii}}
+\newcommand{\@versei}{\@ifnextchar\end{\@verseend}{\@verseii}}  % chktex 10
 \newcommand{\@verseii}[1]{#1\par\@versei}
 \newcommand{\@verseend}[1]{\vskip1em}
 
@@ -48,8 +47,8 @@
 
 % Bridge
 \newcommand{\bridge}{\@bridgei}
-\newcommand{\@bridgei}{\@ifnextchar\end{\@bridgeend}{\@bridgeii}}
-\newcommand{\@bridgeii}[1]{{\itshape#1}\par\@bridgei}
+\newcommand{\@bridgei}{\@ifnextchar\end{\@bridgeend}{\@bridgeii}}   % chktex 10
+\newcommand{\@bridgeii}[1]{\textit{#1}\par\@bridgei}
 \newcommand{\@bridgeend}[1]{\vskip1em}
 
 \makeatother
@@ -79,11 +78,11 @@
     \vspace{2em}%
 }%
 
-\newcommand{\extra}[1]{{\normalsize\itshape (#1)}}
+\newcommand{\extra}[1]{\textit{\normalsize (#1)}}
 
-\renewcommand{\sp}{{\normalsize\itshape (Sing Psalms)}}
-\newcommand{\tr}{{\normalsize\itshape (Scottish Psalter)}}
-\newcommand{\LORD}{{\scshape Lord}}
+\renewcommand{\sp}{\textit{\normalsize (Sing Psalms)}}
+\newcommand{\tr}{\textit{\normalsize (Scottish Psalter)}}
+\newcommand{\LORD}{\textsc{Lord}}
 
 \newcommand{\cp}[1]{{\tiny\ttfamily#1}}
 
@@ -113,5 +112,5 @@
 
 % --------------------
 \begin{multicols}{2}
-\raggedcolumns
+\raggedcolumns{}
 
