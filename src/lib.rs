@@ -24,33 +24,15 @@ impl Song {
     }
 
     pub fn add_verse(&mut self, verse: &str) {
-        self.verses.push(
-            verse
-                .lines()
-                .map(|l| format!("    {{{}}}", l))
-                .collect::<Vec<String>>()
-                .join("\n"),
-        );
+        self.verses.push(verse.to_string());
     }
 
     pub fn set_chorus(&mut self, chorus: &str) {
-        self.chorus = Some(
-            chorus
-                .lines()
-                .map(|l| format!("    {{{}}}", l))
-                .collect::<Vec<String>>()
-                .join("\n"),
-        );
+        self.chorus = Some(chorus.to_string());
     }
 
     pub fn set_bridge(&mut self, bridge: &str) {
-        self.bridge = Some(
-            bridge
-                .lines()
-                .map(|l| format!("    {{{}}}", l))
-                .collect::<Vec<String>>()
-                .join("\n"),
-        );
+        self.bridge = Some(bridge.to_string());
     }
 
     pub fn set_order(&mut self, order: &str) -> Result<(), String> {
