@@ -293,21 +293,27 @@ impl Latex {
                     'v' => {
                         // Write current verse
                         writeln!(stream, r"    \verse")?;
-                        writeln!(stream, "{}", s.verses[cur_verse])?;
+                        for line in s.verses.get(cur_verse).unwrap().lines() {
+                            writeln!(stream, "    {{{}}}", line)?;
+                        }
                         writeln!(stream, r"    \end")?;
                         cur_verse += 1;
                     }
                     'c' => {
                         if let Some(chorus) = &s.chorus {
                             writeln!(stream, r"    \chorus")?;
-                            writeln!(stream, "{}", chorus)?;
+                            for line in chorus.lines() {
+                                writeln!(stream, "    {{{}}}", line)?;
+                            }
                             writeln!(stream, r"    \end")?;
                         }
                     }
                     'b' => {
                         if let Some(bridge) = &s.bridge {
                             writeln!(stream, r"    \bridge")?;
-                            writeln!(stream, "{}", bridge)?;
+                            for line in bridge.lines() {
+                                writeln!(stream, "    {{{}}}", line)?;
+                            }
                             writeln!(stream, r"    \end")?;
                         }
                     }

@@ -1,13 +1,9 @@
-use std::fs::{self, File};
+use std::fs::File;
 use std::path::PathBuf;
-use std::process::{exit, Command};
+use std::process::exit;
 
 use clap::Parser;
-use song_sheet::{
-    config::Config,
-    latex::{Latex, Package},
-    Song,
-};
+use song_sheet::{latex::Latex, Song};
 
 #[derive(Parser)]
 #[command(author, version, about, long_about = None)]
