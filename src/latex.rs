@@ -1,6 +1,7 @@
 use std::{
     fs::File,
-    io::{BufWriter, Write},
+    io::{self, BufWriter, Write},
+    process::{Command, Output},
 };
 
 use crate::Song;
@@ -33,9 +34,12 @@ impl From<&[&str]> for Package {
     }
 }
 
+pub struct Written;
+pub struct Unwritten;
+
 /// Represents a LaTeX file
 #[derive(Debug)]
-pub struct Latex {
+pub struct Latex<State = Unwritten> {
     file: File,
     doc_class: String,
     doc_opts: Vec<String>,
@@ -47,6 +51,8 @@ pub struct Latex {
     cover: String,
     preamble_extra: Option<String>,
     songs: Vec<Song>,
+
+    state: std::marker::PhantomData<State>,
 }
 
 impl Latex {
@@ -67,6 +73,8 @@ impl Latex {
             cover: String::from(r"\includepdf{./titleimage.jpg}"),
             preamble_extra: None,
             songs: Vec::<Song>::new(),
+
+            state: std::marker::PhantomData::<Unwritten>,
         };
 
         // Add default packages
@@ -84,21 +92,10 @@ impl Latex {
 
         i
     }
+}
 
-    pub fn use_package(&mut self, pkg: Package) {
-        self.packages.push(pkg);
-    }
-
-    // Try and use const expressions to have minimum array length
-    pub fn use_package_str(&mut self, args: &[&str]) -> Result<(), &str> {
-        if args.len() == 0 {
-            return Err("Must provide package name!");
-        }
-        self.packages.push(args.into());
-        Ok(())
-    }
-
-    pub fn write_to_file(&self) -> std::io::Result<()> {
+impl Latex<Unwritten> {
+    pub fn write_to_file(self) -> std::io::Result<Latex<Written>> {
         // Create buffered writer
         let mut stream = BufWriter::new(&self.file);
 
@@ -330,6 +327,36 @@ impl Latex {
 
         // Flush!
         stream.flush()?;
+        // Don't need stream any more
+        drop(stream);
+
+        Ok(Latex {
+            file: self.file,
+            doc_class: self.doc_class,
+            doc_opts: self.doc_opts,
+            version: self.version,
+            packages: self.packages,
+            verse_fmt: self.verse_fmt,
+            chorus_fmt: self.chorus_fmt,
+            bridge_fmt: self.bridge_fmt,
+            cover: self.cover,
+            preamble_extra: self.preamble_extra,
+            songs: self.songs,
+
+            state: std::marker::PhantomData::<Written>,
+        })
+    }
+
+    pub fn use_package(&mut self, pkg: Package) {
+        self.packages.push(pkg);
+    }
+
+    // Try and use const expressions to have minimum array length
+    pub fn use_package_str(&mut self, args: &[&str]) -> Result<(), &str> {
+        if args.len() == 0 {
+            return Err("Must provide package name!");
+        }
+        self.packages.push(args.into());
         Ok(())
     }
 
@@ -367,5 +394,19 @@ impl Latex {
 
     pub fn add_song(&mut self, song: Song) {
         self.songs.push(song);
+    }
+}
+
+impl Latex<Written> {
+    pub fn execute(&self, cmd: &mut Command) -> io::Result<Output> {
+        cmd.output()
+    }
+
+    pub fn compile(&self, file: &str) -> io::Result<Output> {
+        Command::new("latexmk")
+            .arg("-pdflua")
+            .arg("-interaction=nonstopmode")
+            .arg(file)
+            .output()
     }
 }

@@ -1,12 +1,11 @@
 use colored::Colorize;
-
-// Parser types
-use crate::{Song, StanzaType};
 use nom::{
     bytes::complete::{tag, take_until},
     error::Error,
     Finish, IResult,
 };
+// Parser types
+use crate::{Song, StanzaType};
 
 pub struct PlainText;
 impl PlainText {

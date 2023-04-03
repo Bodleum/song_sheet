@@ -63,8 +63,8 @@ And the Apple of my eye.",
     });
     latex.add_song(song);
 
-    dbg!(&latex);
-    latex.write_to_file().expect("Error writing to file!");
+    let latex = latex.write_to_file().expect("Error writing to file!");
+    latex.compile("ss.tex").unwrap();
 
     exit(0);
 
