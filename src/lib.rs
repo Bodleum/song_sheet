@@ -2,6 +2,15 @@ pub mod config;
 pub mod latex;
 pub mod parser;
 
+/// Represents the type of stanza
+#[derive(Debug, Default)]
+pub enum StanzaType {
+    #[default]
+    Verse,
+    Chorus,
+    Bridge,
+}
+
 /// Represents a Song
 #[derive(Debug, Default)]
 pub struct Song {

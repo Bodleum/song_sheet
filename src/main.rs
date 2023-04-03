@@ -1,9 +1,10 @@
-use std::fs::File;
 use std::path::PathBuf;
 use std::process::exit;
+use std::{fs::File, io::Read};
 
 use clap::Parser;
-use song_sheet::{latex::Latex, Song};
+use colored::Colorize;
+use song_sheet::{latex::Latex, parser::PlainText, Song};
 
 #[derive(Parser)]
 #[command(author, version, about, long_about = None)]
@@ -45,6 +46,24 @@ And the Apple of my eye.",
     song.set_order("vcvv").unwrap();
     latex.add_song(song);
 
+    let mut because_he_lives: String = String::new();
+    let fp: &str = "./Songs/BecauseHeLives.txt";
+    File::open(fp)
+        .unwrap()
+        .read_to_string(&mut because_he_lives)
+        .unwrap();
+    let song: Song = PlainText::parse(because_he_lives.as_str()).unwrap_or_else(|err| {
+        eprintln!(
+            "{} in {}\n{}",
+            "ERROR".red().bold(),
+            fp.yellow().bold(),
+            err
+        );
+        exit(1);
+    });
+    latex.add_song(song);
+
+    dbg!(&latex);
     latex.write_to_file().expect("Error writing to file!");
 
     exit(0);
