@@ -1,10 +1,11 @@
+use std::fs;
 use std::path::PathBuf;
 use std::process::exit;
 use std::{fs::File, io::Read};
 
 use clap::Parser;
-use colored::Colorize;
-use song_sheet::{latex::Latex, parser::PlainText, Song};
+use error_stack::{IntoReport, Report, Result, ResultExt};
+use song_sheet::{errors, latex::Latex, parser::PlainText};
 
 #[derive(Parser)]
 #[command(author, version, about, long_about = None)]
@@ -15,53 +16,54 @@ struct Cli {
 }
 
 fn main() {
-    let f: File = File::create("./ss.tex").expect("Error creating file!");
-    let mut latex: Latex = Latex::new(f);
+    let tex_path: &str = "./aueuaeu/ss.tex";
+    let f: File = File::create(tex_path)
+        .into_report()
+        .attach_printable(format!("Could not create file {}.", tex_path))
+        .change_context(errors::FileError)
+        .unwrap_or_else(|e| {
+            println!("{}", e);
+            exit(1);
+        });
+    let mut latex = Latex::new(f);
 
-    let mut song: Song = Song::new("As the Deer Pants");
-    song.set_chorus(
-        "You alone are my Strength, my Shield
-To You alone may my spirit yield
-You alone are my heart's desire
-And I long to worship Thee",
-    );
-    song.add_verse(
-        "As the deer pants for the water
-So my soul longs after Thee.
-You alone are my heart's desire
-And I long to worship You",
-    );
-    song.add_verse(
-        "You're my friend and You are my brother,
-Even though you are a king.
-I love You more than any other,
-So much more than anything.",
-    );
-    song.add_verse(
-        "I want You more than gold or silver,
-Only You can satisfy.
-You alone are the real joy Giver,
-And the Apple of my eye.",
-    );
-    song.set_order("vcvv").unwrap();
-    latex.add_song(song);
-
-    let mut because_he_lives: String = String::new();
-    let fp: &str = "./Songs/BecauseHeLives.txt";
-    File::open(fp)
-        .unwrap()
-        .read_to_string(&mut because_he_lives)
-        .unwrap();
-    let song: Song = PlainText::parse(because_he_lives.as_str()).unwrap_or_else(|err| {
-        eprintln!(
-            "{} in {}\n{}",
-            "ERROR".red().bold(),
-            fp.yellow().bold(),
-            err
-        );
-        exit(1);
-    });
-    latex.add_song(song);
+    // Loop through directory and extract songs
+    let directory = "./Songs";
+    fs::read_dir(directory)
+        .into_report()
+        .attach_printable(format!("Could not open directory {}.", directory))
+        .change_context(errors::DirError)
+        .unwrap_or_else(|e| {
+            println!("{}", e);
+            exit(1);
+        })
+        .for_each(|entry| {
+            let path: PathBuf = entry
+                .into_report()
+                .attach_printable(format!("Error reading files in {}.", directory))
+                .change_context(errors::DirError)
+                .unwrap_or_else(|e| {
+                    println!("{}", e);
+                    exit(1);
+                })
+                .path()
+                .as_path()
+                .to_owned();
+            if path.is_file() {
+                let mut buf = String::new();
+                File::open(&path)
+                    .into_report()
+                    .attach_printable(format!("Could not open file {:#?}.", path))
+                    .change_context(errors::FileError)
+                    .unwrap_or_else(|e| {
+                        println!("{}", e);
+                        exit(1);
+                    })
+                    .read_to_string(&mut buf)
+                    .expect("Error reading file");
+                latex.add_song(PlainText::parse(&buf).expect("Error parsing"));
+            }
+        });
 
     let latex = latex.write_to_file().expect("Error writing to file!");
     latex.compile("ss.tex").unwrap();

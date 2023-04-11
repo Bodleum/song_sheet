@@ -55,7 +55,7 @@ pub struct Latex<State = Unwritten> {
     state: std::marker::PhantomData<State>,
 }
 
-impl Latex {
+impl Latex<Unwritten> {
     pub fn new(file: File) -> Self {
         let mut i = Self {
             file,
@@ -92,9 +92,7 @@ impl Latex {
 
         i
     }
-}
 
-impl Latex<Unwritten> {
     pub fn write_to_file(self) -> std::io::Result<Latex<Written>> {
         // Create buffered writer
         let mut stream = BufWriter::new(&self.file);
