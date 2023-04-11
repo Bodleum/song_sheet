@@ -407,4 +407,8 @@ impl Latex<Written> {
             .arg(file)
             .output()
     }
+
+    pub fn clean(&self) -> io::Result<Output> {
+        Command::new("latexmk").arg("-c").output()
+    }
 }

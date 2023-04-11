@@ -1,3 +1,4 @@
+use std::error::Error;
 use std::fs;
 use std::path::PathBuf;
 use std::process::exit;
@@ -15,14 +16,14 @@ struct Cli {
     config: Option<PathBuf>,
 }
 
-fn main() {
-    let tex_path: &str = "./aueuaeu/ss.tex";
+fn main() -> Result<(), Box<dyn Error>> {
+    let tex_path: &str = "ss.tex";
     let f: File = File::create(tex_path)
         .into_report()
         .attach_printable(format!("Could not create file {}.", tex_path))
         .change_context(errors::FileError)
         .unwrap_or_else(|e| {
-            println!("{}", e);
+            println!("{:#?}", e);
             exit(1);
         });
     let mut latex = Latex::new(f);
@@ -34,7 +35,7 @@ fn main() {
         .attach_printable(format!("Could not open directory {}.", directory))
         .change_context(errors::DirError)
         .unwrap_or_else(|e| {
-            println!("{}", e);
+            println!("{:#?}", e);
             exit(1);
         })
         .for_each(|entry| {
@@ -43,7 +44,7 @@ fn main() {
                 .attach_printable(format!("Error reading files in {}.", directory))
                 .change_context(errors::DirError)
                 .unwrap_or_else(|e| {
-                    println!("{}", e);
+                    println!("{:#?}", e);
                     exit(1);
                 })
                 .path()
@@ -56,17 +57,27 @@ fn main() {
                     .attach_printable(format!("Could not open file {:#?}.", path))
                     .change_context(errors::FileError)
                     .unwrap_or_else(|e| {
-                        println!("{}", e);
+                        println!("{:#?}", e);
                         exit(1);
                     })
                     .read_to_string(&mut buf)
-                    .expect("Error reading file");
+                    .into_report()
+                    .attach_printable(format!(
+                        "Error reading {}. Not vaild UTF-8.",
+                        &path.display()
+                    ))
+                    .change_context(errors::FileError)
+                    .unwrap_or_else(|e| {
+                        println!("{:#?}", e);
+                        exit(1);
+                    });
                 latex.add_song(PlainText::parse(&buf).expect("Error parsing"));
             }
         });
 
     let latex = latex.write_to_file().expect("Error writing to file!");
     latex.compile("ss.tex").unwrap();
+    latex.clean().unwrap();
 
     exit(0);
 
@@ -84,7 +95,7 @@ fn main() {
     //         fs::read_to_string(f)
     //             .unwrap_or_else(|err| {
     //                 // eprintln!("Error reading {}!", f);
-    //                 eprintln!("{}", err);
+    //                 eprintln!("{:#?}", err);
     //                 "".to_string()
     //             })
     //             .as_str(),
