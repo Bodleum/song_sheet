@@ -1,10 +1,13 @@
 use std::{
     fs::File,
     io::{self, BufWriter, Write},
+    path::{Path, PathBuf},
     process::{Command, Output},
 };
 
-use crate::Song;
+use error_stack::{IntoReport, Report, Result, ResultExt};
+
+use crate::{errors, Song};
 
 /// Represents a LaTeX package
 #[derive(Debug, Default)]
@@ -39,8 +42,9 @@ pub struct Unwritten;
 
 /// Represents a LaTeX file
 #[derive(Debug)]
-pub struct Latex<State = Unwritten> {
+pub struct LaTeX<State = Unwritten> {
     file: File,
+    path: PathBuf,
     doc_class: String,
     doc_opts: Vec<String>,
     version: (u8, u8, u8),
@@ -55,10 +59,20 @@ pub struct Latex<State = Unwritten> {
     state: std::marker::PhantomData<State>,
 }
 
-impl Latex<Unwritten> {
-    pub fn new(file: File) -> Self {
+impl LaTeX<Unwritten> {
+    pub fn new<P: AsRef<Path>>(path: P) -> Result<Self, errors::AppError> {
+        let file = File::create(&path)
+            .into_report()
+            .attach_printable(format!(
+                "Could not create file {}.",
+                path.as_ref().display()
+            ))
+            .change_context(errors::FileError)
+            .change_context(errors::AppError)?;
+
         let mut i = Self {
             file,
+            path: path.as_ref().to_path_buf(),
             doc_class: String::from("article"),
             doc_opts: vec![
                 String::from("a4paper"),
@@ -79,21 +93,39 @@ impl Latex<Unwritten> {
 
         // Add default packages
         i.use_package_str(&["geometry", "left=1cm", "right=1cm", "top=1cm", "bottom=2cm"])
-            .unwrap();
-        i.use_package_str(&["hyperref", "hyperindex"]).unwrap();
-        i.use_package_str(&["makeidx"]).unwrap();
-        i.use_package_str(&["pdfpages"]).unwrap();
-        i.use_package_str(&["fancyhdr"]).unwrap();
-        i.use_package_str(&["graphicx"]).unwrap();
-        i.use_package_str(&["adjustbox"]).unwrap();
-        i.use_package_str(&["multicol"]).unwrap();
-        i.use_package_str(&["totcount"]).unwrap();
-        i.use_package_str(&["xcolor"]).unwrap();
+            .change_context(errors::AppError)?;
+        i.use_package_str(&["hyperref", "hyperindex"])
+            .change_context(errors::AppError)?;
+        i.use_package_str(&["makeidx"])
+            .change_context(errors::AppError)?;
+        i.use_package_str(&["pdfpages"])
+            .change_context(errors::AppError)?;
+        i.use_package_str(&["fancyhdr"])
+            .change_context(errors::AppError)?;
+        i.use_package_str(&["graphicx"])
+            .change_context(errors::AppError)?;
+        i.use_package_str(&["adjustbox"])
+            .change_context(errors::AppError)?;
+        i.use_package_str(&["multicol"])
+            .change_context(errors::AppError)?;
+        i.use_package_str(&["totcount"])
+            .change_context(errors::AppError)?;
+        i.use_package_str(&["xcolor"])
+            .change_context(errors::AppError)?;
 
-        i
+        Ok(i)
     }
 
-    pub fn write_to_file(self) -> std::io::Result<Latex<Written>> {
+    pub fn write_to_file(self) -> Result<LaTeX<Written>, errors::AppError> {
+        self.internal_write_to_file()
+            .into_report()
+            .attach_printable(format!("Error writing to latex file"))
+            .change_context(errors::FileError)
+            .change_context(errors::AppError)
+    }
+
+    /// Wrapped by `write_to_file`.
+    fn internal_write_to_file(self) -> std::io::Result<LaTeX<Written>> {
         // Create buffered writer
         let mut stream = BufWriter::new(&self.file);
 
@@ -328,8 +360,9 @@ impl Latex<Unwritten> {
         // Don't need stream any more
         drop(stream);
 
-        Ok(Latex {
+        Ok(LaTeX {
             file: self.file,
+            path: self.path,
             doc_class: self.doc_class,
             doc_opts: self.doc_opts,
             version: self.version,
@@ -350,12 +383,15 @@ impl Latex<Unwritten> {
     }
 
     // Try and use const expressions to have minimum array length
-    pub fn use_package_str(&mut self, args: &[&str]) -> Result<(), &str> {
-        if args.len() == 0 {
-            return Err("Must provide package name!");
-        }
-        self.packages.push(args.into());
-        Ok(())
+    pub fn use_package_str(&mut self, args: &[&str]) -> Result<(), errors::LaTeXError> {
+        (args.len() > 0)
+            .then(|| {
+                self.packages.push(args.into());
+            })
+            .ok_or(Report::new(errors::LaTeXError).attach_printable(format!(
+                "Not enough arguments for package. Expected at least 1, got {}.",
+                args.len()
+            )))
     }
 
     pub fn set_doc_class(&mut self, doc_class: String) {
@@ -395,7 +431,7 @@ impl Latex<Unwritten> {
     }
 }
 
-impl Latex<Written> {
+impl LaTeX<Written> {
     pub fn execute(&self, cmd: &mut Command) -> io::Result<Output> {
         cmd.output()
     }
