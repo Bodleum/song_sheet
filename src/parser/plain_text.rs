@@ -25,7 +25,7 @@ Song title must be separated by a blank line.",
         let mut order: String = String::new();
 
         // Get all stanzas
-        while input != "" {
+        while !input.is_empty() {
             // Determine stanza type
             let (i, stanza_type) = match Self::start_tag(input).finish() {
                 Ok((i, _)) => match Self::identify_tag(i) {
@@ -97,5 +97,3 @@ Song title must be separated by a blank line.",
         }
     }
 }
-
-pub struct LaTeX;

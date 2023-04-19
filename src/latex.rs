@@ -19,20 +19,16 @@ pub struct Package {
 impl From<&[&str]> for Package {
     fn from(args: &[&str]) -> Self {
         let name = args
-            .into_iter()
+            .iter()
             .next()
             .expect("Must give package name!") // Can unwrap if array has guaranteed min length
             .to_string();
 
-        let opts: Vec<String> = args
-            .into_iter()
-            .skip(1)
-            .map(|opt| opt.to_string())
-            .collect();
+        let opts: Vec<String> = args.iter().skip(1).map(|opt| opt.to_string()).collect();
 
         Package {
             name,
-            opts: (opts.len() > 0).then_some(opts),
+            opts: (!opts.is_empty()).then_some(opts),
         }
     }
 }
@@ -119,7 +115,7 @@ impl LaTeX<Unwritten> {
     pub fn write_to_file(self) -> Result<LaTeX<Written>, errors::AppError> {
         self.internal_write_to_file()
             .into_report()
-            .attach_printable(format!("Error writing to latex file"))
+            .attach_printable("Error writing to latex file")
             .change_context(errors::FileError)
             .change_context(errors::AppError)
     }
@@ -384,7 +380,7 @@ impl LaTeX<Unwritten> {
 
     // Try and use const expressions to have minimum array length
     pub fn use_package_str(&mut self, args: &[&str]) -> Result<(), errors::LaTeXError> {
-        (args.len() > 0)
+        (!args.is_empty())
             .then(|| {
                 self.packages.push(args.into());
             })

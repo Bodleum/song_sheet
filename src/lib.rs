@@ -47,14 +47,14 @@ impl Song {
 
     pub fn set_order(&mut self, order: &str) -> Result<(), String> {
         // Check chorus
-        if order.contains('c') && self.chorus == None {
+        if order.contains('c') && self.chorus.is_none() {
             return Err(String::from(
                 "ERROR: Order calls for a chorus, but song has none specified!",
             ));
         }
 
         // Check bridge
-        if order.contains('b') && self.bridge == None {
+        if order.contains('b') && self.bridge.is_none() {
             return Err(String::from(
                 "ERROR: Order calls for bridge, but song has none specified!",
             ));

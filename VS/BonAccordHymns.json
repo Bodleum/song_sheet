@@ -1,0 +1,3679 @@
+﻿{
+  "Songs": [
+    {
+      "Author": "Henry Francis Lyte",
+      "Copyright": "© Words & Music: Public Domain",
+      "Guid": "VWPAqMXOcE2v075A7BJnpw",
+      "Verses": [
+        {
+          "Text": "Abide with me: fast falls the eventide;\nthe darkness deepens; Lord, with me abide.\nWhen other helpers fail and comforts flee,\nHelp of the helpless, O abide with me."
+        },
+        {
+          "ID": 2,
+          "Text": "Swift to its close ebbs out life's little day;\nearth's joys grow dim, its glories pass away,\nChange and decay in all around I see –\nO thou who changest not, abide with me."
+        },
+        {
+          "ID": 3,
+          "Text": "I need thy presence every passing hour,\nWhat but thy grace can foil the tempter's power?\nWho like thyself my guide and strength can be?\nThrough cloud and sunshine, O abide with me."
+        },
+        {
+          "ID": 4,
+          "Text": "I fear no foe with thee at hand to bless,\nills have no weight, and tears no bitterness,\nWhere is death's sting? Where, grave, thy victory?\nI triumph still, if thou abide with me."
+        }
+      ],
+      "VideoDuration": 0,
+      "Text": "Abide with Me"
+    },
+    {
+      "Author": "Henry Francis Lyte .",
+      "Copyright": "© Words & Music: Public Domain",
+      "CCLI": "43190",
+      "Reference": "Music by William Henry Monk (Eventide)",
+      "Guid": "lPTklH56j0iY7RRrGZHijw",
+      "Verses": [
+        {
+          "Text": "Abide with me fast falls the eventide\nThe darkness deepens Lord with me abide\nWhen other helpers fail and comforts flee\nHelp of the helpless O abide with me"
+        },
+        {
+          "ID": 2,
+          "Text": "Swift to its close ebbs out life's little day\nEarth's joys grow dim its glories pass away\nChange and decay in all around I see\nO Thou who changest not abide with me"
+        },
+        {
+          "ID": 3,
+          "Text": "I need Thy presence ev'ry passing hour\nWhat but Thy grace can foil the tempter's pow'r\nWho like Thyself my Guide and Stay can be\nThrough cloud and sunshine O abide with me"
+        },
+        {
+          "ID": 4,
+          "Text": "I fear no foe with Thee at hand to bless\nIlls have no weight and tears no bitterness\nWhere is death's sting where grave thy victory\nI triumph still if Thou abide with me"
+        },
+        {
+          "ID": 5,
+          "Text": "Hold Thou Thy cross before my closing eyes\nShine through the gloom and point me to the skies\nHeav'n's morning breaks\nAnd earth's vain shadows flee\nIn life in death O Lord abide with me"
+        }
+      ],
+      "VideoDuration": 0,
+      "Text": "Abide With Me (Eventide)"
+    },
+    {
+      "Author": "Keith Getty & Stuart Townend (inc. Music)",
+      "Copyright": "© Copyright 2005 Thankyou Music",
+      "CCLI": "3709898",
+      "Guid": "Nm5qVOwV1UKiIgPG+A9ncQ",
+      "Verses": [
+        {
+          "Text": "You're the Word of God the Father\nFrom before the world began,\nEvery star and every planet\nHas been fashioned by Your hand."
+        },
+        {
+          "ID": 2,
+          "Text": "All creation holds together\nBy the power of Your voice,\nLet the skies declare Your glory;\nLet the land and seas rejoice!"
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "You're the Author of creation,\nYou're the Lord of every man;\nAnd Your cry of love rings out\nAcross the lands."
+        },
+        {
+          "ID": 3,
+          "Text": "Yet You left the gaze of angels,\nCame to seek and save the lost,\nAnd exchanged the joy of heaven\nFor the anguish of a cross."
+        },
+        {
+          "ID": 4,
+          "Text": "With a prayer You fed the hungry,\nWith a word You stilled the sea;\nYet how silently You suffered\nThat the guilty may go free!"
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "You're the Author of creation,\nYou're the Lord of every man;\nAnd Your cry of love rings out\nAcross the lands."
+        },
+        {
+          "ID": 5,
+          "Text": "With a shout You rose victorious,\nWresting victory from the grave,\nAnd ascended into heaven,\nLeading captives in Your way."
+        },
+        {
+          "ID": 6,
+          "Text": "Now You stand before the Father,\nInterceding for Your own;\nFrom each tribe and tongue and nation,\nYou are leading sinners home!"
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "You're the Author of creation,\nYou're the Lord of every man;\nAnd Your cry of love rings out\nAcross the lands."
+        }
+      ],
+      "VideoDuration": 0,
+      "Text": "Across The Lands"
+    },
+    {
+      "Author": "St. Francis of Assisi (1225) .",
+      "Copyright": "© Words & Music Public Domain",
+      "CCLI": "1503",
+      "Reference": "Translated by William Henry Draper. Music by Laast Uns Erfreuen",
+      "Guid": "r3Z5VbrAuEe9TRW64feFdw",
+      "Verses": [
+        {
+          "Text": "All creatures of our God and King\nLift up your voice and with us sing\nAlleluia alleluia\nThou burning sun with golden beam\nThou silver moon with softer gleam"
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "O praise Him O praise Him\nAlleluia alleluia alleluia"
+        },
+        {
+          "ID": 2,
+          "Text": "Thou rushing wind that art so strong\nYe clouds that sail in heaven along\nO praise Him alleluia\nThou rising morn in praise rejoice\nYe lights of evening find a voice"
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "O praise Him O praise Him\nAlleluia alleluia alleluia"
+        },
+        {
+          "ID": 3,
+          "Text": "And all ye men of tender heart\nForgiving others take your part\nO sing ye alleluia\nYe who long pain and sorrow bear\nPraise God and on Him cast your care"
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "O praise Him O praise Him\nAlleluia alleluia alleluia"
+        },
+        {
+          "ID": 4,
+          "Text": "Let all things their Creator bless\nAnd worship Him in humbleness\nO praise Him alleluia\nPraise, praise the Father, praise the Son\nAnd praise the Spirit, Three in One"
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "O praise Him O praise Him\nAlleluia alleluia alleluia"
+        }
+      ],
+      "VideoDuration": 0,
+      "Text": "All Creatures of our God and King"
+    },
+    {
+      "Author": "Dustin Kensrue .",
+      "Copyright": "© Copyright 2012 We Are Younger We Are Faster Music",
+      "CCLI": "7008232",
+      "Reference": "Music: Traditional Scottish Folk Tune",
+      "Guid": "xiEFw9XsUkuNwPhPiEMJxg",
+      "Verses": [
+        {
+          "Text": "Should nothing of our efforts stand\nNo legacy survive\nUnless the Lord does raise the house\nIn vain its builders strive"
+        },
+        {
+          "ID": 2,
+          "Text": "To you who boast tomorrow’s gain\nTell me what is your life\nA mist that vanishes at dawn\nAll glory be to Christ"
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "All glory be to Christ our king\nAll glory be to Christ\nHis rule and reign we’ll ever sing\nAll glory be to Christ"
+        },
+        {
+          "ID": 3,
+          "Text": "His will be done His kingdom come\nOn earth as is above\nWho is Himself our daily bread\nPraise Him the Lord of love"
+        },
+        {
+          "ID": 4,
+          "Text": "Let living water satisfy\nThe thirsty without price\nWe’ll take a cup of kindness yet\nAll glory be to Christ"
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "All glory be to Christ our king\nAll glory be to Christ\nHis rule and reign we’ll ever sing\nAll glory be to Christ"
+        },
+        {
+          "ID": 5,
+          "Text": "When on the day the great I Am\nThe faithful and the true\nThe Lamb who was for sinners slain\nIs making all things new"
+        },
+        {
+          "ID": 6,
+          "Text": "Behold our God shall live with us\nAnd be our steadfast light\nAnd we shall e'er his people be\nAll glory be to Christ"
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "All glory be to Christ our king\nAll glory be to Christ\nHis rule and reign we’ll ever sing\nAll glory be to Christ"
+        }
+      ],
+      "VideoDuration": 0,
+      "Style": { "Background": { "BodyRect": "0,0,10000,9300" } },
+      "Text": "All Glory Be To Christ"
+    },
+    {
+      "Author": "John Newton (1779) and John P. Rees .",
+      "Copyright": "© Words & Music: Public Domain",
+      "CCLI": "2762836",
+      "Reference": "Music: New Britain",
+      "Guid": "aNik0WmxrUS/xIABAW35mw",
+      "Verses": [
+        {
+          "Text": "Amazing grace how sweet the sound\nThat saved a wretch like me\nI once was lost but now am found\nWas blind but now I see"
+        },
+        {
+          "ID": 2,
+          "Text": "'Twas grace that taught my heart to fear\nAnd grace my fears relieved\nHow precious did that grace appear\nThe hour I first believed"
+        },
+        {
+          "ID": 3,
+          "Text": "The Lord has promised good to me,\nhis word my hope secures;\nhe will my shield and portion be\nas long as life endures"
+        },
+        {
+          "ID": 4,
+          "Text": "Through many dangers toils and snares\nI have already come\n'Tis grace has brought me safe thus far\nAnd grace will lead me home"
+        },
+        {
+          "ID": 5,
+          "Text": "Yea when this flesh and heart shall fail\nAnd mortal life shall cease\nI shall possess within the veil\nA life of joy and peace"
+        },
+        {
+          "ID": 6,
+          "Text": "When we've been there ten thousand years\nBright shining as the sun\nWe've no less days to sing God's praise\nThan when we've first begun"
+        }
+      ],
+      "VideoDuration": 0,
+      "Text": "Amazing Grace"
+    },
+    {
+      "Author": "John Newton, Chris Tomlin & Louie Giglio (inc. Music)",
+      "Copyright": "© 2006 sixsteps Music (Admin. by Integrity Music Ltd) Vamos Publishing (Admin. by Integrity Music Ltd) worshiptogether.com songs (Admin. by Integrity Music Ltd)",
+      "CCLI": "4768151",
+      "Guid": "n5MEltsDd0yi5VV8hzQTyg",
+      "Verses": [
+        {
+          "Text": "Amazing grace how sweet the sound\nThat saved a wretch like me\nI once was lost but now I'm found\nWas blind but now I see"
+        },
+        {
+          "ID": 2,
+          "Text": "'Twas grace that taught my heart to fear\nAnd grace my fears relieved\nHow precious did that grace appear\nThe hour I first believed"
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "My chains are gone I've been set free\nMy God my Savior has ransomed me\nAnd like a flood His mercy rains\nUnending love amazing grace"
+        },
+        {
+          "ID": 3,
+          "Text": "The Lord has promised good to me\nHis word my hope secures\nHe will my shield and portion be\nAs long as life endures"
+        },
+        {
+          "ID": 4,
+          "Text": "The earth shall soon dissolve like snow\nThe sun forbear to shine\nBut God who called me here below\nWill be forever mine\nWill be forever mine\nYou are forever mine"
+        }
+      ],
+      "VideoDuration": 0,
+      "Text": "Amazing Grace (My Chains Are Gone)"
+    },
+    {
+      "Author": "Charles Wesley (1738) .",
+      "Copyright": "© Words & Music: Public Domain",
+      "CCLI": "3351545",
+      "Reference": "Music by Thomas Campbell",
+      "Guid": "TOXXcWxFmkqa1p00Xxarrw",
+      "Verses": [
+        {
+          "Text": "And can it be that I should gain\nAn int'rest in the Saviour's blood?\nDied He for me, who caused His pain?\nFor me, who Him to death pursued?\nAmazing love! how can it be\nThat Thou, my God, should die for me?"
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "Amazing love! how can it be\nThat Thou, my God, should die for me!"
+        },
+        {
+          "ID": 2,
+          "Text": "'Tis mystery all! Th'Immortal dies!\nWho can explore His strange design?\nIn vain the firstborn seraph tries\nTo sound the depths of love divine!\n'Tis mercy all! let earth adore,\nLet angel minds inquire no more."
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "'Tis mercy all! let earth adore,\nLet angel minds inquire no more."
+        },
+        {
+          "ID": 3,
+          "Text": "He left His Father's throne above,\nSo free, so infinite His grace;\nEmptied Himself of all but love,\nAnd bled for Adam's helpless race;\n'Tis mercy all, immense and free;\nFor, O my God, it found out me."
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "'Tis mercy all, immense and free;\nFor, O my God, it found out me."
+        },
+        {
+          "ID": 4,
+          "Text": "Long my imprisoned spirit lay\nFast bound in sin and nature's night;\nThine eye diffused a quick'ning ray,\nI woke, the dungeon flamed with light;\nMy chains fell off, my heart was free;\nI rose, went forth and followed Thee."
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "My chains fell off, my heart was free;\nI rose, went forth and followed Thee."
+        },
+        {
+          "ID": 5,
+          "Text": "No condemnation now I dread;\nJesus, and all in Him is mine!\nAlive in Him, my living Head,\nAnd clothed in righteousness divine,\nBold I approach th'eternal throne,\nAnd claim the crown, through Christ my own."
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "Bold I approach th'eternal throne,\nAnd claim the crown, through Christ my own."
+        }
+      ],
+      "VideoDuration": 0,
+      "Text": "And Can It Be"
+    },
+    {
+      "Author": "David Evans (inc. Music)",
+      "Copyright": "© Copyright 1986 Thankyou Music",
+      "CCLI": "120824",
+      "Guid": "1eLGBZbRR0ms06ERR2q12A",
+      "Verses": [
+        {
+          "Text": "Be still for the presence of the Lord\nThe Holy One is here\nCome bow before Him now\nWith reverence and fear"
+        },
+        {
+          "ID": 2,
+          "Text": "In Him no sin is found\nWe stand on holy ground\nBe still for the presence of the Lord\nThe Holy One is here"
+        },
+        {
+          "ID": 3,
+          "Text": "Be still for the glory of the Lord\nIs shining all around\nHe burns with holy fire\nWith splendour He is crowned"
+        },
+        {
+          "ID": 4,
+          "Text": "How awesome is the sight\nOur radiant King of light\nBe still for the glory of the Lord\nIs shining all around"
+        },
+        {
+          "ID": 5,
+          "Text": "Be still for the power of the Lord\nIs moving in this place\nHe comes to cleanse and heal\nTo minister His grace"
+        },
+        {
+          "ID": 6,
+          "Text": "No work too hard for Him\nIn faith receive from Him\nBe still for the power of the Lord\nIs moving in this place"
+        }
+      ],
+      "VideoDuration": 0,
+      "Text": "Be Still"
+    },
+    {
+      "Author": "Ancient Irish, translated by Mary Elizabeth Byrne, 1880-1931 .",
+      "Copyright": "© Words & Music: Public Domain",
+      "CCLI": "7056332",
+      "Reference": "Versified by Eleanor Henrietta Hulla . Music by Slane (Irish traditional melody)",
+      "Guid": "a8ogVq46Z0KmkPgkX6amlg",
+      "Verses": [
+        {
+          "Text": "Be thou my vision, O Lord of my heart;\nnaught be all else to me, save that thou art.\nThou my best thought, by day or by night,\nwaking or sleeping, thy presence my light."
+        },
+        {
+          "ID": 2,
+          "Text": "Be Thou my wisdom, Thou my true Word;\nI ever with Thee, Thou with me, Lord;\nThou my great Father, and I Thy true son;\nThou in me dwelling, and I with Thee one."
+        },
+        {
+          "ID": 3,
+          "Text": "Be Thou my battle-shield, sword for the fight,\nbe Thou my dignity, Thou my delight.\nThou my soul’s shelter, Thou my high tower:\nraise Thou me heavenward, O Power of my power."
+        },
+        {
+          "ID": 4,
+          "Text": "Riches I need not, nor man's empty praise,\nThou mine inheritance, now and always:\nThou and Thou only, first in my heart,\nHigh King of heaven, my treasure Thou art."
+        },
+        {
+          "ID": 5,
+          "Text": "High King of heaven, after victory won,\nmay I reach heaven’s joys, O bright heaven’s Sun!\nHeart of my own heart, whatever befall,\nstill be my vision, O ruler of all."
+        }
+      ],
+      "VideoDuration": 0,
+      "Text": "Be Thou My Vision"
+    },
+    {
+      "Author": "Charitie Lees Bancroft & Vikki Cook .",
+      "Copyright": "© Copyright 1997 Sovereign Grace Worship",
+      "CCLI": "2306412",
+      "Reference": "Music by Vikki Cook",
+      "Guid": "MRbh3QBBn0mNgUR1hEE49A",
+      "Verses": [
+        {
+          "Text": "Before the throne of God above\nI have a strong and perfect plea\nA great High Priest whose name is Love\nWho ever lives and pleads for me"
+        },
+        {
+          "ID": 2,
+          "Text": "My name is graven on His hands\nMy name is written on His heart\nI know that while in heav'n He stands\nNo tongue can bid me thence depart\nNo tongue can bid me thence depart"
+        },
+        {
+          "ID": 3,
+          "Text": "When Satan tempts me to despair\nAnd tells me of the guilt within\nUpward I look and see Him there\nWho made an end to all my sin"
+        },
+        {
+          "ID": 4,
+          "Text": "Because the sinless Saviour died\nMy sinful soul is counted free\nFor God the Just is satisfied\nTo look on Him and pardon me\nTo look on Him and pardon me"
+        },
+        {
+          "ID": 5,
+          "Text": "Behold Him there the risen Lamb\nMy perfect spotless righteousness\nThe great unchangeable I Am\nThe King of glory and of grace"
+        },
+        {
+          "ID": 6,
+          "Text": "One with Himself I cannot die\nMy soul is purchased with His blood\nMy life is hid with Christ on high\nWith Christ my Saviour and my God\nWith Christ my Saviour and my God"
+        }
+      ],
+      "VideoDuration": 0,
+      "Text": "Before The Throne of God Above"
+    },
+    {
+      "Author": "Jonathan Baird, Meghan Baird, Ryan Baird, Stephen Altrogge (inc. Music)",
+      "Copyright": "© Copyright 2011 Sovereign Grace Praise/Worship",
+      "CCLI": "5937510",
+      "Guid": "gFQI9KVFN0iWCh8tpirmrQ",
+      "Verses": [
+        {
+          "Text": "Who has held the oceans in His hands\nWho has numbered every grain of sand\nKings and nations tremble at His voice\nAll creation rises to rejoice"
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "Behold our God seated on His throne\nCome let us adore Him\nBehold our King nothing can compare\nCome let us adore Him"
+        },
+        {
+          "ID": 2,
+          "Text": "Who has given counsel to the Lord\nWho can question any of His words\nWho can teach the One who knows all things\nWho can fathom all His wondrous deeds"
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "Behold our God seated on His throne\nCome let us adore Him\nBehold our King nothing can compare\nCome let us adore Him"
+        },
+        {
+          "ID": 3,
+          "Text": "Who has felt the nails upon His hand\nBearing all the guilt of sinful man\nGod eternal humbled to the grave\nJesus Saviour risen now to reign"
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "Behold our God seated on His throne\nCome let us adore Him\nBehold our King nothing can compare\nCome let us adore Him"
+        }
+      ],
+      "VideoDuration": 0,
+      "Text": "Behold Our God"
+    },
+    {
+      "Author": "Keith Getty, Kristyn Getty & Stuart Townend (inc. Music)",
+      "Copyright": "© Copyright 2007 Thankyou Music",
+      "CCLI": "5003372",
+      "Guid": "F3Ykd82a1ki2e8sZGo6H2g",
+      "Verses": [
+        {
+          "Text": "Behold the Lamb who bears our sins away\nSlain for us and we remember\nThe promise made that all who come in faith\nFind forgiveness at the cross"
+        },
+        {
+          "ID": 2,
+          "Text": "So we share in this Bread of Life\nAnd we drink of His sacrifice\nAs a sign of our bonds of peace\nAround the table of the King"
+        },
+        {
+          "ID": 3,
+          "Text": "The body of our Saviour Jesus Christ\nTorn for you eat and remember\nThe wounds that heal the death that brings us life\nPaid the price to make us one"
+        },
+        {
+          "ID": 4,
+          "Text": "So we share in this Bread of Life\nAnd we drink of His sacrifice\nAs a sign of our bonds of love\nAround the table of the King"
+        },
+        {
+          "ID": 5,
+          "Text": "The blood that cleanses every stain of sin\nShed for you drink and remember\nHe drained death's cup that all may enter in\nTo receive the life of God"
+        },
+        {
+          "ID": 6,
+          "Text": "So we share in this Bread of Life\nAnd we drink of His sacrifice\nAs a sign of our bonds of grace\nAround the table of the King"
+        },
+        {
+          "ID": 7,
+          "Text": "And so with thankfulness and faith we rise\nTo respond and to remember\nOur call to follow in the steps of Christ\nAs His body here on earth"
+        },
+        {
+          "ID": 8,
+          "Text": "As we share in His suffering\nWe proclaim Christ will come again\nAnd we'll join in the feast of heaven\nAround the table of the King"
+        }
+      ],
+      "VideoDuration": 0,
+      "Text": "Behold the Lamb"
+    },
+    {
+      "Author": "Keith Getty & Kristyn Getty (inc. Music)",
+      "Copyright": "© 2005 Thankyou Music (Admin. by Integrity Music Ltd)",
+      "CCLI": "4610917",
+      "Guid": "V7eURWbLWEicAFb8DChcaA",
+      "Verses": [
+        {
+          "Text": "Beneath the cross of Jesus\nI find a place to stand,\nAnd wonder at such mercy\nThat calls me as I am;"
+        },
+        {
+          "ID": 2,
+          "Text": "For hands that should discard me\nHold wounds which tell me, \"come.\"\nBeneath the cross of Jesus\nMy unworthy soul is won."
+        },
+        {
+          "ID": 2,
+          "Text": "Beneath the cross of Jesus\nHis family is my own\nOnce strangers chasing selfish dreams,\nNow one through grace alone."
+        },
+        {
+          "ID": 3,
+          "Text": "How could I now dishonour\nThe ones that You have loved?\nBeneath the cross of Jesus\nSee the children called by God."
+        },
+        {
+          "ID": 3,
+          "Text": "Beneath the cross of Jesus\nThe path before the crown\nWe follow in His footsteps\nWhere promised hope is found."
+        },
+        {
+          "ID": 4,
+          "Text": "How great the joy before us\nTo be His perfect bride;\nBeneath the cross of Jesus\nWe will gladly live our lives."
+        }
+      ],
+      "VideoDuration": 0,
+      "Text": "Beneath the Cross"
+    },
+    {
+      "Author": "Keith Getty, Kristyn Getty & Stuart Townend (inc. Music)",
+      "Copyright": "© Copyright 2009 Thankyou Music",
+      "CCLI": "5469291",
+      "Guid": "jxfnlGgQjEGEJqFdbXUUJg",
+      "Verses": [
+        {
+          "Text": "By faith we see the hand of God\nIn the light of creation's grand design\nIn the lives of those who prove His faithfulness\nWho walk by faith and not by sight"
+        },
+        {
+          "ID": 2,
+          "Text": "By faith our fathers roamed the earth\nWith the pow'r of His promise in their hearts\nOf a holy city built by God's own hand\nA place where peace and justice reign"
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "We will stand as children of the promise\nWe will fix our eyes on Him our soul's reward\nTill the race is finished and the work is done\nWe'll walk by faith and not by sight"
+        },
+        {
+          "ID": 3,
+          "Text": "By faith the prophets saw a day\nWhen the longed-for Messiah would appear\nWith the pow'r to break the chains of sin and death\nAnd rise triumphant from the grave"
+        },
+        {
+          "ID": 4,
+          "Text": "By faith the church was called to go\nIn the pow'r of the Spirit to the lost\nTo deliver captives and to preach good news\nIn ev'ry corner of the earth"
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "We will stand as children of the promise\nWe will fix our eyes on Him our soul's reward\nTill the race is finished and the work is done\nWe'll walk by faith and not by sight"
+        },
+        {
+          "ID": 5,
+          "Text": "By faith the mountain shall be moved\nAnd the pow'r of the gospel shall prevail\nFor we know in Christ all things are possible\nFor all who call upon His name"
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "We will stand as children of the promise\nWe will fix our eyes on Him our soul's reward\nTill the race is finished and the work is done\nWe'll walk by faith and not by sight"
+        }
+      ],
+      "VideoDuration": 0,
+      "Text": "By Faith"
+    },
+    {
+      "Author": "Jonny Robinson & Rich Thompson (inc. Music)",
+      "Copyright": "© 2016 CityAlight Music (Admin. by Integrity Music Ltd)",
+      "CCLI": "7036096",
+      "Guid": "xrX40OhRNkKLve9WaHEQ8Q",
+      "Verses": [
+        {
+          "Text": "Mine are days that God has numbered\nI was made to walk with Him\nYet I look for worldly treasure\nAnd forsake the King of kings"
+        },
+        {
+          "ID": 2,
+          "Text": "But mine is hope in my Redeemer\nThough I fall, His love is sure\nFor Christ has paid for every failing\nI am His forevermore"
+        },
+        {
+          "ID": 3,
+          "Text": "Mine are tears in times of sorrow\nDarkness not yet understood\nThrough the valley, I must travel\nWhere I see no earthly good"
+        },
+        {
+          "ID": 4,
+          "Text": "But mine is peace that flows from heaven\nAnd the strength in times of need\nI know my pain will not be wasted\nChrist completes His work in me"
+        },
+        {
+          "ID": 5,
+          "Text": "Mine are days here as a stranger\nPilgrim on a narrow way\nOne with Christ I will encounter\nHarm and hatred for His name"
+        },
+        {
+          "ID": 6,
+          "Text": "But mine is armour for this battle\nStrong enough to last the war\nAnd He has said He will deliver\nSafely to the golden shore"
+        },
+        {
+          "ID": 7,
+          "Text": "And mine are keys to Zion city\nWhere beside the King I walk\nFor there my heart has found its treasure\nChrist is mine forevermore\nChrist is mine forevermore\nChrist is mine forevermore"
+        }
+      ],
+      "VideoDuration": 0,
+      "Text": "Christ is Mine Forevermore"
+    },
+    {
+      "Author": "Matthew Boswell & Matthew Papa (inc. Music)",
+      "Copyright": "© 2015 Getty Music Hymns and Songs (Admin. by Music Services, Inc.). Getty Music Publishing (Admin. by Music Services, Inc.).\nLove Your Enemies Publishing (Admin. by Music Services, Inc.). Messenger Hymns (Admin. by Music Services, Inc.)",
+      "CCLI": "7045331",
+      "Guid": "+zQYKLH7k0+3iFJjSVp4KQ",
+      "Verses": [
+        {
+          "Text": "Christ the sure and steady anchor,\nIn the fury of the storm;\nWhen the winds of doubt blow through me,\nAnd my sails have all been torn.\nIn the suffering, in the sorrow,\nWhen my sinking hopes are few;\nI will hold fast to the anchor,\nIt will never be removed."
+        },
+        {
+          "ID": 2,
+          "Text": "Christ the sure and steady anchor,\nWhile the tempest rages on;\nWhen temptation claims the battle,\nAnd it seems the night has won.\nDeeper still then goes the anchor,\nThough I justly stand accused;\nI will hold fast to the anchor,\nIt shall never be removed."
+        },
+        {
+          "ID": 3,
+          "Text": "Christ the sure and steady anchor,\nThrough the floods of unbelief;\nHopeless somehow, O my soul, now,\nLift your eyes to Calvary.\nThis my ballast of assurance,\nSee his love forever proved.\nI will hold fast to the anchor,\nIt will never be removed."
+        },
+        {
+          "ID": 4,
+          "Text": "Christ the sure and steady anchor,\nAs we face the wave of death;\nWhen these trials give way to glory,\nAs we draw our final breath.\nWe will cross that great horizon,\nClouds behind and life secure;\nAnd the calm will be the better,\nFor the storms that we endure."
+        },
+        {
+          "ID": 5,
+          "Text": "Christ the sure of our salvation,\nEver faithful, ever true!\nWe will hold fast to the anchor,\nIt shall never be removed."
+        }
+      ],
+      "VideoDuration": 0,
+      "Text": "Christ The Sure And Steady Anchor"
+    },
+    {
+      "Author": "Keith Getty, Kristyn Getty & Stuart Townend (inc. Music)",
+      "Copyright": "© Copyright: © Words & Music: Public Domain",
+      "CCLI": "108389",
+      "Reference": "Music by John Wyeth",
+      "Guid": "dxgoxIOAIEefu72F32+p4w",
+      "Verses": [
+        {
+          "Text": "Come, Thou Fount of every blessing,\nTune my heart to sing Thy grace;\nStreams of mercy, never ceasing,\nCall for songs of loudest praise."
+        },
+        {
+          "ID": 2,
+          "Text": "Teach me some melodious sonnet,\nSung by flaming tongues above.\nPraise the mount! I'm fixed upon it,\nMount of Thy redeeming love."
+        },
+        {
+          "ID": 3,
+          "Text": "Here I raise my Ebenezer;\nHither by Thy help I‘m come;\nAnd I hope, by Thy good pleasure,\nSafely to arrive at home."
+        },
+        {
+          "ID": 4,
+          "Text": "Jesus sought me when a stranger,\nWandering from the fold of God;\nHe, to rescue me from danger,\nInterposed His precious blood."
+        },
+        {
+          "ID": 5,
+          "Text": "Oh, to grace how great a debtor\nDaily I'm constrained to be!\nLet that goodness, like a fetter,\nBind my wandering heart to Thee."
+        },
+        {
+          "ID": 6,
+          "Text": "Prone to wander, Lord, I feel it,\nProne to leave the God I love;\nHere's my heart, oh, take and seal it,\nSeal it for Thy courts above."
+        }
+      ],
+      "VideoDuration": 0,
+      "Text": "Come Thou Fount of Every Blessing"
+    },
+    {
+      "Author": "Charles Wesley. ",
+      "Copyright": "© Words & Music: Public Domain",
+      "Reference": "Tune: 'Hyfrydol' by Rowland Hugh Prichard",
+      "Guid": "CRyMt0Lzy0ezPefNZRMFNw",
+      "Verses": [
+        {
+          "Text": "Come Thou long expected Jesus\nBorn to set Thy people free\nFrom our fears and sins release us\nLet us find our rest in Thee"
+        },
+        {
+          "ID": 2,
+          "Text": "Israel's strength and consolation\nHope of all the earth Thou art\nDear desire of every nation\nJoy of every longing heart"
+        },
+        {
+          "ID": 3,
+          "Text": "Born Thy people to deliver\nBorn a child and yet a King\nBorn to reign in us forever\nNow Thy gracious Kingdom bring"
+        },
+        {
+          "ID": 4,
+          "Text": "By Thine own eternal Spirit\nRule in all our hearts alone\nBy Thine all sufficient merit\nRaise us to Thy glorious throne"
+        }
+      ],
+      "VideoDuration": 0,
+      "Style": {
+        "Body": {
+          "FontStyle": {
+            "Fill": { "Type": 0, "Color": "FFFFFFFF" },
+            "Stroke": { "Type": 0, "Color": "FFFFD700" }
+          }
+        },
+        "Background": { "Image": "Carol Background_Plain.jpg" }
+      },
+      "Text": "Come Thou Long Expected Jesus"
+    },
+    {
+      "Author": "Charles Wesley. ",
+      "Copyright": "© Hymn - Words & Music: Public Domain\nPsalm - Copyright Free Church of Scotland",
+      "Reference": "Tune: 'Hyfrydol' by Rowland Hugh Prichard",
+      "Guid": "rhyubSrIL0aCRi32OUnk3Q",
+      "Verses": [
+        {
+          "Text": "Come Thou long expected Jesus\nBorn to set Thy people free\nFrom our fears and sins release us\nLet us find our rest in Thee"
+        },
+        {
+          "ID": 2,
+          "Text": "Israel's strength and consolation\nHope of all the earth Thou art\nDear desire of every nation\nJoy of every longing heart"
+        },
+        {
+          "ID": 3,
+          "Text": "Born Thy people to deliver\nBorn a child and yet a King\nBorn to reign in us forever\nNow Thy gracious Kingdom bring"
+        },
+        {
+          "ID": 4,
+          "Text": "By Thine own eternal Spirit\nRule in all our hearts alone\nBy Thine all sufficient merit\nRaise us to Thy glorious throne"
+        },
+        {
+          "ID": 5,
+          "Text": "God be merciful and bless us;\nshine upon us with your face,\nThat the earth may know your actions\nand all lands your saving grace."
+        },
+        {
+          "ID": 6,
+          "Text": "O God, may the peoples praise you;\nmay all peoples sing your praise.\nFor you judge the nations justly,\nruling over every race."
+        },
+        {
+          "ID": 7,
+          "Text": "May they sing with joy and gladness;\nmay they all rejoice as one.\nO God, may the peoples praise you\nas they all unite in song."
+        },
+        {
+          "ID": 8,
+          "Text": "Then the land will yield its harvest;\nGod will pour his gifts abroad.\nGod, our God, will surely bless us;\nall the earth will fear our God."
+        }
+      ],
+      "VersionDate": "20221224232807",
+      "VideoDuration": 0,
+      "Style": {
+        "Background": { "Brush": { "Type": 0, "Color": "FFFFFFFF" } }
+      },
+      "Text": "Come Thou Long Expected Jesus & Psalm 67 (Sing Psalms)"
+    },
+    {
+      "Author": "Matt Boswell, Matt Papa, Michael Bleecker (inc. Music)",
+      "Copyright": "© 2012 McKinney Music, Inc. (Admin. by / Small Stone Media BV, Holland (Admin. in the UK/Eire by Song Solutions www.songsolutions.org)). Bleecker Publishing (Admin. by Michael Bleecker).\nGetty Music Hymns and Songs (Admin. by Music Services, Inc.). Getty Music Publishing (Admin. by Music Services, Inc.). Love Your Enemies Publishing (Admin. by Music Services, Inc.)",
+      "CCLI": "7026028",
+      "Guid": "SeTUbM7KrUe/CfP+UUsOOg",
+      "Verses": [
+        {
+          "Text": "Come behold the wondrous mystery\nIn the dawning of the King\nHe the theme of heaven’s praises\nRobed in frail humanity"
+        },
+        {
+          "ID": 2,
+          "Text": "In our longing, in our darkness\nNow the light of life has come\nLook to Christ, who condescended\nTook on flesh to ransom us"
+        },
+        {
+          "ID": 3,
+          "Text": "Come behold the wondrous mystery\nHe the perfect Son of Man\nIn His living, in His suffering\nNever trace nor stain of sin"
+        },
+        {
+          "ID": 4,
+          "Text": "See the true and better Adam\nCome to save the hell-bound man\nChrist the great and sure fulfilment\nOf the law; in Him we stand"
+        },
+        {
+          "ID": 5,
+          "Text": "Come behold the wondrous mystery\nChrist the Lord upon the tree\nIn the stead of ruined sinners\nHangs the Lamb in victory"
+        },
+        {
+          "ID": 6,
+          "Text": "See the price of our redemption\nSee the Father’s plan unfold\nBringing many sons to glory\nGrace unmeasured, love untold"
+        },
+        {
+          "ID": 7,
+          "Text": "Come behold the wondrous mystery\nSlain by death the God of life\nBut no grave could e’er restrain Him\nPraise the Lord; He is alive!"
+        },
+        {
+          "ID": 8,
+          "Text": "What a foretaste of deliverance\nHow unwavering our hope\nChrist in power resurrected\nAs we will be when he comes"
+        },
+        {
+          "ID": 9,
+          "Text": "What a foretaste of deliverance\nHow unwavering our hope\nChrist in power resurrected\nAs we will be when he comes"
+        }
+      ],
+      "VideoDuration": 0,
+      "Text": "Come, Behold the Wondrous Mystery"
+    },
+    {
+      "Author": "Matthew Bridges (1851) .",
+      "Copyright": "© Words & Music: Public Domain",
+      "CCLI": "23938",
+      "Reference": "Music by George Job Elvey (Tune: Diademata)",
+      "Guid": "QgGiGV/b1Um3ND7tdlzB7A",
+      "Verses": [
+        {
+          "Text": "Crown Him with many crowns\nThe Lamb upon His throne\nHark how the heavenly anthem drowns\nAll music but its own\nAwake my soul and sing\nOf Him who died for thee\nAnd hail Him as thy matchless King\nThrough all eternity"
+        },
+        {
+          "ID": 2,
+          "Text": "Crown Him the Lord of life\nWho triumphed o'er the grave\nAnd rose victorious in the strife\nFor those He came to save\nHis glories now we sing\nWho died and rose on high\nWho died eternal life to bring\nAnd lives that death may die"
+        },
+        {
+          "ID": 3,
+          "Text": "Crown Him the Lord of love\nBehold His hands and side\nRich wounds yet visible above\nIn beauty glorified\nNo angel in the sky\nCan fully bear that sight\nBut downward bends each burning eye\nAt mysteries so bright"
+        },
+        {
+          "ID": 4,
+          "Text": "Crown Him the Lord of years\nThe Potentate of time\nCreator of the rolling spheres\nIneffably sublime\nAll hail Redeemer hail\nFor Thou hast died for me\nThy praise shall never never fail\nThroughout eternity"
+        }
+      ],
+      "VideoDuration": 0,
+      "Text": "Crown Him with Many Crowns"
+    },
+    {
+      "Author": "Sol Fenne (inc. Music)",
+      "Copyright": "© Copyright 2018 20schemes Music",
+      "CCLI": "7133563",
+      "Guid": "UTzE3YDqq0O1i3kjveucNQ",
+      "Verses": [
+        {
+          "Text": "There is grace for the daily war with sin\nfor the battles that rage within my heart\nI am held in my Father's everlasting arms\nHe's my shield from the devil's fiery darts."
+        },
+        {
+          "ID": 2,
+          "Text": "There's a refuge for every lustful thought\nfrom old habits enticing me away\nwhen I fear my addictions won't be overcome\nthere is hope through Christ's resurrection day."
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "There is power in the finished work of Jesus\nto change helpless sinners just like me\nthere's contentment where nothing else can satisfy\nso I'll flee from my sin to Christ the Lord\nput my faith in the promise of His word."
+        },
+        {
+          "ID": 3,
+          "Text": "God calls all of His children to obey,\nlive a life of submission to His word\nmay I learn what it means to seek His kingdom first,\ndie to self, give my all to serve the Lord."
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "There is power in the finished work of Jesus\nto change helpless sinners just like me\nthere's contentment where nothing else can satisfy\nso I'll flee from my sin to Christ the Lord\nput my faith in the promise of His word."
+        },
+        {
+          "ID": 4,
+          "Text": "There's forgiveness for every time I fail\nas I turn in repentance from my sin\nGod provides all the help I need to persevere\nPraise His name! that my life is found in Him."
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "There is power in the finished work of Jesus\nto change helpless sinners just like me\nthere's contentment where nothing else can satisfy\nso I'll flee from my sin to Christ the Lord\nput my faith in the promise of His word."
+        }
+      ],
+      "VideoDuration": 0,
+      "Text": "Flee from Sin, Run to Jesus"
+    },
+    {
+      "Author": "Stuart Townend (inc. Music)",
+      "Copyright": "© Copyright 1999 Thankyou Music",
+      "CCLI": "2733786",
+      "Guid": "XiweQqJWfkGMYI0JiJVhAg",
+      "Verses": [
+        {
+          "Text": "From the squalor of a borrowed stable,\nBy the Spirit and a virgin's faith;\nTo the anguish and the shame of scandal\nCame the Saviour of the human race!"
+        },
+        {
+          "ID": 2,
+          "Text": "But the skies were filled, with the praise of heav'n,\nShepherds listen as the angels tell\nOf the gift of God come down to man\nAt the dawning of Immanuel"
+        },
+        {
+          "ID": 3,
+          "Text": "King of heaven now the friend of sinners,\nHumble servant in the Father's hands,\nFilled with power and the Holy Spirit,\nFilled with mercy for the broken man"
+        },
+        {
+          "ID": 4,
+          "Text": "Yes He walked my road and He felt my pain,\nJoys and sorrows that I know so well;\nYet His righteous steps, give me hope again -\nI will follow my Immanuel!"
+        },
+        {
+          "ID": 5,
+          "Text": "Through the kisses of a friend's betrayal,\nHe was lifted on a cruel cross;\nHe was punished for a world's transgressions,\nHe was suffering to save the lost"
+        },
+        {
+          "ID": 6,
+          "Text": "He fights for breath He fights for me\nLoosing sinners from the claims of hell;\nAnd with a shout, our souls are free -\nDeath defeated by Immanuel!"
+        },
+        {
+          "ID": 7,
+          "Text": "Now He's standing in the place of honour,\nCrowned with glory on the highest throne,\nInterceding for His own beloved\n'Til His Father calls to bring them home!"
+        },
+        {
+          "ID": 8,
+          "Text": "Then the skies will part, as the trumpet sounds\nHope of heaven or the fear of hell;\nBut the bride will run, to her Lover's arms,\nGiving glory to Immanuel!"
+        }
+      ],
+      "VideoDuration": 0,
+      "Text": "From the Squalor of a Borrowed Stable (Immanuel)"
+    },
+    {
+      "Author": "Joachim Neander. ",
+      "Copyright": "© Words & Music: Public Domain",
+      "CCLI": "2578257",
+      "Reference": "Translated by Robert Bridges",
+      "Guid": "RkdzL0PQXkK7Lll/r4mg+A",
+      "Verses": [
+        {
+          "Text": "All my hope on God is founded;\nHe doth still my trust renew.\nMe through change and chance He guideth,\nOnly good and only true.\nGod unknown,\nHe alone\nCalls my heart to be His own."
+        },
+        {
+          "ID": 2,
+          "Text": "Pride of man and earthly glory,\nSword and crown betray his trust;\nWhat with care and toil he buildeth,\nTower and temple, fall to dust.\nBut God's power,\nHour by hour,\nIs my temple and my tower."
+        },
+        {
+          "ID": 3,
+          "Text": "God's great goodness aye endureth,\nDeep His wisdom, passing thought:\nSplendour, light, and life attend him,\nBeauty springeth out of naught.\nEvermore\nFrom His store\nNew-born worlds rise and adore."
+        },
+        {
+          "ID": 4,
+          "Text": "Daily doth th' Almighty Giver\nBounteous gifts on us bestow;\nHis desire our soul delighteth,\nPleasure leads us where we go.\nLove doth stand\nAt His hand;\nJoy doth wait on His command."
+        },
+        {
+          "ID": 5,
+          "Text": "Still from man to God eternal\nSacrifice of praise be done,\nHigh above all praises praising\nFor the gift of Christ his Son.\nChrist doth call\nOne and all:\nYe who follow shall not fall."
+        }
+      ],
+      "VideoDuration": 0,
+      "Text": "God, My Hope on You Is Founded"
+    },
+    {
+      "Author": "Thomas O. Chisholm .",
+      "Copyright": "© Words & Music Public Domain",
+      "CCLI": "5196100",
+      "Reference": "Music by William M. Runyan",
+      "Guid": "g1Nwvt+jUkeQV3FGR/bYhw",
+      "Verses": [
+        {
+          "Text": "Great is thy faithfulness, O God my Father.\nThere is no shadow of turning with thee.\nThou changest not, thy compassions, they fail not.\nAs thou hast been thou forever wilt be."
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "Great is thy faithfulness!\nGreat is thy faithfulness!\nMorning by morning new mercies I see.\nAll I have needed thy hand hath provided.\nGreat is thy faithfulness, Lord, unto me!"
+        },
+        {
+          "ID": 2,
+          "Text": "Summer and winter, and springtime and harvest,\nsun, moon, and stars in their courses above,\njoin with all nature in manifold witness\nto thy great faithfulness, mercy, and love."
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "Great is thy faithfulness!\nGreat is thy faithfulness!\nMorning by morning new mercies I see.\nAll I have needed thy hand hath provided.\nGreat is thy faithfulness, Lord, unto me!"
+        },
+        {
+          "ID": 3,
+          "Text": "Pardon for sin and a peace that endureth,\nthine own dear presence to cheer and to guide,\nstrength for today and bright hope for tomorrow;\nblessings all mine, with ten thousand beside!"
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "Great is thy faithfulness!\nGreat is thy faithfulness!\nMorning by morning new mercies I see.\nAll I have needed thy hand hath provided.\nGreat is thy faithfulness, Lord, unto me!"
+        }
+      ],
+      "VideoDuration": 0,
+      "Text": "Great Is Thy Faithfulness"
+    },
+    {
+      "Author": "William Williams. Translated by Peter Williams. ",
+      "Copyright": "© Words & Music: Public Domain",
+      "CCLI": "1448",
+      "Reference": "Music by John Hughes (Tune: Cwm Rhondda)",
+      "Guid": "KFSNznZ4CkG0bxoz0nofDA",
+      "Verses": [
+        {
+          "Text": "Guide me, O Thou great Redeemer,\nPilgrim through this barren land.\nI am weak, but Thou art mighty;\nHold me with Thy powerful hand.\nBread of heaven, bread of heaven,\nFeed me now and evermore,\nFeed me now and evermore."
+        },
+        {
+          "ID": 2,
+          "Text": "Open now the crystal fountain,\nWhence the healing waters flow;\nLet the fire and cloudy pillar\nLead me all my journey through.\nStrong Deliverer, strong deliverer,\nBe Thou still my Strength and Shield,\nBe Thou still my Strength and Shield."
+        },
+        {
+          "ID": 3,
+          "Text": "When I tread the verge of Jordan,\nBid my anxious fears subside;\nDeath of death, and hell's destruction,\nLand me safe on Canaan's side.\nSongs of praises, songs of praises,\nI will ever give to Thee,\nI will ever give to Thee."
+        }
+      ],
+      "VideoDuration": 0,
+      "Text": "Guide Me, O Thou Great Redeemer"
+    },
+    {
+      "Author": "Charles Wesley (1739). ",
+      "Copyright": "© Words & Music Public Domain",
+      "CCLI": "27738",
+      "Reference": "Music by Mendelssohn",
+      "Guid": "LgG4ChNkBU+/bFev0VSsOA",
+      "Verses": [
+        {
+          "Style": {
+            "Body": {
+              "FontSize": 75,
+              "FontStyle": {
+                "Fill": { "Type": 0, "Color": "FFFFFFFF" },
+                "Stroke": { "Type": 0, "Color": "FFFFD700" }
+              }
+            }
+          },
+          "Text": "Hark! the herald-angels sing\n'Glory to the new-born King!\nPeace on earth, and mercy mild,\nGod and sinners reconciled.'"
+        },
+        {
+          "ID": 2,
+          "Text": "Joyful, all ye nations rise,\nJoin the triumph of the skies;\nWith th'angelic hosts proclaim,\n'Christ is born in Bethlehem!'"
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "Hark! the herald angels sing\n'Glory to the new-born King!'"
+        },
+        {
+          "ID": 3,
+          "Text": "Christ by highest heav'n adored,\nChrist, the everlasting Lord,\nLate in time behold Him come,\nOffspring of a virgin's womb!"
+        },
+        {
+          "ID": 4,
+          "Text": "Veiled in flesh the Godhead see!\nHail, th'incarnate Deity!\nPleased as man with man to dwell,\nJesus, our Immanuel."
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "Hark! the herald angels sing\n'Glory to the new-born King!'"
+        },
+        {
+          "ID": 5,
+          "Text": "Hail, the heav'n-born Prince of Peace!\nHail, the Sun of Righteousness!\nLight and life to all He brings,\nRis'n with healing in His wings."
+        },
+        {
+          "ID": 6,
+          "Text": "Mild He lays His glory by,\nBorn that man no more may die;\nBorn to raise the sons of earth,\nBorn to give them second birth."
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "Hark! the herald angels sing\n'Glory to the new-born King!'"
+        }
+      ],
+      "VersionDate": "20221210224838",
+      "VideoDuration": 0,
+      "Style": {
+        "Body": {
+          "FontStyle": {
+            "Fill": { "Type": 0, "Color": "FFFFFFFF" },
+            "Stroke": { "Type": 0, "Color": "FFFFD700" }
+          }
+        },
+        "Footer": {
+          "FontStyle": {
+            "Fill": { "Type": 0, "Color": "FFFFFFFF" },
+            "Stroke": { "Type": 0, "Color": "FFFFD700" }
+          }
+        },
+        "Background": { "Image": "Carol Background_Plain.jpg" }
+      },
+      "Text": "Hark! The Herald Angels Sing"
+    },
+    {
+      "Author": "Charles Wesley (1739). ",
+      "Copyright": "© Words & Music Public Domain",
+      "CCLI": "27738",
+      "Reference": "Music by Mendelssohn",
+      "Guid": "UWIWtI9fhEW26oZ921IspQ",
+      "Verses": [
+        {
+          "Text": "Hark! the herald-angels sing\n'Glory to the new-born King!\nPeace on earth, and mercy mild,\nGod and sinners reconciled.'"
+        },
+        {
+          "ID": 2,
+          "Text": "Joyful, all ye nations rise,\nJoin the triumph of the skies;\nWith th'angelic hosts proclaim,\n'Christ is born in Bethlehem!'"
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "Hark! the herald angels sing\n'Glory to the new-born King!'"
+        },
+        {
+          "ID": 3,
+          "Text": "Christ by highest heav'n adored,\nChrist, the everlasting Lord,\nLate in time behold Him come,\nOffspring of a virgin's womb!"
+        },
+        {
+          "ID": 4,
+          "Text": "Veiled in flesh the Godhead see!\nHail, th'incarnate Deity!\nPleased as man with man to dwell,\nJesus, our Immanuel."
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "Hark! the herald angels sing\n'Glory to the new-born King!'"
+        },
+        {
+          "ID": 5,
+          "Text": "Hail, the heav'n-born Prince of Peace!\nHail, the Sun of Righteousness!\nLight and life to all He brings,\nRis'n with healing in His wings."
+        },
+        {
+          "ID": 6,
+          "Text": "Mild He lays His glory by,\nBorn that man no more may die;\nBorn to raise the sons of earth,\nBorn to give them second birth."
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "Hark! the herald angels sing\n'Glory to the new-born King!'"
+        }
+      ],
+      "VersionDate": "20211211224832",
+      "VideoDuration": 0,
+      "Style": {
+        "Body": { "FontSize": 85 },
+        "Background": {
+          "Brush": { "Type": 0, "Color": "FFFFFFFF" },
+          "Luminosity": -25
+        }
+      },
+      "Text": "Hark! The Herald Angels Sing"
+    },
+    {
+      "Author": "Charles Wesley (1739). ",
+      "Copyright": "© Words & Music Public Domain",
+      "CCLI": "27738",
+      "Reference": "Music by Mendelssohn",
+      "Guid": "fRqYve7wKESS79uSWrZapQ",
+      "Verses": [
+        {
+          "Style": {
+            "Body": {
+              "FontSize": 75,
+              "FontStyle": {
+                "Fill": { "Type": 0, "Color": "FF000000" },
+                "Stroke": { "Type": 0, "Color": "FFFFD700" }
+              }
+            }
+          },
+          "Text": "Hark! the herald-angels sing\n'Glory to the new-born King!\nPeace on earth, and mercy mild,\nGod and sinners reconciled.'"
+        },
+        {
+          "ID": 2,
+          "Text": "Joyful, all ye nations rise,\nJoin the triumph of the skies;\nWith th'angelic hosts proclaim,\n'Christ is born in Bethlehem!'"
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "Hark! the herald angels sing\n'Glory to the new-born King!'"
+        },
+        {
+          "ID": 3,
+          "Text": "Christ by highest heav'n adored,\nChrist, the everlasting Lord,\nLate in time behold Him come,\nOffspring of a virgin's womb!"
+        },
+        {
+          "ID": 4,
+          "Text": "Veiled in flesh the Godhead see!\nHail, th'incarnate Deity!\nPleased as man as man to dwell,\nJesus, our Immanuel."
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "Hark! the herald angels sing\n'Glory to the new-born King!'"
+        },
+        {
+          "ID": 5,
+          "Text": "Hail, the heav'n-born Prince of Peace!\nHail, the Sun of Righteousness!\nLight and life to all He brings,\nRis'n with healing in His wings."
+        },
+        {
+          "ID": 6,
+          "Text": "Mild He lays His glory by,\nBorn that man no more may die;\nBorn to raise the sons of earth,\nBorn to give them second birth."
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "Hark! the herald angels sing\n'Glory to the new-born King!'"
+        }
+      ],
+      "VideoDuration": 0,
+      "Style": {
+        "Body": {
+          "FontStyle": {
+            "Fill": { "Type": 0, "Color": "FF000000" },
+            "Stroke": { "Type": 0, "Color": "FFFFD700" }
+          }
+        },
+        "Footer": {
+          "FontStyle": {
+            "Fill": { "Type": 0, "Color": "FF000000" },
+            "Stroke": { "Type": 0, "Color": "FFFFD700" }
+          }
+        },
+        "Background": { "Image": "Carol Service Graphic.jpg" }
+      },
+      "Text": "Hark! The Herald Angels Sing"
+    },
+    {
+      "Author": "Stuart Townend, Keith Getty & Kristyn Getty (inc. Music)",
+      "Copyright": "© 2006 Thankyou Music (Adm. by CapitolCMGPublishing.com excl. UK & Europe, adm. by Integrity Music, part of the David C Cook family, songs@integritymusic.com)",
+      "Guid": "IAhjtuPCcUCqYxU1NQpUsg",
+      "Verses": [
+        {
+          "Text": "Hear the call of the kingdom, lift your eyes to the King,\nLet His song rise within you as a fragrant offering,\nOf how God, rich in mercy, came in Christ to redeem\nAll who trust in His unfailing grace."
+        },
+        {
+          "ID": 2,
+          "Text": "Hear the call of the Kingdom to be children of light,\nWith the mercy of heaven, the humility of Christ.\nWalking justly before Him, loving all that is right\nThat the life of Christ may shine through Him."
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "King of Heaven, we will answer the call,\nWe will follow, bringing hope to the world,\nFilled with passion, filled with power to proclaim\nSalvation in Jesus’ name."
+        },
+        {
+          "ID": 3,
+          "Text": "Hear the call of the Kingdom to reach out to the lost,\nWith the Father’s compassion in the wonder of the cross,\nBringing peace and forgiveness, and a hope yet to come;\nLet the nations put their trust in Him."
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "King of Heaven, we will answer the call,\nWe will follow, bringing hope to the world,\nFilled with passion, filled with power to proclaim\nSalvation in Jesus’ name."
+        }
+      ],
+      "VideoDuration": 0,
+      "Text": "Hear the Call of the Kingdom"
+    },
+    {
+      "Author": "William Rees",
+      "Copyright": "© Words & Music Public Domain",
+      "CCLI": "526631",
+      "Reference": "Translated by William Edwards | Tune: Dim Ond Iesu (Lowry)",
+      "Guid": "sy+fbJKpEkm+4p3MGVU8rQ",
+      "Verses": [
+        {
+          "Text": "Here is love, vast as the ocean,\nloving-kindness as the flood,\nwhen the Prince of Life, our Ransom,\nshed for us His precious blood."
+        },
+        {
+          "ID": 2,
+          "Text": "Who His love will not remember?\nWho can cease to sing His praise?\nHe can never be forgotten\nthroughout heav'n's eternal days."
+        },
+        {
+          "ID": 3,
+          "Text": "On the mount of crucifixion\nfountains opened deep and wide;\nthrough the floodgates of God's mercy\nflowed a vast and gracious tide."
+        },
+        {
+          "ID": 4,
+          "Text": "Grace and love, like mighty rivers,\npoured incessant from above,\nand heav'n's peace and perfect justice\nkissed a guilty world in love."
+        },
+        {
+          "ID": 5,
+          "Text": "In Thy truth Thou dost direct me\nby Thy Spirit through Thy Word;\nand Thy grace my need is meeting\nas I trust in Thee, my Lord."
+        },
+        {
+          "ID": 6,
+          "Text": "Of Thy fullness Thou art pouring\nThy great love and pow'r on me\nwithout measure, full and boundless,\ndrawing out my heart to Thee."
+        }
+      ],
+      "VideoDuration": 0,
+      "Text": "Here Is Love"
+    },
+    {
+      "Author": "William Rees, Matt Giles, Vell Rivers, William Edwards. ",
+      "Copyright": "© 2018 Sovereign Grace Praise (Admin. by Integrity Music Ltd)",
+      "CCLI": "7119282",
+      "Reference": "Tune: Dim Ond Iesu (Lowry)",
+      "Guid": "ypNUHfQtB0G7mQDOj+ykFg",
+      "Verses": [
+        {
+          "Text": "Here is love, vast as the ocean,\nloving-kindness as the flood,\nwhen the Prince of Life, our Ransom,\nshed for us His precious blood."
+        },
+        {
+          "ID": 2,
+          "Text": "Who His love will not remember?\nWho can cease to sing His praise?\nHe can never be forgotten\nthroughout heav'n's eternal days."
+        },
+        {
+          "ID": 3,
+          "Text": "On the mount of crucifixion\nfountains opened deep and wide;\nthrough the floodgates of God's mercy\nflowed a vast and gracious tide."
+        },
+        {
+          "ID": 4,
+          "Text": "Grace and love, like mighty rivers,\npoured incessant from above,\nand heav'n's peace and perfect justice\nkissed a guilty world in love."
+        },
+        {
+          "ID": 5,
+          "Text": "Here is love that conquered evil:\nChrist, the firstborn from the grave;\ndeath has failed to be found equal\nto the life of Him Who saves."
+        },
+        {
+          "ID": 6,
+          "Text": "In the valley of our darkness\ndawned His everlasting light;\nPerfect love in glorious radiance\nhas repelled death’s hellish night."
+        },
+        {
+          "ID": 7,
+          "Text": "That same love beyond all measure,\nmocked and slain by hateful men,\nlives and reigns in resurrection\nand can never die again."
+        },
+        {
+          "ID": 8,
+          "Text": "Here is love for all the ages,\nradiant Sun of Heav’n He stands,\ncalling home His Father’s children,\nholding forth His wounded hands."
+        },
+        {
+          "ID": 9,
+          "Text": "Here is love, vast as the heavens;\ncountless as the stars above\nare the souls that He has ransomed,\nprecious daughters, treasured sons."
+        },
+        {
+          "ID": 10,
+          "Text": "We are called to feast forever\non a love beyond our time;\nGlorious Father, Son, and Spirit\nnow with man are intertwined."
+        }
+      ],
+      "VersionDate": "20211224175244",
+      "VideoDuration": 0,
+      "Text": "Here Is Love (Sovereign Grace Version)"
+    },
+    {
+      "Author": "Matt Papa and Matt Boswell (inc. Music)",
+      "Copyright": "© 2016 Getty Music Hymns and Songs, Getty Music Publishing, Love Your Enemies Publishing, Messenger Hymns",
+      "CCLI": "7065053",
+      "Guid": "55eTc9IQiUOliF/bcz9Ayg",
+      "Verses": [
+        {
+          "Text": "What love could remember no wrongs we have done\nOmniscient all knowing He counts not their sum\nThrown into a sea without bottom or shore\nOur sins they are many His mercy is more"
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "Praise the Lord\nHis mercy is more\nStronger than darkness\nnew every morn\nOur sins they are many\nHis mercy is more"
+        },
+        {
+          "ID": 2,
+          "Text": "What patience would wait as we constantly roam\nWhat Father so tender is calling us home\nHe welcomes the weakest the vilest the poor\nOur sins they are many His mercy is more"
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "Praise the Lord\nHis mercy is more\nStronger than darkness\nnew every morn\nOur sins they are many\nHis mercy is more"
+        },
+        {
+          "ID": 3,
+          "Text": "What riches of kindness He lavished on us\nHis blood was the payment His life was the cost\nWe stood 'neath a debt we could never afford\nOur sins they are many His mercy is more"
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "Praise the Lord\nHis mercy is more\nStronger than darkness\nnew every morn\nOur sins they are many\nHis mercy is more"
+        },
+        {
+          "Tag": 6,
+          "ID": 0,
+          "Text": "Praise the Lord\nHis mercy is more\nStronger than darkness\nnew every morn\nOur sins they are many\nHis mercy is more"
+        }
+      ],
+      "VideoDuration": 0,
+      "Text": "His Mercy Is More"
+    },
+    {
+      "Author": "Stuart Townend & Keith Getty (inc. Music)",
+      "Copyright": "© Copyright 2006 Thankyou Music",
+      "CCLI": "4779872",
+      "Guid": "Pw3fVGDNx0i5jP510H/sPA",
+      "Verses": [
+        {
+          "Text": "Holy Spirit living Breath of God\nBreathe new life into my willing soul\nLet the presence of the risen Lord\nCome renew my heart and make me whole"
+        },
+        {
+          "ID": 2,
+          "Text": "Cause Your word to come alive in me\nGive me faith for what I cannot see\nGive me passion for Your purity\nHoly Spirit breathe new life in me"
+        },
+        {
+          "ID": 3,
+          "Text": "Holy Spirit come abide within\nMay Your joy be seen in all I do\nLove enough to cover ev'ry sin\nIn each thought and deed and attitude"
+        },
+        {
+          "ID": 4,
+          "Text": "Kindness to the greatest and the least\nGentleness that sows the path of peace\nTurn my strivings into works of grace\nBreath of God show Christ in all I do"
+        },
+        {
+          "ID": 5,
+          "Text": "Holy Spirit from creation's birth\nGiving life to all that God has made\nShow Your power once again on earth\nCause Your church to hunger for Your ways"
+        },
+        {
+          "ID": 6,
+          "Text": "Let the fragrance of our pray'rs arise\nLead us on the road of sacrifice\nThat in unity the face of Christ\nMay be clear for all the world to see"
+        }
+      ],
+      "VideoDuration": 0,
+      "Text": "Holy Spirit"
+    },
+    {
+      "Author": "Reginald Heber (1826) .",
+      "Copyright": "© Words & Music Public Domain",
+      "CCLI": "4779872",
+      "Reference": "Music by John B. Dykes",
+      "Guid": "SyPJebmRmUGxUle5LcnEYQ",
+      "Verses": [
+        {
+          "Text": "Holy, Holy, Holy!\nLord God Almighty!\nEarly in the morning\nour song shall rise to Thee.\nHoly, Holy, Holy!\nMerciful and mighty!\nGod in three persons, blessed Trinity!"
+        },
+        {
+          "ID": 2,
+          "Text": "Holy, Holy, Holy!\nAll the saints adore Thee,\nCasting down their golden crowns\naround the glassy sea;\nCherubim and seraphim\nfalling down before Thee,\nWhich wert and art and evermore shalt be."
+        },
+        {
+          "ID": 3,
+          "Text": "Holy, Holy, Holy!\nthough the darkness hide Thee,\nThough the eye made blind by sin\nThy glory may not see,\nOnly Thou art holy;\nthere is none beside Thee,\nPerfect in pow’r, in love, and purity."
+        },
+        {
+          "ID": 4,
+          "Text": "Holy, Holy, Holy!\nLord God Almighty!\nAll Thy works shall praise Thy name\nin earth and sky and sea.\nHoly, Holy, Holy!\nMerciful and mighty!\nGod in three persons, blessed Trinity."
+        }
+      ],
+      "VideoDuration": 0,
+      "Text": "Holy, holy, holy!"
+    },
+    {
+      "Author": "Robert Lowry. ",
+      "Copyright": "© 2021 Getty Music Publishing (BMI) / Fionán de Barra (BMI) (both adm. at MusicServices.org)",
+      "Reference": "Arranged by Keith Getty & Fionán de Barra",
+      "Guid": "KZOvIsKwXUajcDlGUevIDw",
+      "Verses": [
+        {
+          "Text": "My life flows on in endless song\nAbove earth´s lamentation\nI hear the sweet though far-off hymn\nThat hails a new creation"
+        },
+        {
+          "ID": 2,
+          "Text": "Through all the tumult and the strife\nI hear that music ringing\nIt finds an echo in my soul\nHow can I keep from singing?"
+        },
+        {
+          "ID": 3,
+          "Text": "While though my joys and comforts die\nThe Lord my Saviour liveth\nWhile though the darkness gather round\nSongs in the night He giveth"
+        },
+        {
+          "ID": 4,
+          "Text": "No storm can shake my inmost calm\nWhile to that refuge clinging,\nSince Christ is Lord of heaven and earth\nHow can I keep from singing?"
+        },
+        {
+          "ID": 5,
+          "Text": "I lift my eyes, the cloud grows thin\nI see the blue above it\nAnd day by day this pathway smooths\nSince first I learned to love it"
+        },
+        {
+          "ID": 6,
+          "Text": "The peace of Christ makes fresh my heart\nA fountain ever springing\nAll things are mine since I am His\nHow can I keep from singing?"
+        },
+        {
+          "ID": 7,
+          "Text": "The peace of Christ makes fresh my heart\nA fountain ever springing\nAll things are mine since I am His\nHow can I keep from singing?"
+        }
+      ],
+      "VideoDuration": 0,
+      "Text": "How Can I Keep from Singing?"
+    },
+    {
+      "Author": "Stuart Townend (inc. Music)",
+      "Copyright": "© Copyright 1995 Thankyou Music.",
+      "CCLI": "1558110",
+      "Guid": "bqvDbj95JEGQUZ5IC+qziw",
+      "Verses": [
+        {
+          "Text": "How deep the Father's love for us\nHow vast beyond all measure\nThat He should give His only Son\nTo make a wretch His treasure"
+        },
+        {
+          "ID": 2,
+          "Text": "How great the pain of searing loss\nThe Father turns His face away\nAs wounds which mar the Chosen One\nBring many sons to glory"
+        },
+        {
+          "ID": 3,
+          "Text": "Behold the Man upon a cross\nMy sin upon His shoulders\nAshamed I hear my mocking voice\nCall out among the scoffers"
+        },
+        {
+          "ID": 4,
+          "Text": "It was my sin that held Him there\nUntil it was accomplished\nHis dying breath has brought me life\nI know that it is finished"
+        },
+        {
+          "ID": 5,
+          "Text": "I will not boast in anything\nNo gifts no pow’r no wisdom\nBut I will boast in Jesus Christ\nHis death and resurrection"
+        },
+        {
+          "ID": 6,
+          "Text": "Why should I gain from His reward\nI cannot give an answer\nBut this I know with all my heart\nHis wounds have paid my ransom"
+        }
+      ],
+      "VideoDuration": 0,
+      "Text": "How Deep The Father’s Love For Us"
+    },
+    {
+      "Author": "Chris Tomlin, Ed Cash, Jesse Reeves (inc. Music)",
+      "Copyright": "© 2004 sixsteps Music (Admin. by Integrity Music Ltd), Vamos Publishing (Admin. by Integrity Music Ltd), worshiptogether.com songs (Admin. by Integrity Music Ltd),\nWondrously Made Songs (Admin. by Song Solutions www.songsolutions.org)",
+      "CCLI": "4348399",
+      "Guid": "ZJKoXArurk+RP4Op1NW0eg",
+      "Verses": [
+        {
+          "Text": "The splendour of the King\nClothed in majesty\nLet all the earth rejoice\nAll the earth rejoice"
+        },
+        {
+          "ID": 2,
+          "Text": "He wraps Himself in light\nAnd darkness tries to hide\nAnd trembles at His voice\nAnd trembles at His voice"
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "How great is our God\nSing with me\nHow great is our God\nAnd all will see how great\nHow great is our God"
+        },
+        {
+          "ID": 3,
+          "Text": "And age to age He stands\nAnd time is in His hands\nBeginning and the End\nBeginning and the End"
+        },
+        {
+          "ID": 4,
+          "Text": "The Godhead three in one\nFather Spirit Son\nThe Lion and the Lamb\nThe Lion and the Lamb"
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Style": { "Background": { "BodyRect": "0,298,10000,9300" } },
+          "Text": "How great is our God\nSing with me\nHow great is our God\nAnd all will see how great\nHow great is our God"
+        }
+      ],
+      "VideoDuration": 0,
+      "Text": "How Great Is Our God"
+    },
+    {
+      "Author": "Stuart Wesley Keene Hine. ",
+      "Copyright": "© Copyright 1949 & 1953 Stuart Hine Trust CIO Stuart K. Hine Trust",
+      "CCLI": "14181",
+      "Reference": "Tune: Swedish Folk Melody",
+      "Guid": "LqxsoFrbiEKqJJJcrTVINw",
+      "Verses": [
+        {
+          "Text": "O Lord my God when I in awesome wonder,\nConsider all the works Thy hand hath made,\nI see the stars, I hear the mighty thunder,\nThy pow'r throughout the universe displayed,"
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "Then sings my soul, my Saviour God to Thee:\nHow great Thou art how great Thou art,\nThen sings my soul, my Saviour God, to Thee:\nHow great Thou art, how great Thou art."
+        },
+        {
+          "ID": 2,
+          "Text": "When through the woods and forest glades I wander,\nAnd hear the birds sing sweetly in the trees;\nWhen I look down from lofty mountain grandeur,\nAnd hear the brook and feel the gentle breeze."
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "Then sings my soul, my Saviour God to Thee:\nHow great Thou art how great Thou art,\nThen sings my soul, my Saviour God, to Thee:\nHow great Thou art, how great Thou art."
+        },
+        {
+          "ID": 3,
+          "Text": "And when I think that God His Son not sparing,\nSent Him to die, I scarce can take it in\nThat on the Cross, my burden gladly bearing,\nHe bled and died to take away my sin."
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "Then sings my soul, my Saviour God to Thee:\nHow great Thou art how great Thou art,\nThen sings my soul, my Saviour God, to Thee:\nHow great Thou art, how great Thou art."
+        },
+        {
+          "ID": 4,
+          "Text": "When Christ shall come with shout of acclamation,\nAnd take me home, what joy shall fill my heart;\nThen shall I bow in humble adoration,\nAnd there proclaim: my God, how great Thou art."
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "Then sings my soul, my Saviour God to Thee:\nHow great Thou art how great Thou art,\nThen sings my soul, my Saviour God, to Thee:\nHow great Thou art, how great Thou art."
+        }
+      ],
+      "VideoDuration": 0,
+      "Text": "How Great Thou Art"
+    },
+    {
+      "Author": "Horatius Bonar (1846) .",
+      "Copyright": "© Words & Music Public Domain",
+      "CCLI": "4572268",
+      "Reference": "Tune: Kingsfold",
+      "Guid": "4YgSSU1G7E6O0NILOlPonw",
+      "Verses": [
+        {
+          "Text": "I heard the voice of Jesus say\nCome unto Me and rest\nLay down thou weary one\nLay down thy head upon My breast"
+        },
+        {
+          "ID": 2,
+          "Text": "I came to Jesus as I was\nWeary and worn and sad\nI found in Him a resting place\nAnd He has made me glad"
+        },
+        {
+          "ID": 3,
+          "Text": "I heard the voice of Jesus say\nBehold I freely give\nThe living water thirsty one\nStoop down and drink and live"
+        },
+        {
+          "ID": 4,
+          "Text": "I came to Jesus and I drank\nOf that life giving stream\nMy thirst was quenched my soul revived\nAnd now I live in Him"
+        },
+        {
+          "ID": 5,
+          "Text": "I heard the voice of Jesus say\nI am this dark worlds Light\nLook unto Me thy morn shall rise\nAnd all thy day be bright"
+        },
+        {
+          "ID": 6,
+          "Text": "I looked to Jesus and I found\nIn Him my Star my Sun\nAnd in that light of life I'll walk\nTill travelling days are done"
+        }
+      ],
+      "VideoDuration": 0,
+      "Text": "I Heard The Voice of Jesus Say"
+    },
+    {
+      "Author": "Charles Hutchison Gabriel (inc. Music)",
+      "Copyright": "© Words & Music Public Domain",
+      "CCLI": "25297",
+      "Guid": "9NZfSQ06tkCREFZwe6wDOg",
+      "Verses": [
+        {
+          "Text": "I stand amazed in the presence\nOf Jesus the Nazarene\nAnd wonder how He could love me\nA sinner condemned unclean"
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "How marvellous how wonderful\nAnd my song shall ever be\nHow marvellous how wonderful\nIs my Saviour's love for me"
+        },
+        {
+          "ID": 2,
+          "Text": "For me it was in the garden\nHe prayed not My will but Thine\nHe had no tears for His own griefs\nBut sweat drops of blood for mine"
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "How marvellous how wonderful\nAnd my song shall ever be\nHow marvellous how wonderful\nIs my Saviour's love for me"
+        },
+        {
+          "ID": 3,
+          "Text": "In pity angels beheld Him\nAnd came from the world of light\nTo comfort Him in the sorrows\nHe bore for my soul that night"
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "How marvellous how wonderful\nAnd my song shall ever be\nHow marvellous how wonderful\nIs my Saviour's love for me"
+        },
+        {
+          "ID": 4,
+          "Text": "He took my sins and my sorrows\nHe made them His very own\nHe bore the burden to Calvary\nAnd suffered and died alone"
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "How marvellous how wonderful\nAnd my song shall ever be\nHow marvellous how wonderful\nIs my Saviour's love for me"
+        },
+        {
+          "ID": 5,
+          "Text": "When with the ransomed in glory\nHis face I at last shall see\n'Twill be my joy through the ages\nTo sing of His love for me"
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "How marvellous how wonderful\nAnd my song shall ever be\nHow marvellous how wonderful\nIs my Saviour's love for me"
+        }
+      ],
+      "VideoDuration": 0,
+      "Text": "I Stand Amazed (My Saviour’s Love)"
+    },
+    {
+      "Author": "Francis Harold Rawley .",
+      "Copyright": "© Words: 1937 HarperCollins Religious",
+      "CCLI": "2328610",
+      "Reference": "Music by Roland Hugh Pritchard",
+      "Guid": "avsISjxhn0SiuMU2wlFohA",
+      "Verses": [
+        {
+          "Text": "I will sing the wondrous story\nOf the Christ who died for me\nHow He left the realms of glory\nFor the cross on Calvary"
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "Yes I'll sing the wondrous story\nOf the Christ who died for me\nSing it with His saints in glory\nGathered by the crystal sea"
+        },
+        {
+          "ID": 2,
+          "Text": "I was lost but Jesus found me\nFound the sheep that went astray\nRaised me up and gently led me\nBack into the narrow way"
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "Days of darkness still may meet me\nSorrow's path I oft may tread\nBut His presence still is with me\nBy His guiding hand I'm led"
+        },
+        {
+          "ID": 3,
+          "Text": "He will keep me till the river\nRolls its waters at my feet\nThen He'll bear me safely over\nMade by grace for glory meet"
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "Yes I'll sing the wondrous story\nOf the Christ who died for me\nSing it with His saints in glory\nGathered by the crystal sea"
+        }
+      ],
+      "VideoDuration": 0,
+      "Text": "I Will Sing The Wondrous Story (Hyfrydol)"
+    },
+    {
+      "Author": "Keith Getty & Stuart Townend (inc. Music)",
+      "Copyright": "© Copyright 2001 Thankyou Music",
+      "CCLI": "3350395",
+      "Guid": "NU+A0OCpQEiH+veYLSbARg",
+      "Verses": [
+        {
+          "Text": "In Christ alone my hope is found,\nHe is my light, my strength, my song;\nThis Cornerstone, this solid Ground,\nFirm through the fiercest drought and storm."
+        },
+        {
+          "ID": 2,
+          "Text": "What heights of love, what depths of peace,\nWhen fears are stilled, when strivings cease!\nMy Comforter, my All in All,\nHere in the love of Christ I stand."
+        },
+        {
+          "ID": 3,
+          "Text": "In Christ alone! – who took on flesh,\nFullness of God in helpless babe.\nThis gift of love and righteousness,\nScorned by the ones He came to save:"
+        },
+        {
+          "ID": 4,
+          "Text": "Till on that cross as Jesus died,\nThe wrath of God was satisfied –\nFor every sin on Him was laid;\nHere in the death of Christ I live."
+        },
+        {
+          "ID": 5,
+          "Text": "There in the ground His body lay,\nLight of the world by darkness slain:\nThen bursting forth in glorious day\nUp from the grave He rose again!"
+        },
+        {
+          "ID": 6,
+          "Text": "And as He stands in victory\nSin’s curse has lost its grip on me,\nFor I am His and He is mine –\nBought with the precious blood of Christ."
+        },
+        {
+          "ID": 7,
+          "Text": "No guilt in life, no fear in death,\nThis is the power of Christ in me;\nFrom life’s first cry to final breath,\nJesus commands my destiny."
+        },
+        {
+          "ID": 8,
+          "Text": "No power of hell, no scheme of man,\nCan ever pluck me from His hand:\nTill He returns or calls me home,\nHere in the power of Christ I’ll stand."
+        }
+      ],
+      "VideoDuration": 0,
+      "Text": "In Christ Alone"
+    },
+    {
+      "Author": "Christina Georgina Rossetti (c. 1872). ",
+      "Copyright": "© Words & Music: Public Domain",
+      "Reference": "Tune: 'Cranham' by Gustav Theodore Holst",
+      "Guid": "swB/EcE74kyyJpMiIg4VcQ",
+      "Verses": [
+        {
+          "Text": "In the bleak midwinter, frosty wind made moan,\nEarth stood hard as iron, water like a stone;\nSnow had fallen, snow on snow, snow on snow,\nIn the bleak midwinter, long ago."
+        },
+        {
+          "ID": 2,
+          "Text": "Our God, Heaven cannot hold Him, nor earth sustain;\nHeaven and earth shall flee away when He comes to reign.\nIn the bleak midwinter a stable place sufficed\nThe Lord God Almighty, Jesus Christ."
+        },
+        {
+          "ID": 3,
+          "Text": "Enough for Him, whom cherubim worship night and day,\nA breastful of milk, and a mangerful of hay;\nEnough for Him, whom angels fall before,\nThe ox and ass and camel which adore."
+        },
+        {
+          "ID": 4,
+          "Text": "What can I give Him, poor as I am?\nIf I were a shepherd, I would bring a lamb;\nIf I were a Wise Man, I would do my part;\nYet what I can I give Him: give my heart."
+        }
+      ],
+      "VideoDuration": 0,
+      "Text": "In The Bleak Midwinter"
+    },
+    {
+      "Author": "Horatio Gates Spafford .",
+      "Copyright": "© Words & Music Public Domain",
+      "CCLI": "25376",
+      "Reference": "Music by Philip Paul Bliss",
+      "Guid": "eCTl6lMtWECL3UGvOadSzA",
+      "Verses": [
+        {
+          "Text": "When peace like a river\nAttendeth my way\nWhen sorrows like sea billows roll\nWhatever my lot\nThou hast taught me to say\nIt is well\nIt is well with my soul"
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "It is well with my soul\nIt is well\nIt is well with my soul"
+        },
+        {
+          "ID": 2,
+          "Text": "Tho' Satan should buffet\nTho' trials should come\nLet this blest assurance control\nThat Christ hath regarded\nMy helpless estate\nAnd hath shed His own blood\nFor my soul"
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "It is well with my soul\nIt is well\nIt is well with my soul"
+        },
+        {
+          "ID": 3,
+          "Text": "My sin O the bliss\nOf this glorious tho't\nMy sin not in part but the whole\nIs nailed to the cross\nAnd I bear it no more\nPraise the Lord\nPraise the Lord O my soul"
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "It is well with my soul\nIt is well\nIt is well with my soul"
+        },
+        {
+          "ID": 4,
+          "Text": "And Lord haste the day\nWhen the faith shall be sight\nThe clouds be rolled back as a scroll\nThe trump shall resound\nAnd the Lord shall descend\nEven so it is well\nWith my soul"
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "It is well with my soul\nIt is well\nIt is well with my soul"
+        }
+      ],
+      "VideoDuration": 0,
+      "Text": "It Is Well With My Soul"
+    },
+    {
+      "Author": "Keity Getty & Kristyn Getty",
+      "Copyright": "© 2011 Getty Music Publishing (Admin. by Music Services, Inc.)",
+      "Guid": "e2cxnLOhh060+/I/9MTNoA",
+      "Verses": [
+        {
+          "Text": "Jesus, joy of the highest heaven,\nBorn as a little baby\nUnder a wondrous star.\n\nLike us, crying he takes His first breath\nHeld by His mother, helpless\nClose to her beating heart\n\nJesus, laid in a lowly manger,\nFacing a world of dangers,\nCome to turn me a stranger\nInto a child of God."
+        },
+        {
+          "ID": 2,
+          "Text": "Jesus, joy of the highest heaven,\nBorn as a little baby\nUnder a wondrous star.\n\nLike us, crying he takes His first breath\nHeld by His mother, helpless\nClose to her beating heart\n\nJesus, laid in a lowly manger,\nFacing a world of dangers,\nCome to turn me a stranger\nInto a child of God."
+        },
+        {
+          "ID": 3,
+          "Text": "Jesus, King of the highest heaven\nLearning to take His first steps,\nThat He might bring us life.\n\nLike us, knowing our smiles and sorrows,\nHe showed the way to follow,\nA way that is true and right.\n\nJesus, take away every darkness,\nSteady my simple footsteps\nThat I might in your goodness\nLive as a child of God."
+        },
+        {
+          "ID": 4,
+          "Text": "Jesus, take away every darkness,\nSteady my simple footsteps\nThat I might in your goodness\nLive as a child of God."
+        }
+      ],
+      "VideoDuration": 0,
+      "Text": "Jesus, Joy of the Highest Heaven"
+    },
+    {
+      "Author": "Keith Getty & Stuart Townend (inc. Music)",
+      "Copyright": "© 2004 Thankyou Music (Admin. by Integrity Music Ltd)",
+      "CCLI": "4408246",
+      "Guid": "N4n4JSgbIUaMTpALEhjAgw",
+      "Verses": [
+        {
+          "Text": "Joy has dawned upon the world\nPromised from creation\nGod's salvation now unfurled\nHope for ev'ry nation\nNot with fanfares from above\nNot with scenes of glory\nBut a humble gift of love\nJesus born of Mary"
+        },
+        {
+          "ID": 2,
+          "Text": "Sounds of wonder fill the sky\nWith the songs of angels\nAs the mighty Prince of Life\nShelters in a stable\nHands that set each star in place\nShaped the earth in darkness\nCling now to a mother's breast\nVulnerable and helpless"
+        },
+        {
+          "ID": 3,
+          "Text": "Shepherds bow before the Lamb\nGazing at the glory\nGifts of men from distant lands\nProphesy the story\nGold a King is born today\nIncense God is with us\nMyrrh His death will make a way\nBy His blood He'll win us"
+        },
+        {
+          "ID": 4,
+          "Text": "Son of Adam Son of heaven\nGiven as a ransom\nReconciling God and man\nChrist our mighty Champion\nWhat a Savior what a Friend\nWhat a glorious mystery\nOnce a babe in Bethlehem\nNow the Lord of history"
+        }
+      ],
+      "VideoDuration": 0,
+      "Text": "Joy Has Dawned"
+    },
+    {
+      "Author": "Isaac Watts (1719). ",
+      "Copyright": "© Words & Music Public Domain",
+      "CCLI": "24016",
+      "Reference": "Tune: Antioch (Handel)",
+      "Guid": "KCnBlGkj90yhcI+5vzMj2A",
+      "Verses": [
+        {
+          "Text": "Joy to the world, the Lord is come!\nLet earth receive her King;\nlet ev’ry heart prepare him room\nand heav’n and nature sing,\nand heav’n and nature sing,\nand heav’n, and heav’n and nature sing."
+        },
+        {
+          "ID": 2,
+          "Text": "Joy to the earth, the Saviour reigns!\nLet men their songs employ,\nwhile fields and floods, rocks, hills, and plains,\nrepeat the sounding joy,\nrepeat the sounding joy,\nrepeat, repeat the sounding joy."
+        },
+        {
+          "ID": 3,
+          "Text": "No more let sins and sorrows grow\nnor thorns infest the ground;\nhe comes to make his blessings flow\nfar as the curse is found,\nfar as the curse is found,\nfar as, far as the curse is found."
+        },
+        {
+          "ID": 4,
+          "Text": "He rules the world with truth and grace\nand makes the nations prove\nthe glories of his righteousness\nand wonders of his love,\nand wonders of his love,\nand wonders, wonders of his love."
+        }
+      ],
+      "VideoDuration": 0,
+      "Style": {
+        "Body": {
+          "FontStyle": {
+            "Fill": { "Type": 0, "Color": "FFFFFFFF" },
+            "Stroke": { "Type": 0, "Color": "FFFFD700" }
+          }
+        },
+        "Background": { "Image": "Carol Background_Plain.jpg" }
+      },
+      "Text": "Joy to the World"
+    },
+    {
+      "Author": "Isaac Watts (1719). ",
+      "Copyright": "© Words & Music Public Domain",
+      "CCLI": "24016",
+      "Reference": "Tune: Antioch (Handel)",
+      "Guid": "ymkHKkrHC0aJumQwT1cl/Q",
+      "Verses": [
+        {
+          "Text": "Joy to the world, the Lord is come!\nLet earth receive her King;\nlet ev’ry heart prepare him room\nand heav’n and nature sing,\nand heav’n and nature sing,\nand heav’n, and heav’n and nature sing."
+        },
+        {
+          "ID": 2,
+          "Text": "Joy to the earth, the Saviour reigns!\nLet men their songs employ,\nwhile fields and floods, rocks, hills, and plains,\nrepeat the sounding joy,\nrepeat the sounding joy,\nrepeat, repeat the sounding joy."
+        },
+        {
+          "ID": 3,
+          "Text": "No more let sins and sorrows grow\nnor thorns infest the ground;\nhe comes to make his blessings flow\nfar as the curse is found,\nfar as the curse is found,\nfar as, far as the curse is found."
+        },
+        {
+          "ID": 4,
+          "Text": "He rules the world with truth and grace\nand makes the nations prove\nthe glories of his righteousness\nand wonders of his love,\nand wonders of his love,\nand wonders, wonders of his love."
+        }
+      ],
+      "VersionDate": "20221224232507",
+      "VideoDuration": 0,
+      "Style": {
+        "Background": { "Brush": { "Type": 0, "Color": "FFFFFFFF" } }
+      },
+      "Text": "Joy to the World"
+    },
+    {
+      "Author": "Henry van Dyke .",
+      "Copyright": "© Words & Music Public Domain",
+      "CCLI": "25321",
+      "Reference": "Music by Ludwig van Beethoven & Edward Hodges",
+      "Guid": "1Kux5F0prkWaQE0tAv17AA",
+      "Verses": [
+        {
+          "Text": "Joyful joyful we adore Thee\nGod of glory Lord of love\nHearts unfold like flow’rs before Thee\nOpening to the sun above"
+        },
+        {
+          "ID": 2,
+          "Text": "Melt the clouds of sin and sadness\nDrive the dark of doubt away\nGiver of immortal gladness\nFill us with the light of day"
+        },
+        {
+          "ID": 3,
+          "Text": "All Thy works with joy surround Thee\nEarth and heav’n reflect Thy rays\nStars and angels sing around Thee\nCenter of unbroken praise"
+        },
+        {
+          "ID": 4,
+          "Text": "Field and forest vale and mountain\nFlowery meadow flashing sea\nChanting bird and flowing fountain\nCall us to rejoice in Thee"
+        },
+        {
+          "ID": 5,
+          "Text": "Thou art giving and forgiving\nEver blessing ever blest\nWellspring of the joy of living\nOcean depth of happy rest"
+        },
+        {
+          "ID": 6,
+          "Text": "Thou our Father Christ our Brother\nAll who live in love are Thine\nTeach us how to love each other\nLift us to the joy divine"
+        },
+        {
+          "ID": 7,
+          "Text": "Mortals join the mighty chorus\nWhich the morning stars began\nFather love is reigning o'er us\nBrother love binds man to man"
+        },
+        {
+          "ID": 8,
+          "Text": "Ever singing march we onward\nVictors in the midst of strife\nJoyful music lifts us sunward\nIn the triumph song of life"
+        }
+      ],
+      "VideoDuration": 0,
+      "Text": "Joyful Joyful We Adore Thee"
+    },
+    {
+      "Author": "John Cennick & Charles Wesley . ",
+      "Copyright": "© Words & Music: Public Domain",
+      "Reference": "Tune: Helmsley",
+      "Guid": "SUTUGb10VE2lu/L1OUjTVw",
+      "Verses": [
+        {
+          "Text": "Lo, he comes with clouds descending,\nonce for favoured sinners slain;\nthousand thousand saints attending\nswell the triumph of his train:\nAlleluia, alleluia, alleluia!\nGod appears on earth to reign."
+        },
+        {
+          "ID": 2,
+          "Text": "Every eye shall now behold him\nrobed in dreadful majesty;\nthose who set at naught and sold him,\npierced and nailed him to the tree,\ndeeply wailing, deeply wailing, deeply wailing,\nshall the true Messiah see."
+        },
+        {
+          "ID": 3,
+          "Text": "Those dear tokens of his passion\nstill his dazzling body bears,\ncause of endless exultation\nto his ransomed worshippers:\nwith what rapture, with what rapture, with what rapture,\ngaze we on those glorious scars!"
+        },
+        {
+          "ID": 4,
+          "Text": "Yea, Amen, let all adore thee,\nhigh on thine eternal throne;\nSaviour, take the power and glory,\nclaim the kingdom for thine own:\nAlleluia, alleluia, alleluia!\nThou shalt reign and thou alone."
+        }
+      ],
+      "VideoDuration": 0,
+      "Text": "Lo, He Comes With Clouds Descending!"
+    },
+    {
+      "Author": "Matt Papa & Matt Boswell (inc. Music)",
+      "Copyright": "© Copyright 2018 Getty Music Hymns & Songs, Getty Music Publishing, Love Your Enemies Publishing, Messenger Hymns",
+      "CCLI": "7127376",
+      "Guid": "jqjo6WgFkEKE5XAi91TrGg",
+      "Verses": [
+        {
+          "Text": "Lord, from sorrows deep I call\nWhen my hope is shaken\nTorn and ruined from the fall\nHear my desperation\nFor so long I’ve pled and prayed\nGod, come to my rescue\nEven so the thorn remains\nStill my heart will praise You"
+        },
+        {
+          "ID": 2,
+          "Text": "Storms within my troubled soul\nQuestions without answers\nOn my faith these billows roll\nGod, be now my shelter\nWhy are you cast down my soul?\nHope in Him who saves you\nWhen the fires have all grown cold\nCause this heart to praise You"
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "And, oh, my soul, put your hope in God\nMy help, my Rock, I will praise Him\nSing, oh, sing through the raging storm\nYou’re still my God, my salvation"
+        },
+        {
+          "ID": 3,
+          "Text": "Should my life be torn from me\nEvery worldly pleasure\nWhen all I possess is grief\nGod, be then my treasure\nBe my vision in the night\nBe my hope and refuge\nTill my faith is turned to sight\nLord, my heart will praise You"
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "And, oh, my soul, put your hope in God\nMy help, my Rock, I will praise Him\nSing, oh, sing through the raging storm\nYou’re still my God, my salvation (repeat)"
+        }
+      ],
+      "VideoDuration": 0,
+      "Text": "Lord from Sorrows Deep I Call"
+    },
+    {
+      "Author": "Matt Crocker & Brooke Ligertwood (inc. Music)",
+      "Copyright": "© 2012 Hillsong Music Publishing Australia (Admin. by Hillsong Music Publishing UK).",
+      "CCLI": "6476063",
+      "Guid": "JPL+1K1vmEWpLbU/2CxrVw",
+      "Verses": [
+        {
+          "Text": "Man of sorrows Lamb of God\nBy His own betrayed\nThe sin of man and wrath of God\nHas been on Jesus laid"
+        },
+        {
+          "ID": 2,
+          "Text": "Silent as He stood accused\nBeaten mocked and scorned\nBowing to the Father's will\nHe took a crown of thorns"
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "Oh that rugged cross my salvation\nWhere Your love poured out over me\nNow my soul cries out hallelujah\nPraise and honour unto Thee"
+        },
+        {
+          "ID": 3,
+          "Text": "Sent of heaven God's own Son\nTo purchase and redeem\nAnd reconcile the very ones\nWho nailed Him to that tree"
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "Oh that rugged cross my salvation\nWhere Your love poured out over me\nNow my soul cries out hallelujah\nPraise and honour unto Thee"
+        },
+        {
+          "Tag": 3,
+          "ID": 0,
+          "Text": "Now my debt is paid\nIt is paid in full\nBy the precious blood\nThat my Jesus spilled\nNow the curse of sin\nHas no hold on me\nWhom the Son sets free\nOh is free indeed"
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "Oh that rugged cross my salvation\nWhere Your love poured out over me\nNow my soul cries out hallelujah\nPraise and honour unto Thee"
+        },
+        {
+          "ID": 4,
+          "Text": "See the stone is rolled away\nBehold the empty tomb\nHallelujah God be praised\nHe's risen from the grave"
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "Oh that rugged cross my salvation\nWhere Your love poured out over me\nNow my soul cries out hallelujah\nPraise and honour unto Thee"
+        }
+      ],
+      "VideoDuration": 0,
+      "Text": "Man of Sorrows (Hillsong Version)"
+    },
+    {
+      "Author": "P. P. Bliss (1875) inc. Music",
+      "Copyright": "© Words & Music: Public Domain",
+      "CCLI": "1589969",
+      "Guid": "H9j2RdD2z0elmSza6Gv+MA",
+      "Verses": [
+        {
+          "Text": "Man of sorrows what a name\nfor the Son of God, who came\nruined sinners to reclaim:\nHallelujah, what a Saviour!"
+        },
+        {
+          "ID": 2,
+          "Text": "Bearing shame and scoffing rude,\nin my place condemned he stood,\nsealed my pardon with his blood:\nHallelujah, what a Saviour!"
+        },
+        {
+          "ID": 3,
+          "Text": "Guilty, helpless, lost were we;\nblameless Lamb of God was he,\nsacrificed to set us free:\nHallelujah, what a Saviour!"
+        },
+        {
+          "ID": 4,
+          "Text": "He was lifted up to die;\n\"It is finished\" was his cry;\nnow in heaven exalted high:\nHallelujah, what a Saviour!"
+        },
+        {
+          "ID": 5,
+          "Text": "When he comes, our glorious King,\nall his ransomed home to bring,\nthen anew this song we'll sing:\nHallelujah, what a Saviour!"
+        }
+      ],
+      "VideoDuration": 0,
+      "Text": "Man of Sorrows (Traditional)"
+    },
+    {
+      "Author": "Stuart Townend & Keith Getty (inc. Music)",
+      "Copyright": "© Copyright 2003 Thankyou Music",
+      "CCLI": "4108704",
+      "Guid": "evAZ9JAlbEu1X26dGEtb4g",
+      "Verses": [
+        {
+          "Text": "My heart is filled with thankfulness\nTo Him who bore my pain\nWho plumbed the depths of my disgrace\nAnd gave me life again"
+        },
+        {
+          "ID": 2,
+          "Text": "Who crushed my curse of sinfulness\nAnd clothed me with His light\nAnd wrote His law of righteousness\nWith pow'r upon my heart"
+        },
+        {
+          "ID": 3,
+          "Text": "My heart is filled with thankfulness\nTo Him who walks beside\nWho floods my weaknesses with strength\nAnd causes fears to fly"
+        },
+        {
+          "ID": 4,
+          "Text": "Whose every promise is enough\nFor every step I take\nSustaining me with arms of love\nAnd crowning me with grace"
+        },
+        {
+          "ID": 5,
+          "Text": "My heart is filled with thankfulness\nTo Him who reigns above\nWhose wisdom is my perfect peace\nWhose every thought is love"
+        },
+        {
+          "ID": 6,
+          "Text": "For every day I have on earth\nIs given by the King\nSo I will give my life my all\nTo love and follow Him"
+        }
+      ],
+      "VideoDuration": 0,
+      "Text": "My Heart Is Filled"
+    },
+    {
+      "Author": "Edward Mote (1834) .",
+      "Copyright": "© Words & Music Public Domain",
+      "CCLI": "2836463",
+      "Reference": "Music: Solid Rock",
+      "Guid": "HwcnVwUrZEife+weg/6HwQ",
+      "Verses": [
+        {
+          "Text": "My hope is built on nothing less\nthan Jesus’ blood and righteousness.\nI dare not trust the sweetest frame\nbut wholly lean on Jesus’ name."
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "On Christ, the solid rock, I stand;\nall other ground is sinking sand,\nall other ground is sinking sand."
+        },
+        {
+          "ID": 2,
+          "Text": "In ev’ry rough and stormy gale,\nmy anchor holds within the vale.\nWhen all around my soul gives way,\nhe then is all my hope and stay."
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "On Christ, the solid rock, I stand;\nall other ground is sinking sand,\nall other ground is sinking sand."
+        },
+        {
+          "ID": 3,
+          "Text": "His oath, his covenant, his blood,\nsupport me in the whelming flood;\nwhen all around my soul gives way,\nHe then is all my hope and stay."
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "On Christ, the solid rock, I stand;\nall other ground is sinking sand,\nall other ground is sinking sand."
+        },
+        {
+          "ID": 4,
+          "Text": "When he shall come with trumpet sound,\noh, may I then in him be found,\ndressed in his righteousness alone,\nfaultless to stand before the throne."
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "On Christ, the solid rock, I stand;\nall other ground is sinking sand,\nall other ground is sinking sand."
+        }
+      ],
+      "VideoDuration": 0,
+      "Text": "My Hope Is Built On Nothing Less"
+    },
+    {
+      "Author": "Samuel Crossman .",
+      "Copyright": "© Words & Music: Public Domain",
+      "Reference": "Music by John Ireland",
+      "Guid": "ytwXgfoqt02cN0Dxie8ubw",
+      "Verses": [
+        {
+          "Text": "My song is love unknown,\nMy Saviour’s love to me;\nLove to the loveless shown,\nThat they might lovely be.\nO who am I,\nThat for my sake\nMy Lord should take\nFrail flesh, and die?"
+        },
+        {
+          "ID": 2,
+          "Text": "He came from His blest throne\nSalvation to bestow;\nBut men made strange, and none\nThe longed-for Christ would know:\nBut oh, my Friend,\nMy Friend indeed,\nWho at my need\nHis life did spend."
+        },
+        {
+          "ID": 3,
+          "Text": "Sometimes they strew His way,\nAnd His sweet praises sing;\nResounding all the day\nHosannas to their King:\nThen “Crucify!”\nIs all their breath,\nAnd for His death\nThey thirst and cry."
+        },
+        {
+          "ID": 4,
+          "Text": "They rise and needs will have\nMy dear Lord made away;\nA murderer they save,\nThe Prince of life they slay.\nYet cheerful He\nTo suffering goes,\nThat He His foes\nFrom thence might free."
+        },
+        {
+          "ID": 5,
+          "Text": "In life, no house, no home\nMy Lord on earth might have;\nIn death, no friendly tomb,\nBut what a stranger gave.\nWhat may I say?\nHeav’n was His home;\nBut mine the tomb\nWherein He lay."
+        },
+        {
+          "ID": 6,
+          "Text": "Here might I stay and sing,\nNo story so divine;\nNever was love, dear King,\nNever was grief like Thine.\nThis is my Friend,\nIn whose sweet praise\nI all my days\nCould gladly spend."
+        }
+      ],
+      "VideoDuration": 0,
+      "Text": "My Song Is Love Unknown"
+    },
+    {
+      "Author": "Robert Lowry (inc. Music)",
+      "Copyright": "© Words & Music: Public Domain",
+      "CCLI": "21332",
+      "Guid": "1DUDBvisp0y3SYS2PJbPkg",
+      "Verses": [
+        {
+          "Text": "What can wash away my sin\nNothing but the blood of Jesus\nWhat can make me whole again\nNothing but the blood of Jesus"
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "O precious is the flow\nThat makes me white as snow\nNo other fount I know\nNothing but the blood of Jesus"
+        },
+        {
+          "ID": 2,
+          "Text": "For my pardon this I see\nNothing but the blood of Jesus\nFor my cleansing this my plea\nNothing but the blood of Jesus"
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "O precious is the flow\nThat makes me white as snow\nNo other fount I know\nNothing but the blood of Jesus"
+        },
+        {
+          "ID": 3,
+          "Text": "Nothing can for sin atone\nNothing but the blood of Jesus\nNaught of good that I have done\nNothing but the blood of Jesus"
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "O precious is the flow\nThat makes me white as snow\nNo other fount I know\nNothing but the blood of Jesus"
+        },
+        {
+          "ID": 4,
+          "Text": "This is all my hope and peace\nNothing but the blood of Jesus\nThis is all my righteousness\nNothing but the blood of Jesus"
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "O precious is the flow\nThat makes me white as snow\nNo other fount I know\nNothing but the blood of Jesus"
+        }
+      ],
+      "VideoDuration": 0,
+      "Text": "Nothing But The Blood"
+    },
+    {
+      "Author": "Keith Getty & Stuart Townend (inc. Music)",
+      "Copyright": "© Copyright 2005 Thankyou Music",
+      "CCLI": "4611992",
+      "Guid": "AhokWTgmfEG5tDYbnhqrXA",
+      "Verses": [
+        {
+          "Text": "O church arise and put your armour on\nHear the call of Christ our Captain\nFor now the weak can say that they are strong\nIn the strength that God has given"
+        },
+        {
+          "ID": 2,
+          "Text": "With shield of faith and belt of truth\nWe'll stand against the devil's lies\nAn army bold whose battle cry is Love\nReaching out to those in darkness"
+        },
+        {
+          "ID": 3,
+          "Text": "Our call to war to love the captive soul\nBut to rage against the captor\nAnd with the sword that makes the wounded whole\nWe will fight with faith and valour"
+        },
+        {
+          "ID": 4,
+          "Text": "When faced with trials on every side\nWe know the outcome is secure\nAnd Christ will have the prize for which He died\nAn inheritance of nations"
+        },
+        {
+          "ID": 5,
+          "Text": "Come see the cross where love and mercy meet\nAs the Son of God is stricken\nThen see His foes lie crushed beneath His feet\nFor the Conqueror has risen"
+        },
+        {
+          "ID": 6,
+          "Text": "And as the stone is rolled away\nAnd Christ emerges from the grave\nThis victory march continues till the day\nEvery eye and heart shall see Him"
+        },
+        {
+          "ID": 7,
+          "Text": "So Spirit come put strength in every stride\nGive grace for every hurdle\nThat we may run with faith to win the prize\nOf a servant good and faithful"
+        },
+        {
+          "ID": 8,
+          "Text": "As saints of old still line the way\nRetelling triumphs of His grace\nWe hear their calls and hunger for the day\nWhen with Christ we stand in glory"
+        }
+      ],
+      "VideoDuration": 0,
+      "Text": "O Church Arise"
+    },
+    {
+      "Author": "John Francis Wade (attributed to); translated by Frederick Oakley. ",
+      "Copyright": "© Words & Music Public Domain",
+      "CCLI": "4758525",
+      "Reference": "Tune: Adeste Fideles",
+      "Guid": "ipgzNK72r0CxgutM6Y36+g",
+      "Verses": [
+        {
+          "Text": "O come, all ye faithful, joyful and triumphant!\nO come ye, O come ye, to Bethlehem\nCome and behold Him\nBorn the King of Angels"
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "O come, let us adore Him\nO come, let us adore Him\nO come, let us adore Him\nChrist the Lord!"
+        },
+        {
+          "ID": 2,
+          "Text": "God of God, Light of Light\nLo, He abhors not the Virgin's womb\nVery God\nBegotten, not created"
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "O come, let us adore Him\nO come, let us adore Him\nO come, let us adore Him\nChrist the Lord!"
+        },
+        {
+          "ID": 3,
+          "Text": "Sing, choirs of angels, sing in exultation\nSing, all ye citizens of heaven above!\nGlory to God\nIn the Highest"
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "O come, let us adore Him\nO come, let us adore Him\nO come, let us adore Him\nChrist the Lord!"
+        },
+        {
+          "ID": 4,
+          "Text": "Yea, Lord, we greet Thee, born this happy morning\nJesus, to Thee be glory given\nWord of the Father\nNow in flesh appearing"
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "O come, let us adore Him\nO come, let us adore Him\nO come, let us adore Him\nChrist the Lord!"
+        }
+      ],
+      "VideoDuration": 0,
+      "Style": {
+        "Background": { "Brush": { "Type": 0, "Color": "FFFFFFFF" } }
+      },
+      "Text": "O Come All Ye Faithful"
+    },
+    {
+      "Author": "John Francis Wade (attributed to); translated by Frederick Oakley. ",
+      "Copyright": "© Words & Music Public Domain",
+      "CCLI": "4758525",
+      "Reference": "Tune: Adeste Fideles",
+      "Guid": "X33bh95pM0Kwe60RnFffdw",
+      "Verses": [
+        {
+          "Text": "O come, all ye faithful, joyful and triumphant!\nO come ye, O come ye, to Bethlehem\nCome and behold Him\nBorn the King of Angels"
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "O come, let us adore Him\nO come, let us adore Him\nO come, let us adore Him\nChrist the Lord!"
+        },
+        {
+          "ID": 2,
+          "Text": "God of God, Light of Light\nLo, He abhors not the Virgin's womb\nVery God\nBegotten, not created"
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "O come, let us adore Him\nO come, let us adore Him\nO come, let us adore Him\nChrist the Lord!"
+        },
+        {
+          "ID": 3,
+          "Text": "Sing, choirs of angels, sing in exultation\nSing, all ye citizens of heaven above!\nGlory to God\nIn the Highest"
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "O come, let us adore Him\nO come, let us adore Him\nO come, let us adore Him\nChrist the Lord!"
+        },
+        {
+          "ID": 4,
+          "Text": "Yea, Lord, we greet Thee, born this happy morning\nJesus, to Thee be glory given\nWord of the Father\nNow in flesh appearing"
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "O come, let us adore Him\nO come, let us adore Him\nO come, let us adore Him\nChrist the Lord!"
+        }
+      ],
+      "VersionDate": "20221210223804",
+      "VideoDuration": 0,
+      "Style": {
+        "Body": {
+          "FontStyle": {
+            "Fill": { "Type": 0, "Color": "FFFFFFFF" },
+            "Stroke": { "Type": 0, "Color": "FFFFD700" }
+          }
+        },
+        "Background": { "Image": "Carol Background_Plain.jpg" }
+      },
+      "Text": "O Come All Ye Faithful"
+    },
+    {
+      "Author": "Unknown. ",
+      "Copyright": "© Words & Music Public Domain",
+      "CCLI": "31982",
+      "Reference": "Translated by John Mason Neale | Tune: Veni Emmanuel | Arranged by Thomas Helmore",
+      "Guid": "FiD0bnGiIUmQA/DJ5Kls9A",
+      "Verses": [
+        {
+          "Text": "O Come, O Come, Immanuel,\nAnd ransom captive Israel,\nThat mourns in lonely exile here\nUntil the Son of God appear. "
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "Rejoice! Rejoice! Immanuel\nshall come to Thee, O Israel."
+        },
+        {
+          "ID": 2,
+          "Text": "O come, O come, Thou Lord of might,\nWho to Thy tribes, on Sinai's height,\nIn ancient times didst give the law\nIn cloud and majesty and awe. "
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "Rejoice! Rejoice! Immanuel\nshall come to you, O Israel."
+        },
+        {
+          "ID": 3,
+          "Text": "O come, Thou Rod of Jesse, free\nThine own from Satan's tyranny;\nFrom depths of hell Thy people save,\nAnd give them victory o'er the grave. "
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "Rejoice! Rejoice! Immanuel\nshall come to you, O Israel."
+        },
+        {
+          "ID": 4,
+          "Text": "O come, Thou Dayspring, come and cheer\nOur spirits by Thine advent here;\nDisperse the gloomy clouds of night,\nAnd death's dark shadows put to flight. "
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "Rejoice! Rejoice! Immanuel\nshall come to you, O Israel."
+        },
+        {
+          "ID": 5,
+          "Text": "O come, Thou Key of David, come,\nAnd open wide our heavenly home;\nMake safe the way that leads on high,\nAnd close the path to misery."
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "Rejoice! Rejoice! Immanuel\nshall come to you, O Israel."
+        }
+      ],
+      "VideoDuration": 0,
+      "Style": {
+        "Header": {
+          "FontStyle": {
+            "Fill": { "Type": 0, "Color": "FF000000" },
+            "Stroke": { "Type": 0, "Color": "FFFFD700" }
+          }
+        },
+        "Body": {
+          "FontStyle": {
+            "Fill": { "Type": 0, "Color": "FF000000" },
+            "Stroke": { "Type": 0, "Color": "FFFFD700" }
+          }
+        },
+        "Background": { "Brush": { "Type": 0, "Color": "FFFFFFFF" } }
+      },
+      "Text": "O Come, O Come, Immanuel"
+    },
+    {
+      "Author": "Charles Wesley",
+      "Copyright": "© Words & Music: Public Domain",
+      "CCLI": "863569",
+      "Guid": "hwIE620s/EemO5djrjx+yg",
+      "Verses": [
+        {
+          "Text": "O for a thousand tongues, to sing\nMy great Redeemer's praise,\nMy great Redeemer's praise,\nThe glories of my God and King,\nThe triumphs of His grace!\nThe triumphs of His grace!\nThe triumphs of His grace!"
+        },
+        {
+          "ID": 2,
+          "Text": "My gracious Master and my God,\nAssist me to proclaim,\nAssist me to proclaim,\nTo spread through all the earth abroad\nThe honours of Thy name.\nThe honours of Thy name.\nThe honours of Thy name."
+        },
+        {
+          "ID": 3,
+          "Text": "Jesus! the name that charms our fears,\nThat bids our sorrows cease,\nThat bids our sorrows cease;\n'Tis music in the sinner's ears,\n'Tis life, and health, and peace.\n'Tis life, and health, and peace.\n'Tis life, and health, and peace."
+        },
+        {
+          "ID": 4,
+          "Text": "He breaks the power of cancelled sin,\nHe sets the prisoner free,\nHe sets the prisoner free;\nHis blood can make the foulest clean,\nHis blood availed for me.\nHis blood availed for me.\nHis blood availed for me."
+        },
+        {
+          "ID": 5,
+          "Text": "He speaks and listening to His voice,\nNew life the dead receive,\nNew life the dead receive,\nThe mournful broken hearts rejoice,\nThe humble poor believe.\nThe humble poor believe.\nThe humble poor believe."
+        }
+      ],
+      "VideoDuration": 0,
+      "Text": "O For A Thousand Tongues To Sing (Lyngham)"
+    },
+    {
+      "Author": "Bob Kauflin (inc. Music)",
+      "Copyright": "© 2006 Sovereign Grace Praise (Admin. by Integrity Music Ltd)",
+      "CCLI": "4348399",
+      "Guid": "i9uTpPZ/G0q9jmv1fF7vww",
+      "Verses": [
+        {
+          "Text": "O great God of highest heav'n\nOccupy my lowly heart\nOwn it all and reign supreme\nConquer ev'ry rebel pow'r"
+        },
+        {
+          "ID": 2,
+          "Text": "Let no vice or sin remain\nThat resists Your holy war\nYou have loved and purchased me\nMake me Yours forever more"
+        },
+        {
+          "ID": 3,
+          "Text": "I was blinded by my sin\nHad no ears to hear Your voice\nDid not know Your love within\nHad no taste for heaven's joys"
+        },
+        {
+          "ID": 4,
+          "Text": "Then Your Spirit gave me life\nOpened up Your word to me\nThrough the gospel of Your Son\nGave me endless hope and peace"
+        },
+        {
+          "ID": 5,
+          "Text": "Help me now to live a life\nThat's dependent on Your grace\nKeep my heart and guard my soul\nFrom the evils that I face"
+        },
+        {
+          "ID": 6,
+          "Text": "You are worthy to be praised\nWith my ev'ry thought and deed\nO great God of highest heav'n\nGlorify Your Name through me (repeat)"
+        }
+      ],
+      "VideoDuration": 0,
+      "Text": "O Great God"
+    },
+    {
+      "Author": "Phillips Brooks (1868). ",
+      "Copyright": "© Words & Music Public Domain",
+      "CCLI": "1741697",
+      "Reference": "Tune: Forest Green",
+      "Guid": "yRUV1KgM/0+BEeiu7W6YEg",
+      "Verses": [
+        {
+          "Text": "O little town of Bethlehem,\nhow still we see thee lie!\nAbove thy deep and dreamless sleep\nthe silent stars go by."
+        },
+        {
+          "ID": 2,
+          "Text": "Yet in thy dark streets shineth\nthe everlasting light;\nthe hopes and fears of all the years\nare met in thee tonight."
+        },
+        {
+          "ID": 3,
+          "Text": "For Christ is born of Mary\nand, gathered all above,\nwhile mortals sleep, the angels keep\ntheir watch of wond'ring love."
+        },
+        {
+          "ID": 4,
+          "Text": "O morning stars, together\nproclaim the holy birth,\nand praises sing to God the King,\nand peace to all the earth."
+        },
+        {
+          "ID": 5,
+          "Text": "How silently, how silently\nthe wondrous gift is giv'n!\nSo God imparts to human hearts\nthe blessings of His heav'n."
+        },
+        {
+          "ID": 6,
+          "Text": "No ear may hear His coming,\nbut in this world of sin,\nwhere meek souls will receive Him still\nthe dear Christ enters in."
+        },
+        {
+          "ID": 7,
+          "Text": "O holy Child of Bethlehem,\ndescend to us, we pray,\ncast out our sin and enter in,\nbe born in us today."
+        },
+        {
+          "ID": 8,
+          "Text": "We hear the Christmas angels\nthe great glad tidings tell;\nO come to us, abide with us,\nour Lord Immanuel!"
+        }
+      ],
+      "VersionDate": "20221217183808",
+      "VideoDuration": 0,
+      "Style": {
+        "Body": {
+          "FontStyle": {
+            "Fill": { "Type": 0, "Color": "FFFFFFFF" },
+            "Stroke": { "Type": 0, "Color": "FFFFD700" }
+          }
+        },
+        "Background": { "Image": "Carol Background_Plain.jpg" }
+      },
+      "Text": "O Little Town of Bethlehem"
+    },
+    {
+      "Author": "Phillips Brooks (1868). ",
+      "Copyright": "© Words & Music Public Domain",
+      "CCLI": "1741697",
+      "Reference": "Tune: Forest Green",
+      "Guid": "UxCb+2uW6UKAyPiOLj3c8w",
+      "Verses": [
+        {
+          "Text": "O little town of Bethlehem,\nhow still we see thee lie!\nAbove thy deep and dreamless sleep\nthe silent stars go by."
+        },
+        {
+          "ID": 2,
+          "Text": "Yet in thy dark streets shineth\nthe everlasting light;\nthe hopes and fears of all the years\nare met in thee tonight."
+        },
+        {
+          "ID": 3,
+          "Text": "For Christ is born of Mary\nand, gathered all above,\nwhile mortals sleep, the angels keep\ntheir watch of wond'ring love."
+        },
+        {
+          "ID": 4,
+          "Text": "O morning stars, together\nproclaim the holy birth,\nand praises sing to God the King,\nand peace to all the earth."
+        },
+        {
+          "ID": 5,
+          "Text": "How silently, how silently\nthe wondrous gift is giv'n!\nSo God imparts to human hearts\nthe blessings of His heav'n."
+        },
+        {
+          "ID": 6,
+          "Text": "No ear may hear His coming,\nbut in this world of sin,\nwhere meek souls will receive Him still\nthe dear Christ enters in."
+        },
+        {
+          "ID": 7,
+          "Text": "O holy Child of Bethlehem,\ndescend to us, we pray,\ncast out our sin and enter in,\nbe born in us today."
+        },
+        {
+          "ID": 8,
+          "Text": "We hear the Christmas angels\nthe great glad tidings tell;\nO come to us, abide with us,\nour Lord Immanuel!"
+        }
+      ],
+      "VideoDuration": 0,
+      "Style": { "Background": { "Image": "Carol Service Graphic.jpg" } },
+      "Text": "O Little Town of Bethlehem"
+    },
+    {
+      "Author": "Benjamin Hastings, Dean Ussher, Marty Sampson (inc. Music)",
+      "Copyright": "© Copyright 2015 Hillsong Music Publishing",
+      "CCLI": "7037787",
+      "Guid": "Kw2L+Dw680iphNcJZbyEUA",
+      "Verses": [
+        {
+          "Text": "I cast my mind to Calvary\nWhere Jesus bled and died for me\nI see His wounds, His hands, His feet\nMy Saviour on that cursed tree"
+        },
+        {
+          "ID": 2,
+          "Text": "His body bound and drenched in tears\nThey laid Him down in Joseph's tomb\nThe entrance sealed by heavy stone\nMessiah still and all alone"
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "O praise the name of the Lord our God\nO praise His name forever more\nFor endless days we will sing Your praise\nOh Lord, oh Lord our God"
+        },
+        {
+          "ID": 3,
+          "Text": "Then on the third at break of dawn\nThe Son of heaven rose again\nO trampled death where is your sting?\nThe angels roar for Christ the King"
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "O praise the name of the Lord our God\nO praise His name forever more\nFor endless days we will sing Your praise\nOh Lord, oh Lord our God"
+        },
+        {
+          "ID": 4,
+          "Text": "He shall return in robes of white\nThe blazing Son shall pierce the night\nAnd I will rise among the saints\nMy gaze transfixed on Jesus' face"
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "O praise the name of the Lord our God\nO praise His name forever more\nFor endless days we will sing Your praise\nOh Lord, oh Lord our God"
+        },
+        {
+          "Tag": 6,
+          "ID": 0,
+          "Text": "O praise the name of the Lord our God\nO praise His name forever more\nFor endless days we will sing Your praise\nOh Lord, oh Lord our God"
+        }
+      ],
+      "VideoDuration": 0,
+      "Text": "O Praise The Name (Anástasis)"
+    },
+    {
+      "Author": "Samuel Trevor Francis .",
+      "Copyright": "© Words & Music: Public Domain",
+      "CCLI": "137178",
+      "Reference": "Music by Thomas John Williams",
+      "Guid": "eq8yVJY1hkiGfUF6Jws6Rw",
+      "Verses": [
+        {
+          "Text": "O the deep, deep love of Jesus!\nVast, unmeasured, boundless, free,\nRolling as a mighty ocean\nIn its fullness over me."
+        },
+        {
+          "ID": 2,
+          "Text": "Underneath me, all around me,\nIs the current of Thy love;\nLeading onward, leading homeward,\nTo Thy glorious rest above."
+        },
+        {
+          "ID": 3,
+          "Text": "O the deep, deep love of Jesus!\nSpread His praise from shore to shore;\nHow He loveth, ever loveth,\nChangeth never, nevermore;"
+        },
+        {
+          "ID": 4,
+          "Text": "How He watches o'er His loved ones,\nDied to call them all His own;\nHow for them He intercedeth,\nWatches over them from the throne."
+        },
+        {
+          "ID": 5,
+          "Text": "O the deep, deep love of Jesus!\nLove of every love the best:\n'Tis an ocean vast of blessing,\n'Tis a haven sweet of rest."
+        },
+        {
+          "ID": 6,
+          "Text": "O the deep, deep love of Jesus!\n'Tis a heaven of heavens to me;\nAnd it lifts me up to glory,\nFor it lifts me up to Thee."
+        }
+      ],
+      "VideoDuration": 0,
+      "Text": "O The Deep, Deep Love of Jesus"
+    },
+    {
+      "Author": "Keith Getty, Kristyn Getty, Ross Holmes & Stuart Townend (inc. Music)",
+      "Copyright": "© Copyright 2012 Getty Music Publishing, Parakeet Boots Music, Townend Songs",
+      "CCLI": "6399212",
+      "Guid": "z1+8j1ynxkuM3hoFeGJjSw",
+      "Verses": [
+        {
+          "Text": "Oh how good it is\nWhen the family of God\nDwells together in spirit\nIn faith and unity"
+        },
+        {
+          "ID": 2,
+          "Text": "Where the bonds of peace\nOf acceptance and love\nAre the fruit of His presence\nHere among us"
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "So with one voice we'll sing to the Lord\nAnd with one heart we'll live out His word\nTill the whole earth sees\nThe Redeemer has come\nFor He dwells in the presence of His people"
+        },
+        {
+          "ID": 3,
+          "Text": "Oh how good it is\nOn this journey we share\nTo rejoice with the happy\nAnd weep with those who mourn"
+        },
+        {
+          "ID": 4,
+          "Text": "For the weak find strength\nThe afflicted find grace\nWhen we offer the blessing\nOf belonging"
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "So with one voice we'll sing to the Lord\nAnd with one heart we'll live out His word\nTill the whole earth sees\nThe Redeemer has come\nFor He dwells in the presence of His people"
+        },
+        {
+          "ID": 5,
+          "Text": "Oh how good it is\nTo embrace His command\nTo prefer one another\nForgive as He forgives"
+        },
+        {
+          "ID": 6,
+          "Text": "When we live as one\nWe all share in the love\nOf the Son with the Father\nAnd the Spirit"
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "So with one voice we'll sing to the Lord\nAnd with one heart we'll live out His word\nTill the whole earth sees\nThe Redeemer has come\nFor He dwells in the presence of His people"
+        }
+      ],
+      "VideoDuration": 0,
+      "Text": "Oh How Good It Is"
+    },
+    {
+      "Author": "Henry Francis Lyte .",
+      "Copyright": "© Words & Music Public Domain",
+      "CCLI": "800443",
+      "Reference": "Music by John Goss",
+      "Guid": "8dlea/ursUCMGiI4CDbbHw",
+      "Verses": [
+        {
+          "Text": "Praise my soul the King of heaven\nTo His feet thy tribute bring\nRansomed healed restored forgiven\nWho like thee His praise should sing"
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "Praise Him Praise Him\nPraise Him Praise Him\nPraise the everlasting King"
+        },
+        {
+          "ID": 2,
+          "Text": "Praise Him for His grace and favour\nTo our fathers in distress\nPraise Him still the same forever\nSlow to chide and swift to bless"
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "Praise Him Praise Him\nPraise Him Praise Him\nGlorious in His faithfulness"
+        },
+        {
+          "ID": 3,
+          "Text": "Father-like He tends and spares us\nWell our feeble frame He knows\nIn His hands He gently bears us\nRescues us from all our foes"
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "Praise Him Praise Him\nPraise Him Praise Him\nWidely as His mercy flows"
+        },
+        {
+          "ID": 4,
+          "Text": "Angels in the height adore Him\nYe behold Him face to face\nSun and moon bow down before Him\nDwellers all in time and space"
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "Praise Him Praise Him\nPraise Him Praise Him\nPraise with us the God of grace"
+        }
+      ],
+      "VideoDuration": 0,
+      "Text": "Praise my Soul the King of Heaven"
+    },
+    {
+      "Author": "Henry Francis Lyte. ",
+      "Copyright": "© Words & Music: Public Domain",
+      "CCLI": "800443",
+      "Reference": "Music by John Goss",
+      "Guid": "2ZoBhfffwE2Nzd2QkL2F/g",
+      "Verses": [
+        {
+          "Text": "Praise, my soul, the King of heaven\nTo His feet thy tribute bring\nRansomed, healed, restored, forgiven\nWho like thee His praise should sing?\nPraise Him, Praise Him!\nPraise Him, Praise Him!\nPraise the everlasting King!"
+        },
+        {
+          "ID": 2,
+          "Text": "Praise Him for His grace and favour\nTo our fathers in distress\nPraise Him still the same forever\nSlow to chide and quick to bless\nPraise Him, Praise Him!\nPraise Him, Praise Him!\nGlorious in His faithfulness"
+        },
+        {
+          "ID": 3,
+          "Text": "Father-like He tends and spares us\nWell our feeble frame He knows\nIn His hands He gently bears us\nRescues us from all our foes\nPraise Him, Praise Him!\nPraise Him, Praise Him!\nWidely as His mercy flows"
+        },
+        {
+          "ID": 4,
+          "Text": "Angels in the heav'ns adore Him\nWho behold Him face to face\nSun and moon bow down before Him\nDwellers all in time and space\nPraise Him, Praise Him!\nPraise Him, Praise Him!\nPraise with us the God of grace!"
+        }
+      ],
+      "VideoDuration": 0,
+      "Text": "Praise My Soul The King Of Heaven (Praise My Soul)"
+    },
+    {
+      "Author": "Joachim Neander. Translated by Catherine Winkworth",
+      "Copyright": "© Words & Music: Public Domain",
+      "CCLI": "43073",
+      "Guid": "ckF3mWBcfUqu/CaTrPsrNA",
+      "Verses": [
+        {
+          "Text": "Praise to the Lord the Almighty\nThe King of creation\nO my soul praise Him\nFor He is thy health and salvation\nAll ye who hear now to His temple draw near\nPraise Him in glad adoration"
+        },
+        {
+          "ID": 2,
+          "Text": "Praise to the Lord Who o'er all things\nSo wondrously reigneth\nShelters thee under His wings\nYea so gently sustaineth\nHast thou not seen how thy desires e'er have been\nGranted in what He ordaineth"
+        },
+        {
+          "ID": 3,
+          "Text": "Praise to the Lord Who doth prosper\nThy work and defend thee\nSurely His goodness and mercy here daily attend thee\nPonder anew what the Almighty can do\nIf with His love He befriend thee"
+        },
+        {
+          "ID": 4,
+          "Text": "Praise to the Lord\nO let all that is in me adore Him\nAll that hath life and breath\nCome now with praises before Him\nLet the amen sound from His people again\nGladly for all we adore Him"
+        }
+      ],
+      "VideoDuration": 0,
+      "Text": "Praise to the Lord, the Almighty"
+    },
+    {
+      "Author": "Keith Getty & Stuart Townend (inc. Music)",
+      "Copyright": "© Copyright 2003 Thankyou Music",
+      "CCLI": "4108797",
+      "Guid": "KK4x4wrAoEOm/DFIQlCUIQ",
+      "Verses": [
+        {
+          "Text": "See what a morning gloriously bright\nWith the dawning of hope in Jerusalem\nFolded the grave-clothes tomb filled with light\nAs the angels announce Christ is risen"
+        },
+        {
+          "ID": 2,
+          "Text": "See God's salvation plan wrought in love\nBorne in pain paid in sacrifice\nFulfilled in Christ the Man for He lives\nChrist is risen from the dead"
+        },
+        {
+          "ID": 3,
+          "Text": "See Mary weeping where is He laid\nAs in sorrow she turns from the empty tomb\nHears a voice speaking calling her name\nIt's the Master the Lord raised to life again"
+        },
+        {
+          "ID": 4,
+          "Text": "The voice that spans the years\nSpeaking life stirring hope bringing peace to us\nWill sound till He appears\nFor He lives Christ is risen from the dead"
+        },
+        {
+          "ID": 5,
+          "Text": "One with the Father Ancient of Days\nThrough the Spirit who clothes faith with certainty\nHonour and blessing glory and praise\nTo the King crowned with pow’r and authority"
+        },
+        {
+          "ID": 6,
+          "Text": "And we are raised with Him\nDeath is dead love has won Christ has conquered\nAnd we shall reign with Him\nFor He lives Christ is risen from the dead"
+        }
+      ],
+      "VideoDuration": 0,
+      "Text": "Resurrection Hymn (See What a Morning)"
+    },
+    {
+      "Author": "Augustus Montague Toplady .",
+      "Copyright": "© Words & Music Public Domain",
+      "CCLI": "40588",
+      "Reference": "Music by Thomas Hastings",
+      "Guid": "EzqMX+zi3UO7lMjyEt3l5w",
+      "Verses": [
+        {
+          "Text": "Rock of Ages cleft for me\nLet me hide myself in thee\nLet the water and the blood\nFrom thy wounded side which flowed\nBe of sin the double cure\nSave from wrath and make me pure"
+        },
+        {
+          "ID": 2,
+          "Text": "Not the labours of my hands\nCan fulfill thy law's demands\nCould my zeal no respite know\nCould my tears forever flow\nAll for sin could not atone\nThou must save and thou alone"
+        },
+        {
+          "ID": 3,
+          "Text": "Nothing in my hand I bring\nSimply to the cross I cling\nNaked come to thee for dress\nHelpless look to thee for grace\nFoul I to the fountain fly\nWash me Saviour or I die"
+        },
+        {
+          "ID": 4,
+          "Text": "While I draw this fleeting breath\nWhen mine eyes shall close in death\nWhen I soar to worlds unknown\nSee thee on thy judgment throne\nRock of Ages cleft for me\nLet me hide myself in thee"
+        }
+      ],
+      "VideoDuration": 0,
+      "Text": "Rock of Ages"
+    },
+    {
+      "Author": "Joseph Mohr. ",
+      "Copyright": "© Words & Music: Public Domain",
+      "CCLI": "27862",
+      "Reference": "Tune: Stille Nacht",
+      "Guid": "EjW0wigVaUWQU7s1wzw/0Q",
+      "Verses": [
+        {
+          "Text": "Silent night, holy night!\nAll is calm, all is bright\nround yon virgin mother and child.\nHoly Infant, so tender and mild,\nsleep in heavenly peace,\nsleep in heavenly peace."
+        },
+        {
+          "ID": 2,
+          "Text": "Silent night, holy night!\nShepherds quake at the sight.\nGlories stream from heaven afar,\nheav’nly hosts sing, Alleluia!\nChrist, the Saviour, is born!\nChrist, the Saviour, is born!"
+        },
+        {
+          "ID": 3,
+          "Text": "Silent night, holy night!\nSon of God, love’s pure light\nradiant beams from thy holy face\nwith the dawn of redeeming grace,\nJesus, Lord, at thy birth,\nJesus, Lord, at thy birth."
+        }
+      ],
+      "VideoDuration": 0,
+      "Text": "Silent Night"
+    },
+    {
+      "Author": "Keith Getty & Stuart Townend (inc. Music)",
+      "Copyright": "© Copyright 2005 Thankyou Music",
+      "CCLI": "4615235",
+      "Guid": "AjX4YD9nhUigjgZDBgMymA",
+      "Verses": [
+        {
+          "Text": "Speak O Lord as we come to You\nTo receive the food of Your holy word\nTake Your truth plant it deep in us\nShape and fashion us in Your likeness"
+        },
+        {
+          "ID": 2,
+          "Text": "That the light of Christ might be seen today\nIn our acts of love and our deeds of faith\nSpeak O Lord and fulfill in us\nAll Your purposes for Your glory"
+        },
+        {
+          "ID": 3,
+          "Text": "Teach us Lord full obedience\nHoly reverence true humility\nTest our thoughts and our attitudes\nIn the radiance of Your purity"
+        },
+        {
+          "ID": 4,
+          "Text": "Cause our faith to rise\nCause our eyes to see\nYour majestic love and authority\nWords of power that can never fail\nLet their truth prevail over unbelief"
+        },
+        {
+          "ID": 5,
+          "Text": "Speak O Lord and renew our minds\nHelp us grasp the heights of Your plans for us\nTruths unchanged from the dawn of time\nThat will echo down through eternity"
+        },
+        {
+          "ID": 6,
+          "Text": "And by grace we'll stand on Your promises\nAnd by faith we'll walk as You walk with us\nSpeak O Lord till Your church is built\nAnd the earth is filled with Your glory"
+        }
+      ],
+      "VideoDuration": 0,
+      "Text": "Speak O Lord"
+    },
+    {
+      "Author": "Brenton Brown & Ken Riley (inc. Music)",
+      "Copyright": "© 2005 Thankyou Music (Admin. by Integrity Music Ltd)",
+      "CCLI": "4556538",
+      "Guid": "q18QU8bE9UWXVCBCy2dO4A",
+      "Verses": [
+        {
+          "Text": "Strength will rise as we wait upon the Lord\nWe will wait upon the Lord\nWe will wait upon the Lord\nStrength will rise as we wait upon the Lord\nWe will wait upon the Lord\nWe will wait upon the Lord"
+        },
+        {
+          "ID": 2,
+          "Text": "Our God You reign forever\nOur Hope our strong Deliv'rer"
+        },
+        {
+          "ID": 3,
+          "Text": "You are the everlasting God\nThe everlasting God\nYou do not faint\nYou won't grow weary\nYou're the defender of the weak\nYou comfort those in need\nYou lift us up on wings like eagles"
+        },
+        {
+          "ID": 4,
+          "Text": "Strength will rise as we wait upon the Lord\nWe will wait upon the Lord\nWe will wait upon the Lord\nStrength will rise as we wait upon the Lord\nWe will wait upon the Lord\nWe will wait upon the Lord"
+        },
+        {
+          "ID": 5,
+          "Text": "Our God You reign forever\nOur Hope our strong Deliv'rer"
+        },
+        {
+          "ID": 6,
+          "Text": "You are the everlasting God\nThe everlasting God\nYou do not faint\nYou won't grow weary\nYou're the defender of the weak\nYou comfort those in need\nYou lift us up on wings like eagles"
+        }
+      ],
+      "VideoDuration": 0,
+      "Text": "Strength Will Rise (Everlasting God)"
+    },
+    {
+      "Author": "Timothy Dudley-Smith ",
+      "Copyright": "© Words Copyright 1961 (Admin. By Oxford University Press) | Music Public Domain",
+      "CCLI": "27051",
+      "Reference": "Music by Walter Greatorex",
+      "Guid": "byfa0SVgRESQUyem1plfLw",
+      "Verses": [
+        {
+          "Text": "Tell out my soul the greatness of the Lord\nUnnumbered blessings give my spirit voice\nTender to me the promise of His word\nIn God my Saviour shall my heart rejoice"
+        },
+        {
+          "ID": 2,
+          "Text": "Tell out my soul the greatness of His Name\nMake known His might the deeds His arm has done\nHis mercy sure from age to age the same\nHis holy Name the Lord the Mighty One"
+        },
+        {
+          "ID": 3,
+          "Text": "Tell out my soul the greatness of His might\nPowers and dominions lay their glory by\nProud hearts and stubborn wills are put to flight\nThe hungry fed the humble lifted high"
+        },
+        {
+          "ID": 4,
+          "Text": "Tell out my soul the glories of His word\nFirm is His promise and His mercy sure\nTell out my soul the greatness of the Lord\nTo children's children and for evermore"
+        }
+      ],
+      "VideoDuration": 0,
+      "Text": "Tell Out My Soul"
+    },
+    {
+      "Author": "Colin Buchanan",
+      "Copyright": "© 2011 Wanaaring Road Music",
+      "CCLI": "5981102",
+      "Guid": "UhKg7ieYekm2CtnM0FrclQ",
+      "Verses": [
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "Put on the armour of God Put it on!\nThe full armour of God Put it on!\nBe strong in the Lord And in his mighty power\nPut on the armour of God Put it on!"
+        },
+        {
+          "Text": "The belt of truth\nBuckled round your waist\nThe breastplate of righteousness\nStrapped in its place\nFeet fitted ready\nWith the gospel of peace\nTo take your stand\nAgainst the enemy...(so)"
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "Put on the armour of God Put it on!\nThe full armour of God Put it on!\nBe strong in the Lord And in his mighty power\nPut on the armour of God Put it on!"
+        },
+        {
+          "ID": 2,
+          "Text": "The shield of faith\nWill be your strong protection\nFrom flaming arrows\nSatan fires in your direction\nSalvation is your helmet\nBe ready for the war\nWith the sword of the Spirit The Word of the Lord... (so)"
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "Put on the armour of God Put it on!\nThe full armour of God Put it on!\nBe strong in the Lord And in his mighty power\nPut on the armour of God Put it on!"
+        },
+        {
+          "ID": 3,
+          "Text": "Pray in the Spirit\nIn every situation\nBoldly preaching\nThe gospel of salvation\nWe’re fighting the devil\nNot flesh and blood\nThat’s why we need the full Armour of God...(so)"
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "Put on the armour of God Put it on!\nThe full armour of God Put it on!\nBe strong in the Lord And in his mighty power\nPut on the armour of God Put it on!\nPut on the armour of God Put it on!"
+        }
+      ],
+      "VideoDuration": 0,
+      "Text": "The Armour of God"
+    },
+    {
+      "Author": "Samuel John Stone. ",
+      "Copyright": "© Words & Music: Public Domain",
+      "Reference": "Music by Samuel Sebastian Wesley",
+      "Guid": "CImYQDaDP0yi/Xlmw1LS+w",
+      "Verses": [
+        {
+          "Text": "The Church's one foundation\nIs Jesus Christ her Lord;\nShe is his new creation\nBy water and the Word.\nFrom heaven he came and sought her\nTo be his holy bride;\nWith his own blood he bought her,\nAnd for her life he died."
+        },
+        {
+          "ID": 2,
+          "Text": "Elect from every nation,\nYet one o'er all the earth;\nHer charter of salvation,\nOne Lord, one faith, one birth;\nOne holy name she blesses,\nPartakes one holy food,\nAnd to one hope she presses,\nWith every grace endued."
+        },
+        {
+          "ID": 3,
+          "Text": "Mid toil and tribulation,\nAnd tumult of her war,\nShe waits the consummation\nOf peace forevermore;\nTill, with the vision glorious,\nHer longing eyes are blest,\nAnd the great church victorious\nShall be the church at rest."
+        },
+        {
+          "ID": 4,
+          "Text": "Yet she on earth hath union\nWith God the Three in One,\nAnd mystic sweet communion\nWith those whose rest is won.\nO happy ones and holy!\nLord, give us grace that we\nLike them, the meek and lowly,\nOn high may dwell with thee."
+        }
+      ],
+      "VideoDuration": 0,
+      "Text": "The Church's One Foundation"
+    },
+    {
+      "Author": "Anonymous (1833)",
+      "Copyright": "© Words & Music: Public Domain",
+      "CCLI": "31047",
+      "Guid": "+97/y5Cw4kG9iZm2vsPQHQ",
+      "Verses": [
+        {
+          "Text": "The first Noël the angel did say\nwas to certain poor shepherds in fields as they lay;\nin fields where they lay keeping their sheep,\non a cold winter's night that was so deep."
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "Noël, Noël, Noël, Noël,\nborn is the King of Israel."
+        },
+        {
+          "ID": 2,
+          "Text": "They looked up and saw a star\nshining in the east, beyond them far;\nand to the earth it gave great light,\nand so it continued both day and night."
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "Noël, Noël, Noël, Noël,\nborn is the King of Israel."
+        },
+        {
+          "ID": 3,
+          "Text": "And by the light of that same star\nthe Wise Men came from country far;\nto seek for a king was their intent,\nand to follow the star wherever it went."
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "Noël, Noël, Noël, Noël,\nborn is the King of Israel."
+        },
+        {
+          "ID": 4,
+          "Text": "This star drew nigh to the northwest,\no'er Bethlehem it took its rest;\nand there it did both stop and stay,\nright over the place where Jesus lay."
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "Noël, Noël, Noël, Noël,\nborn is the King of Israel. "
+        }
+      ],
+      "VideoDuration": 0,
+      "Style": { "Background": { "Image": "Carol Service Graphic.jpg" } },
+      "Text": "The First Noël "
+    },
+    {
+      "Author": "Stuart Townend (inc. Music)",
+      "Copyright": "© Copyright 1996 Thankyou Music",
+      "CCLI": "1585970",
+      "Guid": "IJjEDmt08kGMl2QuE5yaiA",
+      "Verses": [
+        {
+          "Text": "The Lord's my Shepherd I'll not want\nHe makes me lie in pastures green\nHe leads me by the still still waters\nHis goodness restores my soul"
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "And I will trust in You alone\nAnd I will trust in You alone\nFor Your endless mercy follows me\nYour goodness will lead me home"
+        },
+        {
+          "ID": 2,
+          "Text": "He guides my ways in righteousness\nAnd He anoints my head with oil\nAnd my cup it overflows with joy\nI feast on His pure delights"
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "And I will trust in You alone\nAnd I will trust in You alone\nFor Your endless mercy follows me\nYour goodness will lead me home"
+        },
+        {
+          "ID": 3,
+          "Text": "And though I walk the darkest path\nI will not fear the evil one\nFor You are with me\nAnd Your rod and staff\nAre the comfort I need to know"
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "And I will trust in You alone\nAnd I will trust in You alone\nFor Your endless mercy follows me\nYour goodness will lead me home"
+        },
+        {
+          "Tag": 6,
+          "ID": 0,
+          "Text": "And I will trust in You alone\nAnd I will trust in You alone\nFor Your endless mercy follows me\nYour goodness will lead me home"
+        }
+      ],
+      "VideoDuration": 0,
+      "Text": "The Lord's my Shepherd I'll Not Want (Psalm 23)"
+    },
+    {
+      "Author": "Keith Getty & Stuart Townend (inc. Music)",
+      "Copyright": "© Copyright 2005 Thankyou Music",
+      "CCLI": "4490766",
+      "Guid": "5zD4yM5gUkCPO/ah8xVdcA",
+      "Verses": [
+        {
+          "Text": "Oh to see the dawn of the darkest day\nChrist on the road to Calvary\nTried by sinful men torn and beaten then\nNailed to a cross of wood"
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "This the pow'r of the cross\nChrist became sin for us\nTook the blame bore the wrath\nWe stand forgiven at the cross"
+        },
+        {
+          "ID": 2,
+          "Text": "Oh to see the pain written on Your face\nBearing the awesome weight of sin\nEv'ry bitter thought ev'ry evil deed\nCrowning Your bloodstained brow"
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "This the pow'r of the cross\nChrist became sin for us\nTook the blame bore the wrath\nWe stand forgiven at the cross"
+        },
+        {
+          "ID": 3,
+          "Text": "Now the daylight flees now the ground beneath\nQuakes as its Maker bows His head\nCurtain torn in two dead are raised to life\nFinished the vict'ry cry"
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "This the pow'r of the cross\nChrist became sin for us\nTook the blame bore the wrath\nWe stand forgiven at the cross"
+        },
+        {
+          "ID": 4,
+          "Text": "Oh to see my name written in the wounds\nFor through Your suff'ring I am free\nDeath is crushed to death life is mine to live\nWon through Your selfless love"
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "This the pow'r of the cross\nSon of God slain for us\nWhat a love what a cost\nWe stand forgiven at the cross"
+        }
+      ],
+      "VideoDuration": 0,
+      "Text": "The Power of the Cross"
+    },
+    {
+      "Author": "Anne R. Cousin, 1857.",
+      "Copyright": "© Words & Music Public Domain",
+      "Reference": "Tune: 'Rutherford' by Chretien Urhan, 1834",
+      "Guid": "7PWkINcamUSvNz1AIUP9yg",
+      "Verses": [
+        {
+          "Text": "The sands of time are sinking,\nthe dawn of Heaven breaks;\nThe summer morn I’ve sighed for—\nthe fair, sweet morn awakes:\nDark, dark has been the midnight,\nbut dayspring is at hand,\nAnd glory, glory dwelleth\nin Immanuel’s land."
+        },
+        {
+          "ID": 2,
+          "Text": "The King there in His beauty,\nwithout a veil is seen:\nIt were a well spent journey,\nthough trials lay between:\nThe Lamb with His fair army,\non Zion's mountain stands,\nAnd glory, glory dwelleth\nin Immanuel’s land."
+        },
+        {
+          "ID": 3,
+          "Text": "O Christ, He is the fountain,\nthe deep, sweet well of love!\nThe streams on earth I’ve tasted\nmore deep I’ll drink above:\nThere to an ocean fullness\nHis mercy will expand,\nAnd glory, glory dwelleth\nin Immanuel’s land."
+        },
+        {
+          "ID": 4,
+          "Text": "The Bride eyes not her garment,\nbut her dear Bridegroom’s face;\nI will not gaze at glory\nbut on my King of grace.\nNot at the crown He gives me,\nbut on His pierced hands;\nThe Lamb is all the glory\nof Immanuel’s land"
+        }
+      ],
+      "VideoDuration": 0,
+      "Text": "The Sands of Time are Sinking"
+    },
+    {
+      "Author": "Anne Ross Cousin & Chretién Urhan .",
+      "Copyright": "© Words & Music: Public Domain",
+      "CCLI": "364680",
+      "Reference": "Music: Tune - Rutherford",
+      "Guid": "c6TGZ7rjckeVFkFIV7LL+g",
+      "Verses": [
+        {
+          "Text": "The sands of time are sinking\nThe dawn of heaven breaks\nThe summer morn I've sighed for\nThe fair sweet morn awakes\nDark dark hath been the midnight\nBut dayspring is at hand\nAnd glory glory dwelleth\nIn Immanuel's land"
+        },
+        {
+          "ID": 2,
+          "Text": "The King there in his beauty\nWithout a veil is seen\nIt were a well-spent journey\nThough seven deaths lay between\nThe Lamb with his fair army\nDoth on Mount Zion stand\nAnd glory glory dwelleth\nIn Immanuel's land"
+        },
+        {
+          "ID": 3,
+          "Text": "O Christ He is the fountain\nThe deep sweet well of love\nThe streams on earth I've tasted\nMore deep I'll drink above\nThere to an ocean fullness\nHis mercy doth expand\nAnd glory glory dwelleth\nIn Immanuel's land"
+        },
+        {
+          "ID": 4,
+          "Text": "Oh I am my Beloved's\nAnd my Belov'd is mine\nHe brings a poor vile sinner\nInto his House of wine\nI stand upon his merit\nI know no other stand\nNot e'en where glory dwelleth\nIn Immanuel's land"
+        },
+        {
+          "ID": 5,
+          "Text": "The bride eyes not her garment\nBut her dear bridegroom's face\nI will not gaze at glory\nBut on my King of grace\nNot at the crown he giveth\nBut on his pierced hand\nThe Lamb is all the glory\nOf Immanuel's land"
+        },
+        {
+          "ID": 6,
+          "Text": "I've wrestled on towards heaven\n'Gainst storm and wind and time\nNow like a weary traveller\nThat leaneth on his guide\nAmid the shades of evening\nWhile sinks life's lingering sand\nI hail the glory dawning\nIn Immanuel's land"
+        }
+      ],
+      "VideoDuration": 0,
+      "Text": "The Sands of Time Are Sinking"
+    },
+    {
+      "Author": "Graham Kendrick (inc. Music)",
+      "Copyright": "© Copyright 1983 Thankyou Music",
+      "CCLI": "78897",
+      "Guid": "9lT1JxcX8kanEZ2A73P8sw",
+      "Verses": [
+        {
+          "Text": "From heav’n You came, helpless Babe\nEntered our world, Your glory veiled;\nNot to be served but to serve\nAnd give Your life that we might live"
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "This is our God, the Servant King\nHe calls us now to follow Him\nTo bring our lives as a daily offering\nOf worship to the Servant King"
+        },
+        {
+          "ID": 2,
+          "Text": "There in the garden of tears\nMy heavy load He chose to bear;\nHis heart with sorrow was torn\n‘Yet not my will but Yours,’ He said"
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "This is our God, the Servant King\nHe calls us now to follow Him\nTo bring our lives as a daily offering\nOf worship to the Servant King"
+        },
+        {
+          "ID": 3,
+          "Text": "Come see His hands and His feet\nThe scars that speak of sacrifice;\nHands that flung stars into space\nTo cruel nails surrendered"
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "This is our God, the Servant King\nHe calls us now to follow Him\nTo bring our lives as a daily offering\nOf worship to the Servant King"
+        },
+        {
+          "ID": 4,
+          "Text": "So let us learn how to serve\nAnd in our lives enthrone Him;\nEach other’s needs to prefer\nFor it is Christ we’re serving"
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "This is our God, the Servant King\nHe calls us now to follow Him\nTo bring our lives as a daily offering\nOf worship to the Servant King"
+        }
+      ],
+      "VideoDuration": 0,
+      "Text": "The Servant King"
+    },
+    {
+      "Author": "Melody Green & Keith Green (inc. Music)",
+      "Copyright": "© Copyright 1982 Universal Music – Brentwood Benson Publishing, Birdwing Music, Ears to Hear",
+      "CCLI": "11483",
+      "Guid": "b5WYEjuaYkq5U/IxmwYO/w",
+      "Verses": [
+        {
+          "Text": "There is a Redeemer:\nJesus God's own Son,\nPrecious Lamb of God, Messiah,\nHoly One."
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "Thank you, O my Father,\nfor giving us Your Son\nand leaving Your Spirit\n'til the work on earth is done."
+        },
+        {
+          "ID": 2,
+          "Text": "Jesus, my Redeemer,\nName above all names,\nPrecious Lamb of God, Messiah,\nall for sinners slain."
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "Thank you, O my Father,\nfor giving us Your Son\nand leaving Your Spirit\n'til the work on earth is done."
+        },
+        {
+          "ID": 3,
+          "Text": "When I stand in glory,\nI will see His face,\nand there I'll serve my King forever,\nin that holy place."
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "Thank you, O my Father,\nfor giving us Your Son\nand leaving Your Spirit\n'til the work on earth is done."
+        }
+      ],
+      "VideoDuration": 0,
+      "Text": "There Is A Redeemer"
+    },
+    {
+      "Author": "Edmond Louis Budry .",
+      "Copyright": "© Words & Music Public Domain",
+      "CCLI": "21837",
+      "Reference": "Music: Tune - Maccabaeus",
+      "Guid": "mWKgurE1p0+YXYqjUsJTcg",
+      "Verses": [
+        {
+          "Text": "Thine be the glory,\nrisen, conquering Son:\nendless is the victory\nthou o’er death hast won;"
+        },
+        {
+          "ID": 2,
+          "Text": "angels in bright raiment\nrolled the stone away,\nkept the folded grave-clothes\nwhere thy body lay."
+        },
+        {
+          "ID": 3,
+          "Text": "Thine be the glory, risen,\nconquering Son;\nendless is the victory\nthou o’er death hast won."
+        },
+        {
+          "ID": 4,
+          "Text": "Lo! Jesus meets us,\nrisen from the tomb;\nlovingly he greets us,\nscatters fear and gloom;"
+        },
+        {
+          "ID": 5,
+          "Text": "let the church with gladness\nhymns of triumph sing,\nfor her Lord now liveth,\ndeath hath lost its sting:"
+        },
+        {
+          "ID": 6,
+          "Text": "Thine be the glory,\nrisen, conquering Son;\nendless is the victory\nthou o’er death hast won."
+        },
+        {
+          "ID": 7,
+          "Text": "No more we doubt thee,\nglorious Prince of Life;\nlife is nought without thee:\naid us in our strife;"
+        },
+        {
+          "ID": 8,
+          "Text": "make us more than conquerors\nthrough thy deathless love:\nbring us safe through Jordan\nto thy home above:"
+        },
+        {
+          "ID": 9,
+          "Text": "Thine be the glory,\nrisen, conquering Son;\nendless is the victory\nthou o’er death hast won."
+        }
+      ],
+      "VideoDuration": 0,
+      "Text": "Thine Be The Glory"
+    },
+    {
+      "Author": "Fanny Crosby (1875) .",
+      "Copyright": "© Words & Music: Public Domain",
+      "CCLI": "23426",
+      "Reference": "Music: To God Be The Glory (Doane)",
+      "Guid": "2krWEa/WO0qGfHaPqTi3eg",
+      "Verses": [
+        {
+          "Text": "To God be the glory, great things He hath done,\nSo loved He the world that He gave us His Son,\nWho yielded His life our redemption to win,\nAnd opened the life-gate that all may go in."
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "Praise the Lord, praise the Lord,\nLet the earth hear His voice;\nPraise the Lord, praise the Lord,\nLet the people rejoice;\nOh, come to the Father, through Jesus the Son,\nAnd give Him the glory; great things He hath done."
+        },
+        {
+          "ID": 2,
+          "Text": "Oh, perfect redemption, the purchase of blood,\nTo every believer the promise of God;\nThe vilest offender who truly believes,\nThat moment from Jesus a pardon receives."
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "Praise the Lord, praise the Lord,\nLet the earth hear His voice;\nPraise the Lord, praise the Lord,\nLet the people rejoice;\nOh, come to the Father, through Jesus the Son,\nAnd give Him the glory; great things He hath done."
+        },
+        {
+          "ID": 3,
+          "Text": "Great things He hath taught us,\ngreat things He hath done,\nAnd great our rejoicing through Jesus the Son;\nBut purer, and higher, and greater will be\nOur wonder, our transport when Jesus we see."
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "Praise the Lord, praise the Lord,\nLet the earth hear His voice;\nPraise the Lord, praise the Lord,\nLet the people rejoice;\nOh, come to the Father, through Jesus the Son,\nAnd give Him the glory; great things He hath done."
+        }
+      ],
+      "VideoDuration": 0,
+      "Text": "To God Be The Glory"
+    },
+    {
+      "Author": "Joseph Medlicott Scriven .",
+      "Copyright": "© Words & Music: Public Domain",
+      "CCLI": "2647164",
+      "Reference": "Music by Charles Crozat Converse",
+      "Guid": "39wKlrLujUqXSjmNQ/IyiA",
+      "Verses": [
+        {
+          "Text": "What a friend we have in Jesus\nAll our sins and griefs to bear\nWhat a privilege to carry\nEverything to God in prayer"
+        },
+        {
+          "ID": 2,
+          "Text": "O what peace we often forfeit\nO what needless pain we bear\nAll because we do not carry\nEverything to God in prayer"
+        },
+        {
+          "ID": 3,
+          "Text": "Have we trials and temptations\nIs there trouble anywhere\nWe should never be discouraged\nTake it to the Lord in prayer"
+        },
+        {
+          "ID": 4,
+          "Text": "Can we find a friend so faithful\nWho will all our sorrows share\nJesus knows our every weakness\nTake it to the Lord in prayer"
+        },
+        {
+          "ID": 5,
+          "Text": "Are we weak and heavy laden\nCumbered with a load of care\nPrecious Saviour still our refuge\nTake it to the Lord in prayer"
+        },
+        {
+          "ID": 6,
+          "Text": "Do thy friends despise forsake thee\nTake it to the Lord in prayer\nIn His arms He'll take and shield thee\nThou wilt find a solace there"
+        },
+        {
+          "ID": 7,
+          "Text": "Blessed Saviour Thou hast promised\nThou wilt all our burdens bear\nMay we ever Lord be bringing\nAll to Thee in earnest prayer"
+        },
+        {
+          "ID": 8,
+          "Text": "Soon in glory bright unclouded\nThere will be no need for prayer\nRapture praise and endless worship\nWill be our sweet portion there"
+        }
+      ],
+      "VideoDuration": 0,
+      "Text": "What a Friend We Have in Jesus"
+    },
+    {
+      "Author": "Isaac Watts .",
+      "Copyright": "© Words: Public Domain | Music: Copyright 2007 Thankyou Music",
+      "CCLI": "5120516",
+      "Reference": "Music by Tim Hughes",
+      "Guid": "8kSEbYAtEkGQqeiCXtfcWw",
+      "Verses": [
+        {
+          "Text": "When I survey the wondrous cross\nOn which the Prince of glory died\nMy richest gain I count but loss\nAnd pour contempt on all my pride"
+        },
+        {
+          "ID": 2,
+          "Text": "Forbid it Lord that I should boast\nSave in the death of Christ my God\nAll the vain things that charm me most\nI sacrifice them to His blood"
+        },
+        {
+          "ID": 3,
+          "Text": "See from His head His hands His feet\nSorrow and love flow mingled down\nDid ever such love and sorrow meet\nOr thorns compose so rich a crown"
+        },
+        {
+          "ID": 4,
+          "Text": "Were the whole realm of nature mine\nThat were an offering far too small\nLove so amazing so divine\nDemands my soul my life my all"
+        }
+      ],
+      "VideoDuration": 0,
+      "Text": "When I Survey The Wondrous Cross"
+    },
+    {
+      "Author": "Keith Getty & Kristyn Getty (inc. Music)",
+      "Copyright": "© 2005 Thankyou Music (Admin. by Integrity Music Ltd)",
+      "CCLI": "4619523",
+      "Guid": "bgHyd2aUlkyiZcBNR70riw",
+      "Verses": [
+        {
+          "Text": "When trials come no longer fear\nFor in the pain our God draws near\nTo fire a faith worth more than gold\nAnd there His faithfulness is told\nAnd there His faithfulness is told"
+        },
+        {
+          "ID": 2,
+          "Text": "Within the night I know your peace\nThe breath of God brings strength to me\nAnd new each morning mercy flows\nAs treasures of the darkness grow\nAs treasures of the darkness grow"
+        },
+        {
+          "ID": 3,
+          "Text": "I turn to wisdom not my own\nFor every battle You have known\nMy confidence will rest in You\nYour love endures Your ways are good\nYour love endures Your ways are good"
+        },
+        {
+          "ID": 4,
+          "Text": "When I am weary with the cost\nI see the triumph of the cross\nSo in it's shadow I shall run\nTill You complete the work begun\nTill You complete the work begun"
+        },
+        {
+          "ID": 5,
+          "Text": "One day all things will be made new\nI'll see the hope You called me to\nAnd in Your kingdom paved with gold\nI'll praise Your faithfulness of old\nI'll praise Your faithfulness of old"
+        }
+      ],
+      "VideoDuration": 0,
+      "Text": "When Trials Come"
+    },
+    {
+      "Author": "Johnny Robinson, Rich Thomson & Michael Farren (inc. Music)",
+      "Copyright": "© Copyright 2018 CityAlight Music | Farren Love and War Publishing | Integrity’s Alleluia! Music",
+      "Guid": "L53rpfwp0UWxJQnSXi/8Jw",
+      "Verses": [
+        {
+          "Text": "What gift of grace is Jesus my redeemer\nThere is no more for heaven now to give\nHe is my joy my righteousness and freedom\nMy steadfast love my deep and boundless peace"
+        },
+        {
+          "ID": 2,
+          "Text": "To this I hold my hope is only Jesus\nFor my life is wholly bound to his\nOh how strange and divine I can sing all is mine\nYet not I but through Christ in me"
+        },
+        {
+          "ID": 3,
+          "Text": "The night is dark but I am not forsaken\nFor by my side the Saviour he will stay\nI labour on in weakness and rejoicing\nFor in my need his power is displayed"
+        },
+        {
+          "ID": 4,
+          "Text": "To this I hold my Shepherd will defend me\nThrough the deepest valley he will lead\nOh the night has been won and I shall overcome\nYet not I but through Christ in me"
+        },
+        {
+          "ID": 5,
+          "Text": "No fate I dread I know I am forgiven\nThe future sure the price it has been paid\nFor Jesus bled and suffered for my pardon\nAnd he was raised to overthrow the grave"
+        },
+        {
+          "ID": 6,
+          "Text": "To this I hold my sin has been defeated\nJesus now and ever is my plea\nOh the chains are released I can sing I am free\nYet not I but through Christ in me"
+        },
+        {
+          "ID": 7,
+          "Text": "With every breath I long to follow Jesus\nFor he has said that he will bring me home\nAnd day by day I know he will renew me\nUntil I stand with joy before the throne"
+        },
+        {
+          "ID": 8,
+          "Text": "To this I hold my hope is only Jesus\nAll the glory evermore to him\nWhen the race is complete still my lips shall repeat\nYet not I but through Christ in me"
+        },
+        {
+          "ID": 9,
+          "Text": "To this I hold my hope is only Jesus\nAll the glory evermore to him\nWhen the race is complete still my lips shall repeat\nYet not I but through Christ in me"
+        },
+        {
+          "Tag": 6,
+          "ID": 0,
+          "Text": "When the race is complete still my lips shall repeat\nYet not I but through Christ in me"
+        }
+      ],
+      "VideoDuration": 0,
+      "Text": "Yet Not I But Through Christ In Me"
+    },
+    {
+      "Author": "Sam Brewster & Thomas Brewster",
+      "Copyright": "© 2020 Joyful Noise Music",
+      "CCLI": "7168302",
+      "Guid": "Vp7+v6oHjUuMGe3qfue9qg",
+      "Verses": [
+        {
+          "Text": "Your cross, O Lord, taught me to see\nThat though I fail you every day\nYour steadfast love will not fail me\nBut gladly bears my sin away."
+        },
+        {
+          "ID": 2,
+          "Text": "And there I see your holy fire\nConsuming sin in mercy’s blood:\nWhat righteousness and love require\nTo ransom sinners to their God."
+        },
+        {
+          "ID": 3,
+          "Text": "Your cross, O Lord, taught me to weep\nFor there my sin led you away\nAnd e’en the sun did bow in grief\nAs darkness crowned our darkest day."
+        },
+        {
+          "ID": 4,
+          "Text": "And oh, to think that I once stood\nIndifferent to your suffering!\nAnd oh, to see your sweat like blood:\nSuch depths of sorrow borne for me!"
+        },
+        {
+          "ID": 5,
+          "Text": "Your cross, O Lord, taught me to love\nFor there I’ve tasted love divine,\nIt fills my heart with power enough\nTo make your costly service mine."
+        },
+        {
+          "ID": 6,
+          "Text": "No sin too great to meet with grace,\nNo enemy too foul to bless.\nYour love in wounds of sacrifice;\nTeach me, O Lord, to love like this."
+        },
+        {
+          "ID": 7,
+          "Text": "Your cross, O Lord, taught me to sing\nFor now my captive soul is free!\nNo guilt, no fear, no suffering\nCan tear away your love from me!"
+        },
+        {
+          "ID": 8,
+          "Text": "No song can reach such heights of joy!\nNo tongue can tell such depths of peace!\nNo power, no time, can e’er destroy\nThe eternal praise for Calvary!"
+        }
+      ],
+      "VideoDuration": 0,
+      "Text": "Your Cross, O Lord"
+    },
+    {
+      "ID": 10000,
+      "Author": "Jonas Myrin and Matt Redman (inc. Music)",
+      "Copyright": "© Copyright 2011 Thankyou Music | Atlas Mountain Songs",
+      "CCLI": "6016351",
+      "Guid": "0/GCjjt3EkKHGU/Y9daMew",
+      "Verses": [
+        {
+          "Text": "The sun comes up, it's a new day dawning\nIt's time to sing Your song again\nWhatever may pass, And whatever lies before me\nLet me be singing when the evening comes"
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "Bless the Lord, O my soul\nO my soul, worship His Holy name\nSing like never before, O my soul\nI'll worship Your Holy name"
+        },
+        {
+          "ID": 2,
+          "Text": "You're rich in love and You're slow to anger\nYour name is great and Your heart is kind\nFor all Your goodness, I will keep on singing\nTen thousand reasons for my heart to find"
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "Bless the Lord, O my soul\nO my soul, worship His Holy name\nSing like never before, O my soul\nI'll worship Your Holy name"
+        },
+        {
+          "ID": 3,
+          "Text": "And on that day when my strength is failing\nThe end draws near and my time has come\nStill my soul will sing Your praise unending\nTen thousand years and then forevermore"
+        },
+        {
+          "Tag": 1,
+          "ID": 0,
+          "Text": "Bless the Lord, O my soul\nO my soul, worship His Holy name\nSing like never before, O my soul\nI'll worship Your Holy name"
+        },
+        {
+          "Tag": 6,
+          "ID": 0,
+          "Text": "Bless the Lord, O my soul\nO my soul, worship His Holy name\nSing like never before, O my soul\nI'll worship Your Holy name\nI'll worship Your Holy name\nI'll worship Your Holy name."
+        }
+      ],
+      "VideoDuration": 0,
+      "Text": "Reasons (Bless The Lord)"
+    }
+  ],
+  "Guid": "cejtUElJBk2tsAFQugZ0ow",
+  "VersionDate": "20221217183808",
+  "Style": {
+    "Body": { "FontName": "Calibri Light", "FontSize": 75 },
+    "Footer": { "FontSize": 50 },
+    "Background": {
+      "BodyRect": "0,299,10000,9300",
+      "FooterRect": "0,8445,10000,1187"
+    }
+  },
+  "Text": "Bon Accord Hymns"
+}

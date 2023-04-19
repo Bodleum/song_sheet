@@ -4,7 +4,7 @@ use std::{fs::File, io::Read};
 
 use clap::Parser;
 use error_stack::{IntoReport, Result, ResultExt};
-use song_sheet::{errors, latex::LaTeX, parser::PlainText};
+use song_sheet::{errors, latex::LaTeX, parser};
 
 #[derive(Parser)]
 #[command(author, version, about, long_about = None)]
@@ -15,7 +15,33 @@ struct Cli {
 }
 
 fn main() -> Result<(), errors::AppError> {
-    let tex_path: &str = "ss.tex";
+    // Init logger
+    env_logger::init_from_env(env_logger::Env::default().default_filter_or("trace"));
+
+    video_psalm()
+}
+
+#[allow(dead_code)]
+fn video_psalm() -> Result<(), errors::AppError> {
+    let tex_path = "vs.tex";
+    let mut latex = LaTeX::new(tex_path)?;
+
+    let buf = fs::read_to_string("VS/BonAccordHymns.json").unwrap();
+    let songs = parser::video_psalm(&buf.trim_start_matches('\u{feff}')).unwrap();
+    for song in songs {
+        latex.add_song(song);
+    }
+
+    let latex = latex.write_to_file()?;
+    latex.compile(tex_path).unwrap();
+    latex.clean().unwrap();
+
+    Ok(())
+}
+
+#[allow(dead_code)]
+fn plain_text() -> Result<(), errors::AppError> {
+    let tex_path: &str = "plain_text.tex";
     let mut latex = LaTeX::new(tex_path)?;
 
     // Loop through directory and extract songs
@@ -49,7 +75,7 @@ fn main() -> Result<(), errors::AppError> {
                 ))
                 .change_context(errors::FileError)
                 .change_context(errors::AppError)?;
-            latex.add_song(PlainText::parse(&buf).expect("Error parsing"));
+            latex.add_song(parser::PlainText::parse(&buf).unwrap());
         }
     }
 

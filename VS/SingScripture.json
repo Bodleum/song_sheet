@@ -1,0 +1,39 @@
+﻿{
+  "Copyright": "© The Free Church of Scotland 2015",
+  "Songs": [
+    {
+      "Copyright": "© The Free Church of Scotland 2015",
+      "Guid": "FlF8AvQagEeF4B0/AKjzfA",
+      "Verses": [
+        {
+          "Text": "5 He grew up like a tender shoot,\na root from arid ground;\nIn him no majesty of form,\nno beauty could be found."
+        },
+        {
+          "ID": 2,
+          "Text": "6 Rejected and despised was he\nin suffering and pain;\nWe hid our faces from the sight,\nwith horror and disdain."
+        },
+        {
+          "ID": 3,
+          "Text": "7 But surely he took up our pains,\nour sorrows he has borne;\nYet we esteemed him cursed by God,\nafflicted, pierced and torn."
+        },
+        {
+          "ID": 4,
+          "Text": "8 But for our sins he was condemned,\nfor our transgressions\nbruised;\nHe brought us healing, peace with God,\nthough wounded and abused."
+        },
+        {
+          "ID": 5,
+          "Text": "9 We all, like sheep, have gone astray,\nwe wanted to be free;\nAnd yet the L ORD has lai d on him\nall our iniquity."
+        }
+      ],
+      "VideoDuration": 0,
+      "Text": "Isaiah 53:5-9"
+    }
+  ],
+  "Guid": "cOMGIVAOu0CDLKFOfDTRPQ",
+  "Style": {
+    "Footer": {
+      "Template": "[SongTitle]\nNew Songs from Scripture in\nMetre\n© The Free Church of Scotland 2015"
+    }
+  },
+  "Text": "Sing Scripture"
+}
