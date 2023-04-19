@@ -307,7 +307,7 @@ impl LaTeX<Unwritten> {
         for s in &self.songs {
             writeln!(stream)?;
             writeln!(stream, "% ====   {}   ====", s.name)?;
-            writeln!(stream, r"\begin{{song}}{{{}}}", s.name)?;
+            writeln!(stream, r"\begin{{song}}{{{}}}", Self::safe(&s.name))?;
             // Write verses, chorus and brides
             // Construction of the song checks order is valid
             let mut cur_verse: usize = 0;
@@ -317,7 +317,7 @@ impl LaTeX<Unwritten> {
                         // Write current verse
                         writeln!(stream, r"    \verse")?;
                         for line in s.verses.get(cur_verse).unwrap().lines() {
-                            writeln!(stream, "    {{{}}}", line)?;
+                            writeln!(stream, "    {{{}}}", Self::safe(&line))?;
                         }
                         writeln!(stream, r"    \end")?;
                         cur_verse += 1;
@@ -326,7 +326,7 @@ impl LaTeX<Unwritten> {
                         if let Some(chorus) = &s.chorus {
                             writeln!(stream, r"    \chorus")?;
                             for line in chorus.lines() {
-                                writeln!(stream, "    {{{}}}", line)?;
+                                writeln!(stream, "    {{{}}}", Self::safe(&line))?;
                             }
                             writeln!(stream, r"    \end")?;
                         }
@@ -335,7 +335,7 @@ impl LaTeX<Unwritten> {
                         if let Some(bridge) = &s.bridge {
                             writeln!(stream, r"    \bridge")?;
                             for line in bridge.lines() {
-                                writeln!(stream, "    {{{}}}", line)?;
+                                writeln!(stream, "    {{{}}}", Self::safe(&line))?;
                             }
                             writeln!(stream, r"    \end")?;
                         }
@@ -424,6 +424,20 @@ impl LaTeX<Unwritten> {
 
     pub fn add_song(&mut self, song: Song) {
         self.songs.push(song);
+    }
+
+    fn safe<T>(string: T) -> String
+    where
+        T: AsRef<str>,
+    {
+        string
+            .as_ref()
+            .replace("%", r#"\%"#)
+            .replace("$", r#"\$"#)
+            .replace("{", r#"\{"#)
+            .replace("}", r#"\}"#)
+            .replace("#", r#"\#"#)
+            .replace("&", r#"\&"#)
     }
 }
 
