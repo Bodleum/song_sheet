@@ -4,7 +4,12 @@ use std::{fs::File, io::Read};
 
 use clap::Parser;
 use error_stack::{IntoReport, Result, ResultExt};
-use song_sheet::{errors, latex::LaTeX, parser};
+use log::{info, trace};
+use song_sheet::{
+    errors::{AppError, DirError, FileError},
+    latex::LaTeX,
+    parser,
+};
 
 #[derive(Parser)]
 #[command(author, version, about, long_about = None)]
@@ -14,7 +19,7 @@ struct Cli {
     config: Option<PathBuf>,
 }
 
-fn main() -> Result<(), errors::AppError> {
+fn main() -> Result<(), AppError> {
     // Init logger
     env_logger::init_from_env(env_logger::Env::default().default_filter_or("trace"));
 
@@ -22,25 +27,34 @@ fn main() -> Result<(), errors::AppError> {
 }
 
 #[allow(dead_code)]
-fn video_psalm() -> Result<(), errors::AppError> {
+fn video_psalm() -> Result<(), AppError> {
     let tex_path = "vs.tex";
+    trace!("Creating new latex file {tex_path}.");
     let mut latex = LaTeX::new(tex_path)?;
 
-    let buf = fs::read_to_string("VS/BonAccordHymns.json").unwrap();
+    let song_file = "VS/BonAccordHymns.json";
+    trace!("Reading {song_file} to string.");
+    let buf = fs::read_to_string(song_file).unwrap();
+    info!("Parsing {song_file}.");
     let songs = parser::video_psalm(&buf.trim_start_matches('\u{feff}')).unwrap();
     for song in songs {
+        trace!("Adding {} to latex.", song.name);
         latex.add_song(song);
     }
 
+    info!("Writing to LaTeX file.");
     let latex = latex.write_to_file()?;
+    info!("Compiling LaTeX.");
     latex.compile(tex_path).unwrap();
+    info!("Cleaning up LaTeX files.");
     latex.clean().unwrap();
 
+    info!("Done!");
     Ok(())
 }
 
 #[allow(dead_code)]
-fn plain_text() -> Result<(), errors::AppError> {
+fn plain_text() -> Result<(), AppError> {
     let tex_path: &str = "plain_text.tex";
     let mut latex = LaTeX::new(tex_path)?;
 
@@ -49,14 +63,14 @@ fn plain_text() -> Result<(), errors::AppError> {
     for entry in fs::read_dir(directory)
         .into_report()
         .attach_printable(format!("Could not open directory {}.", directory))
-        .change_context(errors::DirError)
-        .change_context(errors::AppError)?
+        .change_context(DirError)
+        .change_context(AppError)?
     {
         let path: PathBuf = entry
             .into_report()
             .attach_printable(format!("Error reading files in {}.", directory))
-            .change_context(errors::DirError)
-            .change_context(errors::AppError)?
+            .change_context(DirError)
+            .change_context(AppError)?
             .path()
             .as_path()
             .to_owned();
@@ -65,16 +79,16 @@ fn plain_text() -> Result<(), errors::AppError> {
             File::open(&path)
                 .into_report()
                 .attach_printable(format!("Could not open file {:#?}.", path))
-                .change_context(errors::FileError)
-                .change_context(errors::AppError)?
+                .change_context(FileError)
+                .change_context(AppError)?
                 .read_to_string(&mut buf)
                 .into_report()
                 .attach_printable(format!(
                     "Error reading {}. Not vaild UTF-8.",
                     &path.display()
                 ))
-                .change_context(errors::FileError)
-                .change_context(errors::AppError)?;
+                .change_context(FileError)
+                .change_context(AppError)?;
             latex.add_song(parser::PlainText::parse(&buf).unwrap());
         }
     }
