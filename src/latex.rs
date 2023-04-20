@@ -317,7 +317,7 @@ impl LaTeX<Unwritten> {
                         // Write current verse
                         writeln!(stream, r"    \verse")?;
                         for line in s.verses.get(cur_verse).unwrap().lines() {
-                            writeln!(stream, "    {{{}}}", Self::safe(&line))?;
+                            writeln!(stream, "    {{{}}}", Self::safe(line))?;
                         }
                         writeln!(stream, r"    \end")?;
                         cur_verse += 1;
@@ -326,7 +326,7 @@ impl LaTeX<Unwritten> {
                         if let Some(chorus) = &s.chorus {
                             writeln!(stream, r"    \chorus")?;
                             for line in chorus.lines() {
-                                writeln!(stream, "    {{{}}}", Self::safe(&line))?;
+                                writeln!(stream, "    {{{}}}", Self::safe(line))?;
                             }
                             writeln!(stream, r"    \end")?;
                         }
@@ -335,7 +335,7 @@ impl LaTeX<Unwritten> {
                         if let Some(bridge) = &s.bridge {
                             writeln!(stream, r"    \bridge")?;
                             for line in bridge.lines() {
-                                writeln!(stream, "    {{{}}}", Self::safe(&line))?;
+                                writeln!(stream, "    {{{}}}", Self::safe(line))?;
                             }
                             writeln!(stream, r"    \end")?;
                         }
@@ -432,12 +432,12 @@ impl LaTeX<Unwritten> {
     {
         string
             .as_ref()
-            .replace("%", r#"\%"#)
-            .replace("$", r#"\$"#)
-            .replace("{", r#"\{"#)
-            .replace("}", r#"\}"#)
-            .replace("#", r#"\#"#)
-            .replace("&", r#"\&"#)
+            .replace('%', r#"\%"#)
+            .replace('$', r#"\$"#)
+            .replace('{', r#"\{"#)
+            .replace('}', r#"\}"#)
+            .replace('#', r#"\#"#)
+            .replace('&', r#"\&"#)
     }
 }
 

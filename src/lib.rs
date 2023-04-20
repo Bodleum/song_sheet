@@ -1,3 +1,11 @@
+use std::fs;
+
+use config::Config;
+use errors::AppError;
+use log::{info, trace};
+
+use crate::latex::LaTeX;
+
 pub mod config;
 pub mod errors;
 pub mod latex;
@@ -73,4 +81,36 @@ impl Song {
         self.order = order.to_string();
         Ok(())
     }
+}
+
+pub fn run(config: &Config) -> error_stack::Result<(), AppError> {
+    let tex_path = format!("{}.tex", config.name);
+    trace!("Creating new latex file {tex_path}.");
+    let mut latex = LaTeX::new(&tex_path)?;
+
+    trace!("Reading {} to string.", &config.source);
+    let buf = fs::read_to_string(&config.source).unwrap();
+
+    info!("Parsing {}.", &config.source);
+    let songs: Vec<Song> = parser::video_psalm(&buf.trim_start_matches('\u{feff}'))
+        .unwrap()
+        .into_iter()
+        .filter(|s| !config.exclude.contains(&s.name))
+        .collect();
+    for song in songs {
+        trace!("Adding {} to latex.", song.name);
+        latex.add_song(song);
+    }
+
+    info!("Writing to LaTeX file.");
+    let latex = latex.write_to_file()?;
+
+    info!("Compiling LaTeX.");
+    latex.compile(&tex_path).unwrap();
+
+    info!("Cleaning up LaTeX files.");
+    latex.clean().unwrap();
+
+    info!("Done!");
+    Ok(())
 }
