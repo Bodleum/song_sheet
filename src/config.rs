@@ -1,4 +1,4 @@
-use std::{collections::HashSet, fs, io, path::Path};
+use std::{collections::HashSet, fs, path::Path};
 
 use serde::Deserialize;
 
@@ -38,13 +38,18 @@ mod config_defaults {
 }
 use config_defaults::*;
 
+use crate::error::ConfigError;
+
 impl Config {
-    pub fn read<P>(path: &P) -> io::Result<Self>
+    pub fn read<P>(path: &P) -> Result<Self, ConfigError>
     where
         P: AsRef<Path> + ?Sized,
     {
-        let s = fs::read_to_string(path)?;
-        let c: Config = toml::from_str(&s).unwrap();
+        let s = fs::read_to_string(path).map_err(|source| ConfigError::ReadError {
+            path: path.as_ref().to_path_buf(),
+            source,
+        })?;
+        let c: Config = toml::from_str(&s)?;
         Ok(c)
     }
 }

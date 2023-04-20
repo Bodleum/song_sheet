@@ -1,5 +1,6 @@
+use anyhow::{Context, Result};
 use clap::Parser;
-use song_sheet::{config::Config, errors::AppError, run};
+use song_sheet::{config::Config, run};
 
 #[derive(Parser)]
 #[command(author, version, about, long_about = None)]
@@ -9,14 +10,14 @@ struct Cli {
     config: String,
 }
 
-fn main() -> error_stack::Result<(), AppError> {
+fn main() -> Result<()> {
     // Init logger
     env_logger::init_from_env(env_logger::Env::default().default_filter_or("info"));
 
     let cli = Cli::parse();
 
     let config = Config::read(&cli.config).unwrap();
-    run(&config)
+    run(&config).with_context(|| "Error while creating song sheet.")
 }
 
 // #[allow(dead_code)]
