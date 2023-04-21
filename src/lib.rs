@@ -15,7 +15,7 @@ pub mod song;
 pub fn run(config: &Config) -> Result<(), SongSheetError> {
     let tex_path = format!("{}.tex", config.name);
     trace!("Creating new latex file {tex_path}.");
-    let mut latex = LaTeX::new(&tex_path)?;
+    let mut latex_builder = LaTeX::builder_default(&tex_path)?;
 
     trace!("Reading {} to string.", &config.source);
     let buf = fs::read_to_string(&config.source).map_err(|source| SongSheetError::ReadError {
@@ -30,11 +30,11 @@ pub fn run(config: &Config) -> Result<(), SongSheetError> {
         .collect();
     for song in songs {
         trace!("Adding {} to latex.", song.title);
-        latex.add_song(song);
+        latex_builder = latex_builder.add_song(song);
     }
 
     info!("Writing to LaTeX file.");
-    let latex = latex.write_to_file()?;
+    let latex = latex_builder.write_to_file()?;
 
     info!("Compiling LaTeX.");
     latex.compile()?;

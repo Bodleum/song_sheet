@@ -54,32 +54,35 @@ where
     let mut ret = Vec::new();
     for j in json.songs {
         trace!("Creating new Song for {}.", &j.title);
-        let mut s = Song::new(&j.title);
+        let mut s = Song::builder(&j.title);
         let mut order = String::new();
         trace!("Iterating over stanzas in {}.", &j.title);
         for stanza in &j.stanzas {
             match stanza.tag {
                 None => {
-                    s.add_verse(&stanza.text);
+                    s = s.add_verse(&stanza.text);
                     order.push('v');
                 }
                 Some(tag) => {
                     if tag == 1 {
-                        s.set_chorus(&stanza.text);
+                        s = s.set_chorus(&stanza.text);
                         order.push('c');
                     } else if tag == 3 {
-                        s.set_bridge(&stanza.text);
+                        s = s.set_bridge(&stanza.text);
                         order.push('b');
                     } else if tag == 6 {
-                        info!("Repeat: Ignoring.\nRepeating: {}.", &stanza.text);
+                        info!(
+                            "Repeat verse in {}: Ignoring.\nRepeating: {}.",
+                            &j.title, &stanza.text
+                        );
                     } else {
                         warn!("Unknown tag type {}.", tag);
                     }
                 }
             }
         }
-        s.set_order(&order)?;
-        ret.push(s);
+        s = s.set_order(&order);
+        ret.push(s.build()?);
     }
 
     Ok(ret)

@@ -78,6 +78,10 @@ pub enum ParseError {
 #[derive(Debug, Error)]
 #[error("An error occured while constructing a song.")]
 pub enum SongError {
+    /// When no order for verses and choruses is specified for a song
+    #[error("{song_title} has no order specified.")]
+    NoOrder { song_title: String },
+
     /// When a song calls for a chorus but has none specified.
     #[error("Order calls for a chorus, but none specified for {song_title}.")]
     NoChorus { song_title: String },

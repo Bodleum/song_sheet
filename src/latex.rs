@@ -36,12 +36,12 @@ impl TryFrom<&[&str]> for Package {
     }
 }
 
-pub struct Written;
-pub struct Unwritten;
-
 /// Represents a LaTeX file
-#[derive(Debug)]
-pub struct LaTeX<State = Unwritten> {
+pub struct LaTeX {
+    path: PathBuf,
+}
+
+pub struct LaTeXBuilder {
     file: File,
     path: PathBuf,
     doc_class: String,
@@ -54,18 +54,16 @@ pub struct LaTeX<State = Unwritten> {
     cover: String,
     preamble_extra: Option<String>,
     songs: Vec<Song>,
-
-    state: std::marker::PhantomData<State>,
 }
 
-impl LaTeX<Unwritten> {
-    pub fn new<P: AsRef<Path>>(path: P) -> Result<Self, LaTeXError> {
+impl LaTeX {
+    pub fn builder_default<P: AsRef<Path>>(path: P) -> Result<LaTeXBuilder, LaTeXError> {
         let file = File::create(&path).map_err(|source| LaTeXError::CreateFileError {
             path: path.as_ref().to_path_buf(),
             source,
         })?;
 
-        let mut i = Self {
+        let builder = LaTeXBuilder {
             file,
             path: path.as_ref().to_path_buf(),
             doc_class: String::from("article"),
@@ -82,31 +80,50 @@ impl LaTeX<Unwritten> {
             cover: String::from(r"\includepdf{./titleimage.jpg}"),
             preamble_extra: None,
             songs: Vec::<Song>::new(),
-
-            state: std::marker::PhantomData::<Unwritten>,
         };
 
         // Add default packages
-        i.use_package_str(&["geometry", "left=1cm", "right=1cm", "top=1cm", "bottom=2cm"])?;
-        i.use_package_str(&["hyperref", "hyperindex"])?;
-        i.use_package_str(&["makeidx"])?;
-        i.use_package_str(&["pdfpages"])?;
-        i.use_package_str(&["fancyhdr"])?;
-        i.use_package_str(&["graphicx"])?;
-        i.use_package_str(&["adjustbox"])?;
-        i.use_package_str(&["multicol"])?;
-        i.use_package_str(&["totcount"])?;
-        i.use_package_str(&["xcolor"])?;
-
-        Ok(i)
+        builder
+            .use_package_str(&["geometry", "left=1cm", "right=1cm", "top=1cm", "bottom=2cm"])?
+            .use_package_str(&["hyperref", "hyperindex"])?
+            .use_package_str(&["makeidx"])?
+            .use_package_str(&["pdfpages"])?
+            .use_package_str(&["fancyhdr"])?
+            .use_package_str(&["graphicx"])?
+            .use_package_str(&["adjustbox"])?
+            .use_package_str(&["multicol"])?
+            .use_package_str(&["totcount"])?
+            .use_package_str(&["xcolor"])
     }
 
-    pub fn write_to_file(self) -> Result<LaTeX<Written>, LaTeXError> {
+    pub fn execute(&self, cmd: &mut Command) -> Result<Output, LaTeXError> {
+        cmd.output().map_err(LaTeXError::IOError)
+    }
+
+    pub fn compile(&self) -> Result<Output, LaTeXError> {
+        Command::new("latexmk")
+            .arg("-pdflua")
+            .arg("-interaction=nonstopmode")
+            .arg(&self.path)
+            .output()
+            .map_err(LaTeXError::IOError)
+    }
+
+    pub fn clean(&self) -> Result<Output, LaTeXError> {
+        Command::new("latexmk")
+            .arg("-c")
+            .output()
+            .map_err(LaTeXError::IOError)
+    }
+}
+
+impl LaTeXBuilder {
+    pub fn write_to_file(self) -> Result<LaTeX, LaTeXError> {
         self.internal_write_to_file()
     }
 
     /// Wrapped by `write_to_file`.
-    fn internal_write_to_file(self) -> Result<LaTeX<Written>, LaTeXError> {
+    fn internal_write_to_file(self) -> Result<LaTeX, LaTeXError> {
         {
             // Create buffered writer
             let mut stream = BufWriter::new(&self.file);
@@ -350,68 +367,63 @@ impl LaTeX<Unwritten> {
             // Don't need stream any more
         }
 
-        Ok(LaTeX {
-            file: self.file,
-            path: self.path,
-            doc_class: self.doc_class,
-            doc_opts: self.doc_opts,
-            version: self.version,
-            packages: self.packages,
-            verse_fmt: self.verse_fmt,
-            chorus_fmt: self.chorus_fmt,
-            bridge_fmt: self.bridge_fmt,
-            cover: self.cover,
-            preamble_extra: self.preamble_extra,
-            songs: self.songs,
-
-            state: std::marker::PhantomData::<Written>,
-        })
+        Ok(LaTeX { path: self.path })
     }
 
-    pub fn use_package(&mut self, pkg: Package) {
+    pub fn use_package(mut self, pkg: Package) -> Self {
         self.packages.push(pkg);
+        self
     }
 
     // Try and use const expressions to have minimum array length
-    pub fn use_package_str(&mut self, args: &[&str]) -> Result<(), LaTeXError> {
+    pub fn use_package_str(mut self, args: &[&str]) -> Result<Self, LaTeXError> {
         self.packages.push(args.try_into()?);
-        Ok(())
+        Ok(self)
     }
 
-    pub fn set_doc_class(&mut self, doc_class: String) {
+    pub fn set_doc_class(mut self, doc_class: String) -> Self {
         self.doc_class = doc_class;
+        self
     }
 
-    pub fn set_doc_opts(&mut self, doc_opts: Vec<String>) {
+    pub fn set_doc_opts(mut self, doc_opts: Vec<String>) -> Self {
         self.doc_opts = doc_opts;
+        self
     }
 
-    pub fn set_version(&mut self, version: (u8, u8, u8)) {
+    pub fn set_version(mut self, version: (u8, u8, u8)) -> Self {
         self.version = version;
+        self
     }
 
-    pub fn set_verse_fmt(&mut self, verse_fmt: String) {
+    pub fn set_verse_fmt(mut self, verse_fmt: String) -> Self {
         self.verse_fmt = verse_fmt;
+        self
     }
 
-    pub fn set_chorus_fmt(&mut self, chorus_fmt: String) {
+    pub fn set_chorus_fmt(mut self, chorus_fmt: String) -> Self {
         self.chorus_fmt = chorus_fmt;
+        self
     }
 
-    pub fn set_bridge_fmt(&mut self, bridge_fmt: String) {
+    pub fn set_bridge_fmt(mut self, bridge_fmt: String) -> Self {
         self.bridge_fmt = bridge_fmt;
+        self
     }
 
-    pub fn set_cover(&mut self, cover: String) {
+    pub fn set_cover(mut self, cover: String) -> Self {
         self.cover = cover;
+        self
     }
 
-    pub fn set_preamble_extra(&mut self, preamble_extra: Option<String>) {
+    pub fn set_preamble_extra(mut self, preamble_extra: Option<String>) -> Self {
         self.preamble_extra = preamble_extra;
+        self
     }
 
-    pub fn add_song(&mut self, song: Song) {
+    pub fn add_song(mut self, song: Song) -> Self {
         self.songs.push(song);
+        self
     }
 
     fn safe<T>(string: T) -> String
@@ -426,27 +438,5 @@ impl LaTeX<Unwritten> {
             .replace('}', r#"\}"#)
             .replace('#', r#"\#"#)
             .replace('&', r#"\&"#)
-    }
-}
-
-impl LaTeX<Written> {
-    pub fn execute(&self, cmd: &mut Command) -> Result<Output, LaTeXError> {
-        cmd.output().map_err(LaTeXError::IOError)
-    }
-
-    pub fn compile(&self) -> Result<Output, LaTeXError> {
-        Command::new("latexmk")
-            .arg("-pdflua")
-            .arg("-interaction=nonstopmode")
-            .arg(&self.path)
-            .output()
-            .map_err(LaTeXError::IOError)
-    }
-
-    pub fn clean(&self) -> Result<Output, LaTeXError> {
-        Command::new("latexmk")
-            .arg("-c")
-            .output()
-            .map_err(LaTeXError::IOError)
     }
 }

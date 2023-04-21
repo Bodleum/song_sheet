@@ -22,7 +22,7 @@ Song title must be separated by a blank line.",
             }
         };
 
-        let mut song: Song = Song::new(name);
+        let mut song = Song::builder(name);
         let mut order: String = String::new();
 
         // Get all stanzas
@@ -42,23 +42,22 @@ Song title must be separated by a blank line.",
             // Add to song
             match stanza_type {
                 StanzaType::Verse => {
-                    song.add_verse(stanza);
+                    song = song.add_verse(stanza);
                     order.push('v');
                 }
                 StanzaType::Chorus => {
-                    song.set_chorus(stanza);
+                    song = song.set_chorus(stanza);
                     order.push('c');
                 }
                 StanzaType::Bridge => {
-                    song.set_bridge(stanza);
+                    song = song.set_bridge(stanza);
                     order.push('b');
                 }
             }
             input = i;
         }
 
-        song.set_order(&order).unwrap(); // Will never fail if read from file
-        Ok(song)
+        Ok(song.set_order(&order).build().unwrap())
     }
 
     /// Matches song title, separated by a blank line

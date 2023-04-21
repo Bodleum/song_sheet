@@ -19,56 +19,95 @@ pub struct Song {
     pub bridge: Option<String>,
 }
 
+// Self {
+//     title: name.to_string(),
+//     order: String::new(),
+//     verses: Vec::<String>::new(),
+//     chorus: None,
+//     bridge: None,
+// }
+
 impl Song {
-    pub fn new(name: &str) -> Self {
-        Self {
-            title: name.to_string(),
-            order: String::new(),
-            verses: Vec::<String>::new(),
-            chorus: None,
-            bridge: None,
+    pub fn builder(title: &str) -> SongBuilder {
+        SongBuilder {
+            title: title.to_owned(),
+            ..Default::default()
         }
     }
+}
 
-    pub fn add_verse(&mut self, verse: &str) {
-        self.verses.push(verse.to_string());
+#[derive(Default)]
+pub struct SongBuilder {
+    title: String,
+    order: Option<String>,
+    verses: Option<Vec<String>>,
+    chorus: Option<String>,
+    bridge: Option<String>,
+}
+
+impl SongBuilder {
+    pub fn add_verse(mut self, verse: &str) -> Self {
+        self.verses.get_or_insert(Vec::new()).push(verse.to_owned());
+        self
     }
 
-    pub fn set_chorus(&mut self, chorus: &str) {
-        self.chorus = Some(chorus.to_string());
+    pub fn set_chorus(mut self, chorus: &str) -> Self {
+        self.chorus = Some(chorus.to_owned());
+        self
     }
 
-    pub fn set_bridge(&mut self, bridge: &str) {
-        self.bridge = Some(bridge.to_string());
+    pub fn set_bridge(mut self, bridge: &str) -> Self {
+        self.bridge = Some(bridge.to_owned());
+        self
     }
 
-    pub fn set_order(&mut self, order: &str) -> Result<(), SongError> {
+    pub fn set_order(mut self, order: &str) -> Self {
+        self.order = Some(order.to_owned());
+        self
+    }
+
+    pub fn build(self) -> Result<Song, SongError> {
+        let order = self.order.ok_or(SongError::NoOrder {
+            song_title: self.title.clone(),
+        })?;
+
         // Check chorus
         if order.contains('c') && self.chorus.is_none() {
             return Err(SongError::NoChorus {
-                song_title: self.title.clone(),
+                song_title: self.title,
             });
         }
 
         // Check bridge
         if order.contains('b') && self.bridge.is_none() {
             return Err(SongError::NoBridge {
-                song_title: self.title.clone(),
+                song_title: self.title,
             });
         }
 
         // Check there are enough verses
-        let v_count = order.chars().filter(|c| *c == 'v').count();
-        let v_spec = self.verses.len();
-        if v_count < v_spec {
+        let verses = self.verses.ok_or(SongError::NotEnoughVerses {
+            song_title: self.title.clone(),
+            expected: 1,
+            actual: 0,
+        })?;
+        let v_act = verses.len();
+        let v_exp = order.chars().filter(|c| *c == 'v').count();
+
+        if v_exp < v_act {
             return Err(SongError::NotEnoughVerses {
-                song_title: self.title.clone(),
-                expected: v_count,
-                actual: v_spec,
+                song_title: self.title,
+                expected: v_exp,
+                actual: v_act,
             });
         }
 
-        self.order = order.to_string();
-        Ok(())
+        Ok(Song {
+            title: self.title,
+            order,
+            verses,
+            chorus: self.chorus,
+            bridge: self.bridge,
+        })
     }
 }
