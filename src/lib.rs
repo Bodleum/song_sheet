@@ -1,4 +1,4 @@
-use std::{fs, path::PathBuf};
+use std::fs;
 
 use config::Config;
 use error::SongSheetError;
@@ -13,13 +13,11 @@ pub mod parser;
 pub mod song;
 
 pub fn run(config: &Config) -> Result<(), SongSheetError> {
-    let tex_path = format!("{}.tex", config.name);
-    trace!("Creating new latex file {tex_path}.");
-    let mut latex_builder = LaTeX::builder_default(&tex_path)?;
+    let mut latex_builder = LaTeX::builder_default(config)?;
 
     trace!("Reading {} to string.", &config.source);
     let buf = fs::read_to_string(&config.source).map_err(|source| SongSheetError::ReadError {
-        path: PathBuf::from(&config.source),
+        path: config.name.clone(),
         source,
     })?;
 

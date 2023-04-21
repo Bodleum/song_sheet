@@ -4,6 +4,25 @@ use crate::error::ConfigError;
 use config_defaults::*;
 use serde::Deserialize;
 
+/// Represents the configuration state of the program.
+/// ```
+/// struct Config {
+///    // Options for LaTeX
+///    pub keep_tex_file: bool,
+///    pub name: String,
+///    pub latex_cmd: String,
+///    pub latex_args: Vec<String>,
+///
+///    // Song sheet options
+///    pub cover_image: Option<String>,
+///    pub chords: bool,
+///    // List of song titles to exclude
+///    pub exclude: HashSet<String>,
+///
+///    // Other options
+///    pub source: String,
+/// }
+/// ```
 #[derive(Debug, Deserialize)]
 pub struct Config {
     // Options for LaTeX
@@ -17,7 +36,8 @@ pub struct Config {
     pub latex_args: Vec<String>,
 
     // Song sheet options
-    pub cover_image: Option<String>,
+    #[serde(default = "default_cover_image")]
+    pub cover_image: String,
     #[serde(default)]
     pub chords: bool,
     // List of song titles to exclude
@@ -38,6 +58,7 @@ mod config_defaults {
             String::from("-interaction=nonstopmode"),
         ]
     }
+    pub fn default_cover_image() -> String { String::from("cover_image.jpg") }
 }
 
 impl Config {
@@ -46,7 +67,7 @@ impl Config {
         P: AsRef<Path> + ?Sized,
     {
         let s = fs::read_to_string(path).map_err(|source| ConfigError::ReadError {
-            path: path.as_ref().to_path_buf(),
+            path: path.as_ref().display().to_string(),
             source,
         })?;
         let c: Config = toml::from_str(&s)?;

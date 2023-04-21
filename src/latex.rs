@@ -1,11 +1,11 @@
 use std::{
     fs::File,
     io::{BufWriter, Write},
-    path::{Path, PathBuf},
+    path::PathBuf,
     process::{Command, Output},
 };
 
-use crate::{error::LaTeXError, Song};
+use crate::{config::Config, error::LaTeXError, Song};
 
 /// Represents a LaTeX package
 #[derive(Debug, Default)]
@@ -57,15 +57,16 @@ pub struct LaTeXBuilder {
 }
 
 impl LaTeX {
-    pub fn builder_default<P: AsRef<Path>>(path: P) -> Result<LaTeXBuilder, LaTeXError> {
+    pub fn builder_default(config: &Config) -> Result<LaTeXBuilder, LaTeXError> {
+        let path = PathBuf::from(format!("{}.tex", &config.name));
         let file = File::create(&path).map_err(|source| LaTeXError::CreateFileError {
-            path: path.as_ref().to_path_buf(),
+            path: path.display().to_string(),
             source,
         })?;
 
         let builder = LaTeXBuilder {
             file,
-            path: path.as_ref().to_path_buf(),
+            path,
             doc_class: String::from("article"),
             doc_opts: vec![
                 String::from("a4paper"),
@@ -77,7 +78,7 @@ impl LaTeX {
             verse_fmt: String::new(),
             chorus_fmt: String::from(r"\quad\textit"),
             bridge_fmt: String::from(r"\textit"),
-            cover: String::from(r"\includepdf{./titleimage.jpg}"),
+            cover: format!("\\includepdf{{./{}}}", &config.cover_image),
             preamble_extra: None,
             songs: Vec::<Song>::new(),
         };
