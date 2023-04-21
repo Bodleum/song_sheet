@@ -1,1 +1,8 @@
 /target
+/SongBooks
+/Songs
+
+*.tex
+*.pdf
+
+config
