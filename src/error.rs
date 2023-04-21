@@ -2,6 +2,8 @@ use std::io;
 
 use thiserror::Error;
 
+use crate::parser::ParserType;
+
 /// Represents any kind of error which can occur.
 #[derive(Debug, Error)]
 #[error("An error occured.")]
@@ -65,6 +67,18 @@ pub enum ParseError {
     /// Represents an error setting the order of stanzas in a song.
     #[error("Error setting stanza order: invalid order.")]
     OrderError(#[from] SongError),
+
+    /// Represents an error while reading from input.
+    #[error(r#"Could not read "{}"."#, .path)]
+    ReadError { path: String, source: io::Error },
+
+    /// When the selected parser is not available
+    #[error(r#""{0}" parser is not available."#)]
+    NotAvailable(ParserType),
+
+    /// When the specified parser is unknown
+    #[error(r#"Unknown parser type "{0}"."#)]
+    UnknownParser(String),
 }
 
 /// Represents an error relating to a particular song

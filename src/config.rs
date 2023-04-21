@@ -1,6 +1,6 @@
 use std::{collections::HashSet, fs, path::Path};
 
-use crate::error::ConfigError;
+use crate::{error::ConfigError, parser::ParserType};
 use config_defaults::*;
 use serde::Deserialize;
 
@@ -46,6 +46,8 @@ pub struct Config {
 
     // Other options
     pub source: String,
+    /// Represents the source type, e.g. VideoPsalm, PlainText, ...
+    pub from: ParserType,
 }
 
 #[rustfmt::skip]
