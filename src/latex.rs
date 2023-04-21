@@ -1,6 +1,6 @@
 use std::{
     fs::File,
-    io::{self, BufWriter, Write},
+    io::{BufWriter, Write},
     path::{Path, PathBuf},
     process::{Command, Output},
 };
@@ -430,19 +430,23 @@ impl LaTeX<Unwritten> {
 }
 
 impl LaTeX<Written> {
-    pub fn execute(&self, cmd: &mut Command) -> io::Result<Output> {
-        cmd.output()
+    pub fn execute(&self, cmd: &mut Command) -> Result<Output, LaTeXError> {
+        cmd.output().map_err(LaTeXError::IOError)
     }
 
-    pub fn compile(&self, file: &str) -> io::Result<Output> {
+    pub fn compile(&self) -> Result<Output, LaTeXError> {
         Command::new("latexmk")
             .arg("-pdflua")
             .arg("-interaction=nonstopmode")
-            .arg(file)
+            .arg(&self.path)
             .output()
+            .map_err(LaTeXError::IOError)
     }
 
-    pub fn clean(&self) -> io::Result<Output> {
-        Command::new("latexmk").arg("-c").output()
+    pub fn clean(&self) -> Result<Output, LaTeXError> {
+        Command::new("latexmk")
+            .arg("-c")
+            .output()
+            .map_err(LaTeXError::IOError)
     }
 }

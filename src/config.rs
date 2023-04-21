@@ -1,5 +1,7 @@
 use std::{collections::HashSet, fs, path::Path};
 
+use crate::error::ConfigError;
+use config_defaults::*;
 use serde::Deserialize;
 
 #[derive(Debug, Deserialize)]
@@ -15,6 +17,7 @@ pub struct Config {
     pub latex_args: Vec<String>,
 
     // Song sheet options
+    pub cover_image: Option<String>,
     #[serde(default)]
     pub chords: bool,
     // List of song titles to exclude
@@ -36,9 +39,6 @@ mod config_defaults {
         ]
     }
 }
-use config_defaults::*;
-
-use crate::error::ConfigError;
 
 impl Config {
     pub fn read<P>(path: &P) -> Result<Self, ConfigError>

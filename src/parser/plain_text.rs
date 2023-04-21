@@ -4,8 +4,9 @@ use nom::{
     error::Error,
     Finish, IResult,
 };
+
+use crate::song::{Song, StanzaType};
 // Parser types
-use crate::{Song, StanzaType};
 
 pub struct PlainText;
 impl PlainText {
