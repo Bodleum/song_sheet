@@ -21,6 +21,7 @@ use serde::Deserialize;
 ///
 ///    // Other options
 ///    pub source: String,
+///    pub from: ParserType,
 /// }
 /// ```
 #[derive(Debug, Deserialize)]

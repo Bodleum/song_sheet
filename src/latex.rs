@@ -1,5 +1,5 @@
 use std::{
-    fs::File,
+    fs::{self, File},
     io::{BufWriter, Write},
     path::PathBuf,
     process::{Command, Output},
@@ -37,11 +37,12 @@ impl TryFrom<&[&str]> for Package {
 }
 
 /// Represents a LaTeX file
-pub struct LaTeX {
+pub struct LaTeX<'a> {
     path: PathBuf,
+    config: &'a Config,
 }
 
-pub struct LaTeXBuilder {
+pub struct LaTeXBuilder<'a> {
     file: File,
     path: PathBuf,
     doc_class: String,
@@ -54,10 +55,12 @@ pub struct LaTeXBuilder {
     cover: String,
     preamble_extra: Option<String>,
     songs: Vec<Song>,
+
+    config: &'a Config,
 }
 
-impl LaTeX {
-    pub fn builder_default(config: &Config) -> Result<LaTeXBuilder, LaTeXError> {
+impl<'a> LaTeX<'a> {
+    pub fn builder_default(config: &'a Config) -> Result<LaTeXBuilder<'a>, LaTeXError> {
         let path = PathBuf::from(format!("{}.tex", &config.name));
         let file = File::create(&path).map_err(|source| LaTeXError::CreateFileError {
             path: path.display().to_string(),
@@ -81,6 +84,8 @@ impl LaTeX {
             cover: format!("\\includepdf{{./{}}}", &config.cover_image),
             preamble_extra: None,
             songs: Vec::<Song>::new(),
+
+            config,
         };
 
         // Add default packages
@@ -102,29 +107,32 @@ impl LaTeX {
     }
 
     pub fn compile(&self) -> Result<Output, LaTeXError> {
-        Command::new("latexmk")
-            .arg("-pdflua")
-            .arg("-interaction=nonstopmode")
+        Command::new(&self.config.latex_cmd)
+            .args(&self.config.latex_args)
             .arg(&self.path)
             .output()
             .map_err(LaTeXError::IOError)
     }
 
     pub fn clean(&self) -> Result<Output, LaTeXError> {
-        Command::new("latexmk")
+        if !self.config.keep_tex_file {
+            fs::remove_file(&self.path)?;
+        }
+
+        Command::new(&self.config.latex_cmd)
             .arg("-c")
             .output()
             .map_err(LaTeXError::IOError)
     }
 }
 
-impl LaTeXBuilder {
-    pub fn write_to_file(self) -> Result<LaTeX, LaTeXError> {
+impl<'a> LaTeXBuilder<'a> {
+    pub fn write_to_file(self) -> Result<LaTeX<'a>, LaTeXError> {
         self.internal_write_to_file()
     }
 
     /// Wrapped by `write_to_file`.
-    fn internal_write_to_file(self) -> Result<LaTeX, LaTeXError> {
+    fn internal_write_to_file(self) -> Result<LaTeX<'a>, LaTeXError> {
         {
             // Create buffered writer
             let mut stream = BufWriter::new(&self.file);
@@ -368,7 +376,10 @@ impl LaTeXBuilder {
             // Don't need stream any more
         }
 
-        Ok(LaTeX { path: self.path })
+        Ok(LaTeX {
+            path: self.path,
+            config: self.config,
+        })
     }
 
     pub fn use_package(mut self, pkg: Package) -> Self {
